@@ -1,10 +1,10 @@
 /* root */
 
 :root {
-    --black-on: #081030;
+    --black-on: #03050c;
     --white-on: #dfe8ff;
     --white-off: #4e5985;
-    --green: #23eb00;
+    --green: #008f07;
 }
 
 /* general */
@@ -14,7 +14,7 @@
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
-    font-family: monospace;
+    font-family: 'Alumni Sans Pinstripe', monospace;
     text-decoration: none;
     background-color: var(--black-on);
 }
@@ -24,7 +24,7 @@
 header {
     position: fixed;
     width: 100vw;
-    height: 10vh;
+    height: 15vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -36,7 +36,7 @@ nav {
 }
 
 #logo {
-    font-size: 0.8em;
+    font-size: 1em;
     display: flex;
     width: 100vw;
     justify-content: flex-start;
@@ -52,6 +52,7 @@ nav {
 }
 
 .navbar-link, #navbar button a {
+    font-family: monospace;
     font-size: 0.6em;
     margin: 0 1em;
     color: var(--green);
