@@ -7,19 +7,23 @@
     --green: #008f07;
 }
 
-/* general */
+/*****************************************************************/
+/**************************** general ****************************/
+/*****************************************************************/
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
-    font-family: 'Alumni Sans Pinstripe', monospace;
+    font-family: 'Alumni Sans Pinstripe';
     text-decoration: none;
     background-color: var(--black-on);
 }
 
-/* header */
+/*****************************************************************/
+/**************************** header *****************************/
+/*****************************************************************/
 
 header {
     position: fixed;
@@ -30,6 +34,8 @@ header {
     align-items: center;
 }
 
+/**************************** nav *****************************/
+
 nav {
     display: flex;
     width: 100vw;
@@ -37,6 +43,7 @@ nav {
 
 #logo {
     font-size: 1em;
+    font-weight: bold;
     display: flex;
     width: 100vw;
     justify-content: flex-start;
@@ -51,17 +58,56 @@ nav {
     justify-content: flex-end;
 }
 
-.navbar-link, #navbar button a {
-    font-family: monospace;
-    font-size: 0.6em;
+.navbar-link, #btn-resume {
+    font-size: 0.8em;
     margin: 0 1em;
+}
+
+.navbar-link {
+    color: var(--white-off)
+}
+
+.navbar-link:hover {
     color: var(--green);
 }
 
-#navbar button {
+#btn-resume {
+    color: var(--green);
+    padding: 0.5em;
+    border-radius: 1em;
+    background-color: var(--white-off);
+    color: var(--black-on);
+}
+
+#btn-resume:hover {
+    transition: 0.3s;
+    background-color: var(--green);
+}
+
+/**************************** hero ****************************/
+
+#hero {  
     display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    margin: 0 1em 0 0.5em;
-    border: 1px var(--green) solid;
-    padding: 0.2em;
+    width: 100vw;
+    height: 85vh;
+}
+
+#title-hero, #btn-hero {
+    color: var(--green);
+}
+
+#title-hero {
+    padding-top: 1em;
+    font-size: 3em;
+}
+
+#btn-hero {
+    padding: 0.7em;
+    background-color: var(--green);
+    color: var(--black-on);
+    border-radius: 1em;
+    font-family: monospace;
 }
