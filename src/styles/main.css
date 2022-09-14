@@ -21,6 +21,15 @@
     background-color: var(--black-on);
 }
 
+a {
+    text-decoration: none;
+    color: var(--white-off);
+}
+
+a:hover {
+    color: var(--green);
+}
+
 /*****************************************************************/
 /**************************** header *****************************/
 /*****************************************************************/
@@ -92,7 +101,7 @@ nav {
     justify-content: center;
     align-items: center;
     width: 100vw;
-    height: 85vh;
+    height: 100vh;
 }
 
 #title-hero, #btn-hero {
@@ -106,8 +115,80 @@ nav {
 
 #btn-hero {
     padding: 0.7em;
-    background-color: var(--green);
+    background-color: var(--white-off);
     color: var(--black-on);
     border-radius: 1em;
-    font-family: monospace;
 }
+
+#btn-hero:hover {
+    transition: 0.3s;
+    background-color: var(--green);
+}
+
+/*****************************************************************/
+/***************************** main ******************************/
+/*****************************************************************/
+
+
+/**************************** about me ****************************/
+
+#about-me {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+#bio-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-top: 1em;
+}
+
+#certification-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#bio {
+    color: var(--white-off);
+    text-align: justify;
+    padding: 0 1em 0 0;
+}
+
+#bio:hover {
+    color: var(--white-on);
+    transition: 0.3s;
+}
+
+.certification {
+    padding: 0.3em 0;
+}
+
+/**************************** language ****************************/
+
+#skills {
+    display: grid;
+    grid-template-columns: 4fr 2fr;
+    width: 100vw;
+    height: 100vh;
+}
+
+#languages {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.level-lang {
+    color: var(--white-off);
+}
+
+#es:hover, #pt:hover, #en:hover {
+    color: var(--white-on);
+}
+
+/**************************** contact ****************************/
