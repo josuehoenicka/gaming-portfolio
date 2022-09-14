@@ -39,6 +39,7 @@ header {
 nav {
     display: flex;
     width: 100vw;
+    user-select: none;
 }
 
 #logo {
@@ -93,6 +94,7 @@ nav {
     align-items: center;
     width: 100vw;
     height: 100vh;
+    user-select: none;
 }
 
 #title-hero, #btn-hero {
@@ -129,6 +131,7 @@ nav {
     height: 100vh;
     justify-content: center;
     align-items: center;
+    user-select: none;
 }
 
 #bio-container {
@@ -196,6 +199,7 @@ nav {
     grid-template-columns: 6fr 3fr;
     width: 100vw;
     height: 100vh;
+    user-select: none;
 }
 
 #languages {
