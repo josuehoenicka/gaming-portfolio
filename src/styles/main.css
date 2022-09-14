@@ -21,15 +21,6 @@
     background-color: var(--black-on);
 }
 
-a {
-    text-decoration: none;
-    color: var(--white-off);
-}
-
-a:hover {
-    color: var(--green);
-}
-
 /*****************************************************************/
 /**************************** header *****************************/
 /*****************************************************************/
@@ -142,29 +133,60 @@ nav {
 
 #bio-container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 3fr 2fr 4fr;
     padding-top: 1em;
+}
+
+#items-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
 }
 
 #certification-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    text-align: left;
+    padding-left: 4em;
 }
 
-#bio {
+.bio-items {
     color: var(--white-off);
     text-align: justify;
-    padding: 0 1em 0 0;
 }
 
-#bio:hover {
+.bio-items:hover {
     color: var(--white-on);
     transition: 0.3s;
 }
 
+#photo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#bio-photo {
+    width: 8em;
+    height: 10em;
+    border-radius: 1em;
+}
+
+#bio-photo:hover {
+    box-shadow: #4e598570 5px 5px, #4e598554 10px 10px, #4e598538 15px 15px, #4e59850e 20px 20px;
+    transition: 0.5s;
+}
+
 .certification {
-    padding: 0.3em 0;
+    padding: 0.1em 0;
+    color: var(--white-off);
+}
+
+.certification:hover {
+    transition: 0.3s;
+    color: var(--white-on);
 }
 
 /**************************** language ****************************/
@@ -178,17 +200,26 @@ nav {
 
 #languages {
     display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.lang-items {
+    display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
 }
 
 .level-lang {
     color: var(--white-off);
 }
 
-#es:hover, #pt:hover, #en:hover {
-    color: var(--white-on);
+.flags {
+    width: 2em;
+    padding: 0.4em;
 }
+
 
 /**************************** contact ****************************/
