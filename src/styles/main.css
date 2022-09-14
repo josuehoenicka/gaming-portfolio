@@ -193,7 +193,7 @@ nav {
 
 #skills {
     display: grid;
-    grid-template-columns: 4fr 2fr;
+    grid-template-columns: 6fr 3fr;
     width: 100vw;
     height: 100vh;
 }
@@ -221,5 +221,23 @@ nav {
     padding: 0.4em;
 }
 
+#technologies img {
+    width: 3em;
+}
+
+#technologies {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+#technologies img {
+    margin: 0.5em 0.5em;
+}
+
+#technologies-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 /**************************** contact ****************************/
