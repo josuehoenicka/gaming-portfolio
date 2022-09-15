@@ -14,71 +14,113 @@
     <body>
         <header>
             <nav>
-                <div id="logo">
-                    <h2>Josue Hoenicka</h2>
+                <div id="logo-container">
+                    <h2><a href="#hero-container" id="logo-item">Josue Hoenicka</a></h2>
                 </div>
-                <div id="navbar">
-                    <a href="#about-me" class="navbar-link">About me</a>
-                    <a href="#skills" class="navbar-link">Skills</a>
-                    <a href="#" class="navbar-link">Projects</a>
-                    <a href="#" class="navbar-link">Contact</a>
-                    <a href="" id="btn-resume">Resume</a>
+                <div id="navbar-container">
+                    <a href="#about-me" class="navbar-items">About me</a>
+                    <a href="#skills" class="navbar-items">Skills</a>
+                    <a href="#projects" class="navbar-items">Projects</a>
+                    <a href="#" class="navbar-items">Contact</a>
+                    <a href="" id="btn-navbar">Resume</a>
                 </div>
             </nav>
         </header>
-        <div id="hero">
-            <h1 id="title-hero">Welcome to my portfolio!</h1>
+        <div id="hero-container">
+            <h1 id="hero-title">Welcome to my portfolio!</h1>
             <a href="#about-me" id="btn-hero">Let's go</a>
         </div>
         <main>
             <section id="about-me">
                 <div id="bio-container">
                     <div id="photo-container">
-                        <img src="./src/assets/photo.jpg" id="bio-photo">
+                        <img src="./src/assets/photo.jpg" id="photo-item">
                     </div>
-                    <div id="items-container">
-                        <p class="bio-items">Age: 20</p>
-                        <p class="bio-items">Nacionality: Venezuelan</p>
-                        <p class="bio-items">Localitation: Argentina, Santa Fe</p>
-                        <p class="bio-items">Outside code: Freestyle Fooball</p>
+                    <div id="description-container">
+                        <p class="description-items">Age: 20</p>
+                        <p class="description-items">Nacionality: Venezuelan</p>
+                        <p class="description-items">Localitation: Argentina, Santa Fe</p>
+                        <p class="description-items">Outside code: Freestyle Fooball</p>
                     </div>
                     <div id="certification-container">
-                        <p class="certification">Bachelor of Science<br>↪ Escuela Part. Inc. 1301 San Jorge</p>
-                        <p class="certification">Responsive Web Design Course<br>↪ freeCodeCamp</p>
-                        <p class="certification">#SeProgramar<br>↪ Ministerio del Desarrollo de Software</p>
-                        <p class="certification">#YoProgramo<br>↪ Ministerio del Desarrollo de Software</p>
+                        <p class="certification-items">#YoProgramo<br>↪ Ministerio del Desarrollo de Software</p>
+                        <p class="certification-items">#SeProgramar<br>↪ Ministerio del Desarrollo de Software</p>
+                        <p class="certification-items">Responsive Web Design Course<br>↪ freeCodeCamp</p>
+                        <p class="certification-items">Bachelor of Science<br>↪ Escuela Part. Inc. 1301 San Jorge</p>        
                     </div>
                 </div>
             </section>
             <section id="skills">
-                <div id="technologies-container">
-                    <div id="technologies">
-                        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40">
-                        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40">
-                        <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40">
-                        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40">                  
-                        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="40" height="40">     
-                        <img src="https://angular.io/assets/images/logos/angular/angular.svg" alt="angular" width="40" height="40"/>
-                        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40">      
+                <div id="tech-container">
+                    <div id="tech-grid-container">
+                        <img class="tech-items" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40">
+                        <img class="tech-items" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40">
+                        <img class="tech-items" src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40">
+                        <img class="tech-items" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40">                  
+                        <img class="tech-items" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="40" height="40">     
+                        <img class="tech-items" src="https://angular.io/assets/images/logos/angular/angular.svg" alt="angular" width="40" height="40"/>
+                        <img class="tech-items" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40">      
                     </div>
                 </div>
-                <div id="languages">
+                <div id="lang-container">
                     <div id="es" class="lang-items">
-                        <img src="./src/assets/es.svg" class="flags">
-                        <p class="level-lang">NATIVE</p>
+                        <img src="./src/assets/es.svg" class="flag-items">
+                        <p class="lvl-items">NATIVE</p>
                     </div>
                     <div id="en" class="lang-items">
-                        <img src="./src/assets/en.png" class="flags">
-                        <p class="level-lang">INTERMEDIATE</p>
+                        <img src="./src/assets/en.png" class="flag-items">
+                        <p class="lvl-items">INTERMEDIATE</p>
                     </div>
                     <div id="pt" class="lang-items">
-                        <img src="./src/assets/pt.png" class="flags">
-                        <p class="level-lang">ADVANCED</p>
+                        <img src="./src/assets/pt.png" class="flag-items">
+                        <p class="lvl-items">ADVANCED</p>
                     </div>
                 </div>
             </section>
-            <section id="contact">
-                
+            <section id="projects">
+                <div class="slideshow-container">
+                    <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
+                    <div class="mySlides2">
+                        <h4 class="slider-title">PlayHoenix</h4>
+                        <h6 class="slider-description">HTML, CSS, JavaScript</h6>
+                        <a href="">
+                            <img src="./src/assets/net.png" alt="net" class="slider-icons" style="width: 1.2em;">
+                        </a>
+                        <a href="">
+                            <img src="./src/assets/github.png" alt="github" class="slider-icons" style="width: 1em;">
+                        </a>
+                        <div id="slider-img-container">
+                            <img src="./src/assets/pt.png" class="slider-img">
+                        </div>
+                    </div>
+                    <div class="mySlides2">
+                        <h4 class="slider-title">Camino de Santidad</h4>
+                        <h6 class="slider-description">Bootstrap</h6>
+                        <a href="">
+                            <img src="./src/assets/net.png" alt="net" class="slider-icons" style="width: 1.2em;">
+                        </a>
+                        <a href="">
+                            <img src="./src/assets/github.png" alt="github" class="slider-icons" style="width: 1em;">
+                        </a>
+                        <div id="slider-img-container">
+                            <img src="./src/assets/pt.png" class="slider-img">
+                        </div>
+                    </div>     
+                    <div class="mySlides2">
+                        <h4 class="slider-title">ToDoApp</h4>
+                        <h6 class="slider-description">Angular</h6>
+                        <a href="">
+                            <img src="./src/assets/net.png" alt="net" class="slider-icons" style="width: 1.2em;">
+                        </a>
+                        <a href="">
+                            <img src="./src/assets/github.png" alt="github" class="slider-icons" style="width: 1em;">
+                        </a>
+                        <div id="slider-img-container">
+                            <img src="./src/assets/pt.png" class="slider-img">
+                        </div>
+                    </div>
+                    <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
+                </div>
             </section>
             <section></section>
         </main>
