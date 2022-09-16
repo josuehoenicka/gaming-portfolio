@@ -7,6 +7,7 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="./src/styles/main.css">
         <script src="./src/scripts/main.js"></script>
         <title>Portfolio | Josue Hoenicka</title>
@@ -21,8 +22,8 @@
                     <a href="#about-me" class="navbar-items">About me</a>
                     <a href="#skills" class="navbar-items">Skills</a>
                     <a href="#projects" class="navbar-items">Projects</a>
-                    <a href="#" class="navbar-items">Contact</a>
-                    <a href="" id="btn-navbar">Resume</a>
+                    <a href="#contact" class="navbar-items">Contact</a>
+                    <a href="./src/assets/cv.pdf" target="_blank" id="btn-navbar">Resume</a>
                 </div>
             </nav>
         </header>
@@ -55,11 +56,12 @@
                     <div id="tech-grid-container">
                         <img class="tech-items" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40">
                         <img class="tech-items" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40">
-                        <img class="tech-items" src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40">
+                        <img class="tech-items" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40">
                         <img class="tech-items" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40">                  
                         <img class="tech-items" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="40" height="40">     
                         <img class="tech-items" src="https://angular.io/assets/images/logos/angular/angular.svg" alt="angular" width="40" height="40"/>
-                        <img class="tech-items" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40">      
+                        <img class="tech-items" src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40">
+                        <img class="tech-items" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/>     
                     </div>
                 </div>
                 <div id="lang-container">
@@ -80,6 +82,15 @@
             <section id="projects">
                 <div class="slideshow-container">
                     <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
+                    <div>
+                        
+                    <div class="mySlides2">
+                        <h4 class="slider-title">Camino de Santidad</h4>
+                        <h6 class="slider-description">Building...</h6>
+                        <div id="slider-img-container">
+                            <img src="./src/assets/pt.png" class="slider-img">
+                        </div>
+                    </div>  
                     <div class="mySlides2">
                         <h4 class="slider-title">PlayHoenix</h4>
                         <h6 class="slider-description">HTML, CSS, JavaScript</h6>
@@ -92,38 +103,51 @@
                         <div id="slider-img-container">
                             <img src="./src/assets/pt.png" class="slider-img">
                         </div>
-                    </div>
-                    <div class="mySlides2">
-                        <h4 class="slider-title">Camino de Santidad</h4>
-                        <h6 class="slider-description">Bootstrap</h6>
-                        <a href="">
-                            <img src="./src/assets/net.png" alt="net" class="slider-icons" style="width: 1.2em;">
-                        </a>
-                        <a href="">
-                            <img src="./src/assets/github.png" alt="github" class="slider-icons" style="width: 1em;">
-                        </a>
-                        <div id="slider-img-container">
-                            <img src="./src/assets/pt.png" class="slider-img">
-                        </div>
-                    </div>     
+                    </div>   
                     <div class="mySlides2">
                         <h4 class="slider-title">ToDoApp</h4>
-                        <h6 class="slider-description">Angular</h6>
-                        <a href="">
-                            <img src="./src/assets/net.png" alt="net" class="slider-icons" style="width: 1.2em;">
-                        </a>
-                        <a href="">
-                            <img src="./src/assets/github.png" alt="github" class="slider-icons" style="width: 1em;">
-                        </a>
+                        <h6 class="slider-description">Building...</h6>
                         <div id="slider-img-container">
                             <img src="./src/assets/pt.png" class="slider-img">
                         </div>
+                    </div>
+                    <div class="mySlides2">
+                        <h4 class="slider-title">WeatherApp</h4>
+                        <h6 class="slider-description">Building...</h6>
+                        <div id="slider-img-container">
+                            <img src="./src/assets/pt.png" class="slider-img">
+                        </div>
+                    </div>
+                    <h5 id="deslizar-title">Click on the arrows</h5>
                     </div>
                     <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
                 </div>
             </section>
-            <section></section>
+            <section id="contact">
+                <div id="form-container">
+                    <input type="text" name="name" id="name" placeholder="Name" autocomplete="off">
+                    <input type="email" name="email" id="email" placeholder="Email" autocomplete="off" required>
+                    <textarea name="message" id="message" placeholder="Message"></textarea>
+                    <button type="submit" id="btn-form">SUBMIT</button>
+                </div>
+                <div id="social-container">
+                    <div id="github" class="social-items">
+                        <a href="https://github.com/josuehoenicka" target="_blank" class="fa fa-github"></a>
+                        <p class="social-title">GITHUB</p>
+                    </div>
+                    <div id="linkedin" class="social-items">
+                        <a href="https://www.linkedin.com/in/josuehoenicka/" target="_blank" class="fa fa-linkedin"></a>
+                        <p class="social-title">LINKEDIN</p>
+                    </div>
+                    <div id="instagram" class="social-items">
+                        <a href="https://www.instagram.com/josuehoenicka/" target="_blank" class="fa fa-instagram"></a>
+                        <p class="social-title">INSTAGRAM</p>
+                    </div>
+                </div>
+            </section>
         </main>
-        <footer></footer>
+        <footer>
+            <h2 id="footer-title">Josue Hoenicka | Fullstack Developer | 2022</h2>
+        </footer>
     </body>
 </html>
