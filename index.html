@@ -21,8 +21,8 @@
                     <a href="#about-me" class="navbar-items">About me</a>
                     <a href="#skills" class="navbar-items">Skills</a>
                     <a href="#projects" class="navbar-items">Projects</a>
-                    <a href="#" class="navbar-items">Contact</a>
-                    <a href="" id="btn-navbar">Resume</a>
+                    <a href="#contact" class="navbar-items">Contact</a>
+                    <a href="./src/assets/cv.pdf" target="_blank" id="btn-navbar">Resume</a>
                 </div>
             </nav>
         </header>
@@ -80,6 +80,15 @@
             <section id="projects">
                 <div class="slideshow-container">
                     <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
+                    <div>
+                        
+                    <div class="mySlides2">
+                        <h4 class="slider-title">Camino de Santidad</h4>
+                        <h6 class="slider-description">Building...</h6>
+                        <div id="slider-img-container">
+                            <img src="./src/assets/pt.png" class="slider-img">
+                        </div>
+                    </div>  
                     <div class="mySlides2">
                         <h4 class="slider-title">PlayHoenix</h4>
                         <h6 class="slider-description">HTML, CSS, JavaScript</h6>
@@ -92,38 +101,55 @@
                         <div id="slider-img-container">
                             <img src="./src/assets/pt.png" class="slider-img">
                         </div>
-                    </div>
-                    <div class="mySlides2">
-                        <h4 class="slider-title">Camino de Santidad</h4>
-                        <h6 class="slider-description">Bootstrap</h6>
-                        <a href="">
-                            <img src="./src/assets/net.png" alt="net" class="slider-icons" style="width: 1.2em;">
-                        </a>
-                        <a href="">
-                            <img src="./src/assets/github.png" alt="github" class="slider-icons" style="width: 1em;">
-                        </a>
-                        <div id="slider-img-container">
-                            <img src="./src/assets/pt.png" class="slider-img">
-                        </div>
-                    </div>     
+                    </div>   
                     <div class="mySlides2">
                         <h4 class="slider-title">ToDoApp</h4>
-                        <h6 class="slider-description">Angular</h6>
-                        <a href="">
-                            <img src="./src/assets/net.png" alt="net" class="slider-icons" style="width: 1.2em;">
-                        </a>
-                        <a href="">
-                            <img src="./src/assets/github.png" alt="github" class="slider-icons" style="width: 1em;">
-                        </a>
+                        <h6 class="slider-description">Building...</h6>
                         <div id="slider-img-container">
                             <img src="./src/assets/pt.png" class="slider-img">
                         </div>
+                    </div>
+                    <div class="mySlides2">
+                        <h4 class="slider-title">WeatherApp</h4>
+                        <h6 class="slider-description">Building...</h6>
+                        <div id="slider-img-container">
+                            <img src="./src/assets/pt.png" class="slider-img">
+                        </div>
+                    </div>
+                    <h5 id="deslizar-title">Click on the arrows</h5>
                     </div>
                     <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
                 </div>
             </section>
-            <section></section>
+            <section id="contact">
+                <div id="form-container">
+                    <input type="text" name="name" id="name" placeholder="Name" autocomplete="off">
+                    <input type="email" name="email" id="email" placeholder="Email" autocomplete="off" required>
+                    <textarea name="message" id="message" placeholder="Message"></textarea>
+                    <button type="submit" id="btn-form">SUBMIT</button>
+                </div>
+                <div id="social-container">
+                    <div id="github" class="social-items">
+                        <img src="./src/assets/es.svg" class="social-icon">
+                        <p class="social-title">GITHUB</p>
+                    </div>
+                    <div id="linkedin" class="social-items">
+                        <img src="./src/assets/en.png" class="social-icon">
+                        <p class="social-title">LINKEDIN</p>
+                    </div>
+                    <div id="youtube" class="social-items">
+                        <img src="./src/assets/pt.png" class="social-icon">
+                        <p class="social-title">YOUTUBE</p>
+                    </div>
+                    <div id="instagram" class="social-items">
+                        <img src="./src/assets/pt.png" class="social-icon">
+                        <p class="social-title">INSTAGRAM</p>
+                    </div>
+                </div>
+            </section>
         </main>
-        <footer></footer>
+        <footer>
+            <h2 id="footer-title">Josue Hoenicka | Fullstack Developer | 2022</h2>
+        </footer>
     </body>
 </html>
