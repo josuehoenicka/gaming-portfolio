@@ -252,10 +252,14 @@ nav {
     align-items: center;
 }
 
+.lang-items > p {
+    padding-left: 0.3em;
+}
+
 .lang-items:hover > p {
     color: var(--white-on);
     transition: 0.3s;
-    padding-left: 0.3em;
+    padding-left: 0.5em;
 }
 
 .lvl-items {
@@ -352,17 +356,25 @@ nav {
 }
 
 .slider-img {
-    width: 20em;
-}
-
-.slider-icons {
-    font-size: 2em;
-    cursor: pointer;
+    width: 14em;
 }
 
 #deslizar-title {
     font-size: 2em;
     color: var(--white-off);
+}
+
+/* icons */
+
+.fa-chrome:hover, .fa-github:hover {
+    color: var(--white-on);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.slider-icons {
+    font-size: 2em;
+    cursor: pointer;
 }
 
 /**************************** contact ****************************/
@@ -412,26 +424,47 @@ nav {
     align-items: center;
 }
 
-.social-items:hover > p {
+.social-items > a {
+    padding-left: 0.3em;
+}
+
+.social-items:hover > a {
     color: var(--white-on);
     transition: 0.3s;
-    padding-left: 0.3em;
+    padding-left: 0.5em;
+    cursor: pointer;
+}
+
+.social-items:hover > .fa {
+    color: var(--white-on);
+    cursor: pointer;
 }
 
 /* icon */
 
-.social-icon {
-    width: 2em;
+.fa {
+    font-size: 3em;
     padding: 0.4em;
+    text-decoration: none;
+    color: var(--white-off);
+}
+
+.social-title {
+    font-size: 3em;
+}
+
+.fa-chrome {
+    font-size: 2.51em;
 }
 
 /* form */
 
 input {
+    font-size: 2em;
     width: 15em;
     color: var(--white-on);
-    padding: 0.3em;
-    margin: 0.5em 0;
+    padding: 0.5em 0;
+    margin: 0.3em 0;
     border: none;
     outline: none;  
     border-bottom: 1px var(--white-off) solid;
@@ -441,12 +474,16 @@ input:focus {
     border-bottom: 1px var(--green) solid;
 }
 
+#name {
+    margin-top: 1.2em;
+}
+
 textarea {
     resize: none;
+    font-size: 2em;
     width: 15em;
-    height: 6em;
+    height: 5em;
     margin: 1em 0;
-    padding: 0.3em;
     border: none;
     color: var(--white-on);
     outline: none;  
@@ -459,9 +496,10 @@ textarea:focus {
 
 #btn-form {
     background-color: var(--white-off);
-    width: 10em;
-    height: 2em;
     border-radius: 1em;
+    font-size: 2em;
+    width: 10em;
+    padding: 0.5em 0;
 }
 
 #btn-form:hover {
@@ -485,10 +523,9 @@ footer {
 #footer-title {
     display: flex;
     width: 100vw;
-    padding: 1.5em;
+    padding: 1em;
     justify-content: center;
     align-items: center;
     color: var(--green);
-    font-size: 0.6em;
-    font-family: monospace;
+    font-size: 1.8em;
 }
