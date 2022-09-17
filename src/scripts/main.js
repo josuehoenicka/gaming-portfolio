@@ -19,5 +19,5 @@ function showSlides(n, no) {
 }
 
 function message() {
-  alert("ENG: Form disabled, try to contact me through social networks! \n\nESP: Formulario deshabilitado, intente comunicarse conmigo por medio de mis redes sociales!");
+  alert("\nENG: Form disabled, try to contact me through social networks! \n\nESP: Formulario deshabilitado, intente comunicarse conmigo por medio de mis redes sociales!");
 }
