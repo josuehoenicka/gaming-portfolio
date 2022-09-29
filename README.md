@@ -1,1 +1,1 @@
-<img src="./src/assets/portfolio.jpg" alt="portfolio by josue hoenicka">
+<img src="./src/assets/wallpaper/portfolio.jpg" alt="portfolio by josue hoenicka">
