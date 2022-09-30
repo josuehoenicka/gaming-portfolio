@@ -124,11 +124,11 @@ nav {
         to bottom,
         var(--black-on),
         var(--black-on),
-        rgba(3, 5, 12, 0.95),
+        rgba(3, 5, 12, 0.93),
         rgba(3, 5, 12, 0.9),
         rgba(3, 5, 12, 0.9),
         rgba(3, 5, 12, 0.9),
-        rgba(3, 5, 12, 0.95),
+        rgba(3, 5, 12, 0.93),
         var(--black-on),
         var(--black-on)
     ), url(https://gifmaniacos.es/wp-content/uploads/2017/07/gamer-gif-movimiento-gifmaniacos.es-20.gif);
@@ -137,39 +137,12 @@ nav {
     background-size: cover;
 }
 
-#particles_js {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    opacity: 0.3;
-} 
-
-#titles-container {
-    padding-right: 3em;
-}
-
-#hero-title {
-    background-color: transparent;
-    color: var(--white-on);
-    font-size: 6em;
-    border-bottom: 0.01em var(--white-on) solid;
-}
-
-#hero-subtitle {
-    padding-top: 0.1em;
-    background-color: transparent;
-    color: var(--white-off);
-    font-size: 3em;
-    font-weight: bold;
-}
-
 #start-container {
     width: 100vw;
     display: flex;
     justify-content: center;
     background-color: transparent;
+    padding-top: 15em;
 }
 
 #start-container a img, #start-container a {
