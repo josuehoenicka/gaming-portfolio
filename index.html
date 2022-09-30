@@ -9,14 +9,17 @@
         <link href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="./src/styles/main.css">
-        <script src="./src/scripts/main.js"></script>
         <title>Portfolio | Josue Hoenicka</title>
     </head>
     <body>
         <header>
             <nav>
                 <div id="logo-container">
-                    <h2><a href="#hero-container" id="logo-item">Josue Hoenicka</a></h2>
+                    <select name="language_container" id="language_container">
+                        <option value="en">ENGLISH</option>
+                        <option value="es">ESPAÑOL</option>
+                        <option value="pt">PORTUGUÊS</option>
+                      </select>
                 </div>
                 <div id="navbar-container">
                     <a href="#about-me" class="navbar-items">About me</a>
@@ -27,9 +30,15 @@
                 </div>
             </nav>
         </header>
-        <div id="hero-container">
-            <h1 id="hero-title">Welcome to my portfolio!</h1>
-            <a href="#about-me" id="btn-hero">Let's go</a>
+        <div class="hero-container" id="particle-js">
+            <div id="titles-container">
+                <h1 id="hero-title">Welcome</h1>
+                <h2 id="hero-subtitle">I'm Josue Hoenicka</h2>
+            </div>
+            <div id="start-container">
+                <a href="#about-me" id="btn-start"><img src="./src/assets/others/start.gif" alt="" width="200" id="btn-start-img"></a>
+            </div>
+            
         </div>
         <main>
             <section id="about-me">
@@ -162,4 +171,5 @@
             <h2 id="footer-title">Josue Hoenicka | Fullstack Developer | 2022</h2>
         </footer>
     </body>
+    <script src="./src/scripts/main.js"></script>
 </html>
