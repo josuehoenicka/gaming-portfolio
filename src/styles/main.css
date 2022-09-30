@@ -239,12 +239,12 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-top: 3em;
 }
 
 #tech-grid-container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    padding-top: 1.5em;
+    grid-template-columns: repeat(4, 1fr);
 }
 
 #lang-container {
