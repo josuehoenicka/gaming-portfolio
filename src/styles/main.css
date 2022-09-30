@@ -169,7 +169,8 @@ nav {
 
 #bio-container {
     display: grid;
-    grid-template-columns: 3fr 2fr 4fr;
+    grid-template-columns: repeat(3, 2fr);
+    width: 100vw;
     padding-top: 1em;
 }
 
@@ -191,7 +192,6 @@ nav {
     flex-direction: column;
     justify-content: center;
     text-align: left;
-    padding-left: 4em;
 }
 
 #photo-item {
