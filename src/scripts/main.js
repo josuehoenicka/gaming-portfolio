@@ -18,6 +18,8 @@ function showSlides(n, no) {
   x[slideIndex[no]-1].style.display = "block"; 
 }
 
+/* form */
+
 function message() {
   alert("\nENG: Form disabled, try to contact me through social networks! \n\nESP: Formulario deshabilitado, intente comunicarse conmigo por medio de mis redes sociales!");
 }

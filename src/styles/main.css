@@ -1,12 +1,16 @@
 /*****************************************************************/
+/*****************************************************************/
 /**************************** general ****************************/
 /*****************************************************************/
+/*****************************************************************/
+
+@import url('https://fonts.googleapis.com/css2?family=Nabla&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dangrek&display=swap');
 
 :root {
     --black-on: #03050c;
     --white-on: #dfe8ff;
     --white-off: #4e5985;
-    --green: #008f07;
 }
 
 * {
@@ -19,8 +23,14 @@
     background-color: var(--black-on);
 }
 
+::-webkit-scrollbar {
+    display: none;
+}
+
+/*****************************************************************/
 /*****************************************************************/
 /**************************** header *****************************/
+/*****************************************************************/
 /*****************************************************************/
 
 header {
@@ -32,16 +42,12 @@ header {
     align-items: center;
 }
 
-/**************************** nav *****************************/
-
 nav {
     display: flex;
     width: 100vw;
     user-select: none;
     z-index: 1000;
 }
-
-/* containers */
 
 #logo-container {
     font-size: 2em;
@@ -50,7 +56,7 @@ nav {
     width: 100vw;
     justify-content: flex-start;
     margin: 0 0 0 1em;
-    color: var(--green);
+    color: var(--white-on);
 }
 
 #navbar-container {
@@ -60,11 +66,21 @@ nav {
     justify-content: flex-end;
 }
 
-/* items */
-
-#logo-item {
+#language_container {
     text-decoration: none;
-    color: var(--green);
+    color: var(--white-off);
+    font-size: 1em;
+    padding: 0.1em;
+    border: none;
+    outline: none;
+    border-bottom: 0.1em var(--white-off) solid;
+}
+
+#language_container:hover {
+    color: var(--white-on);
+    border-bottom: 0.1em var(--white-on) solid;
+    transition: 0.5s;
+    cursor: pointer;
 }
 
 .navbar-items {
@@ -78,67 +94,97 @@ nav {
 
 
 .navbar-items:hover {
-    color: var(--green);
+    color: var(--white-on);
+    transition: 0.3s;
 }
 
-/* button */
-
 #btn-navbar {
-    color: var(--green);
+    color: var(--white-on);
     padding: 0.5em;
     border-radius: 1em;
     background-color: var(--white-off);
     color: var(--black-on);
     margin-right: 1.5em;
-}
+}   
 
 #btn-navbar:hover {
     transition: 0.3s;
-    background-color: var(--green);
+    background-color: var(--white-on);
 }
 
-/**************************** hero ****************************/
-
-/* container */ 
-
-#hero-container {  
+.hero-container {  
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
     width: 100vw;
     height: 100vh;
     user-select: none;
+    background: linear-gradient(
+        to bottom,
+        var(--black-on),
+        var(--black-on),
+        rgba(3, 5, 12, 0.95),
+        rgba(3, 5, 12, 0.9),
+        rgba(3, 5, 12, 0.9),
+        rgba(3, 5, 12, 0.9),
+        rgba(3, 5, 12, 0.95),
+        var(--black-on),
+        var(--black-on)
+    ), url(https://gifmaniacos.es/wp-content/uploads/2017/07/gamer-gif-movimiento-gifmaniacos.es-20.gif);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-/* title */
+#particles_js {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+} 
+
+#titles-container {
+    padding-right: 3em;
+}
 
 #hero-title {
-    color: var(--green);
-    padding-top: 1em;
-    font-size: 6.5em;
+    background-color: transparent;
+    color: var(--white-on);
+    font-size: 6em;
+    border-bottom: 0.01em var(--white-on) solid;
 }
 
-/* button */
-
-#btn-hero {
-    padding: 0.7em;
-    background-color: var(--white-off);
-    color: var(--black-on);
-    border-radius: 1em;
-    font-size: 2em;
+#hero-subtitle {
+    padding-top: 0.1em;
+    background-color: transparent;
+    color: var(--white-off);
+    font-size: 3em;
+    font-weight: bold;
 }
 
-#btn-hero:hover {
-    transition: 0.3s;
-    background-color: var(--green);
+#start-container {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
 }
 
+#start-container a img, #start-container a {
+    background-color: transparent;
+}
+
+#btn-start-img {
+    opacity: 0.5;
+}
+
+/*****************************************************************/
 /*****************************************************************/
 /***************************** main ******************************/
 /*****************************************************************/
-
-/**************************** about me ****************************/
+/*****************************************************************/
 
 #about-me {
     display: flex;
@@ -148,8 +194,6 @@ nav {
     align-items: center;
     user-select: none;
 }
-
-/* containers */
 
 #bio-container {
     display: grid;
@@ -177,8 +221,6 @@ nav {
     text-align: left;
     padding-left: 4em;
 }
-
-/* items */
 
 #photo-item {
     width: 17em;
@@ -213,8 +255,6 @@ nav {
     color: var(--white-on);
 }
 
-/**************************** language ****************************/
-
 #skills {
     display: grid;
     grid-template-columns: 6fr 3fr;
@@ -222,8 +262,6 @@ nav {
     height: 100vh;
     user-select: none;
 }
-
-/* containers */
 
 #tech-container {
     display: flex;
@@ -234,6 +272,7 @@ nav {
 #tech-grid-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    padding-top: 1.5em;
 }
 
 #lang-container {
@@ -242,8 +281,6 @@ nav {
     flex-direction: column;
     justify-content: center;
 }
-
-/* items */ 
 
 .lang-items {
     display: flex;
@@ -292,8 +329,6 @@ nav {
     transition: 0.3s;
 }
 
-/**************************** projects ****************************/
-
 #projects {
     height: 100vh;
     user-select: none;
@@ -302,8 +337,6 @@ nav {
     text-align: center;
     z-index: -1;
 }
-
-/* slider */
 
 .slider-title{
     font-size: 2.5em;
@@ -364,8 +397,6 @@ nav {
     color: var(--white-off);
 }
 
-/* icons */
-
 .fa-chrome:hover, .fa-github:hover {
     color: var(--white-on);
     cursor: pointer;
@@ -377,8 +408,6 @@ nav {
     cursor: pointer;
 }
 
-/**************************** contact ****************************/
-
 #contact {
     display: grid;
     grid-template-columns: 6fr 3fr;
@@ -386,8 +415,6 @@ nav {
     height: 100vh;
     user-select: none;
 }
-
-/* containers */
 
 #social-container {
     display: flex;
@@ -404,8 +431,6 @@ nav {
     flex-direction: column;
 }
 
-/* title */
-
 .social-title {
     color: var(--white-off);
 }
@@ -414,8 +439,6 @@ nav {
     color: var(--white-on);
     transition: 0.3s;
 }
-
-/* items */
 
 .social-items {
     display: flex;
@@ -433,14 +456,14 @@ nav {
     transition: 0.3s;
     padding-left: 0.5em;
     cursor: pointer;
+    transition: 0.3s;
 }
 
 .social-items:hover > .fa {
     color: var(--white-on);
     cursor: pointer;
+    transition: 0.3s;
 }
-
-/* icon */
 
 .fa {
     font-size: 3em;
@@ -457,8 +480,6 @@ nav {
     font-size: 2.51em;
 }
 
-/* form */
-
 input {
     font-size: 2em;
     width: 15em;
@@ -471,7 +492,7 @@ input {
 }
 
 input:focus {
-    border-bottom: 1px var(--green) solid;
+    border-bottom: 1px var(--white-on) solid;
 }
 
 #name {
@@ -491,7 +512,7 @@ textarea {
 }
 
 textarea:focus {
-    border-bottom: 1px var(--green) solid;
+    border-bottom: 1px var(--white-on) solid;
 }
 
 #btn-form {
@@ -503,8 +524,8 @@ textarea:focus {
 }
 
 #btn-form:hover {
-    background-color: var(--green);
-    transition: 0.1s;
+    background-color: var(--white-on);
+    transition: 0.3s;
     cursor: pointer;
 }
 
@@ -517,7 +538,9 @@ footer {
 }
 
 /*****************************************************************/
+/*****************************************************************/
 /**************************** footer *****************************/
+/*****************************************************************/
 /*****************************************************************/
 
 #footer-title {
@@ -526,6 +549,6 @@ footer {
     padding: 1em;
     justify-content: center;
     align-items: center;
-    color: var(--green);
+    color: var(--white-off);
     font-size: 1.8em;
 }
