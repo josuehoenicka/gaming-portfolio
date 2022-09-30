@@ -74,13 +74,12 @@ nav {
     border: none;
     outline: none;
     border-bottom: 0.1em var(--white-off) solid;
+    cursor: pointer;
 }
 
-#language_container:hover {
+#language_container:focus {
     color: var(--white-on);
     border-bottom: 0.1em var(--white-on) solid;
-    transition: 0.5s;
-    cursor: pointer;
 }
 
 .navbar-items {
