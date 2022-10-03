@@ -239,12 +239,12 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 3em;
+    padding-top: 5.5em;
 }
 
 #tech-grid-container {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
 }
 
 #lang-container {
@@ -252,6 +252,7 @@ nav {
     align-items: flex-start;
     flex-direction: column;
     justify-content: center;
+    padding-top: 5.5em;
 }
 
 .lang-items {
@@ -288,18 +289,18 @@ nav {
 }
 
 .tech-items {
-    width: 6em;
-    height: 6em;
-    margin: 0.5em 0.5em;
-    padding: 0.3em;
+    width: 5em;
+    height: 5em;
+    margin: 0.5em 2.5em;
     border-radius: 1em;
 }
 
 .tech-items:hover {
-    background-color: var(--white-on);
-    box-shadow: #4e598570 10px 10px, #4e598554 15px 15px, #4e598538 20px 20px, #4e59850e 25px 25px;
+    background-color: var(--white-off);
+    box-shadow: #4e598570 1em 1em;
     transition: 0.3s;
 }
+
 
 #projects {
     height: 100vh;
