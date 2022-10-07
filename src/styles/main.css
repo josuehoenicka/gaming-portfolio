@@ -201,14 +201,18 @@ nav {
 }
 
 #photo-item {
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 17em;
     height: 22em;
     border-radius: 1em;
+    opacity: 0.5;
 }
 
 #photo-item:hover {
     box-shadow: #4e598570 10px 10px, #4e598554 20px 20px, #4e598538 30px 30px, #4e59850e 40px 40px;
-    transition: 0.5s;
+    opacity: 1;
+    transition: 0.8s;
 }
 
 .description-items {
@@ -264,13 +268,12 @@ nav {
     height: 4em;
     margin: 2.5em 1em;
     background-color: transparent;
-    filter: drop-shadow(0.02em 0.02em 0.1em var(--white-off));
 }
 
 .tech-items:hover {
     background-color: transparent;
-    filter: drop-shadow(0.02em 0.02em 0.15em var(--white-on));
-    transition: 0.3s;
+    filter: drop-shadow(0 0 1em var(--white-off));
+    transition: 0.1s;
 }
 
 /*****************************************************************/
