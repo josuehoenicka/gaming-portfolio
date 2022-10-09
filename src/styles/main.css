@@ -403,6 +403,7 @@ nav {
     transition: 0.3s;
 }
 
+
 .slider-icons {
     font-size: 2em;
     cursor: pointer;
@@ -476,6 +477,11 @@ nav {
     padding: 0.4em;
     text-decoration: none;
     color: var(--white-off);
+}
+
+.fa-lock {
+    font-size: 3.1em;
+    font-weight: bold;
 }
 
 .social-title {
