@@ -19,7 +19,7 @@ function showSlides(n, no) {
 }
 
 function buildingForm() {
-  alert("\nForm disabled, try to contact me through social networks");
+  alert("\nForm disabled, try to contact me through social networks!");
 }
 
 function buildingProjects() {
