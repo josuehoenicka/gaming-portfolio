@@ -270,10 +270,14 @@ nav {
     background-color: transparent;
 }
 
-.tech-items:hover {
+.tech-powerful:hover {
     background-color: transparent;
     filter: drop-shadow(0 0 1em var(--white-off));
     transition: 0.1s;
+}
+
+.tech-weak {
+    opacity: 0.1;
 }
 
 /*****************************************************************/
