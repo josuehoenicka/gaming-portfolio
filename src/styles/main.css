@@ -292,13 +292,13 @@ figcaption {
 
 #tech-grid-container {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(4, 1fr);
 }
 
 .tech-items {
-    width: 4em;
-    height: 4em;
-    margin: 2.5em 1em;
+    width: 3.5em;
+    height: 3.5em;
+    margin: 2.5em 2.5em;
     background-color: transparent;
 }
 
