@@ -1,0 +1,35 @@
+{
+	"nameUser": "Josue Hoenicka",
+  "backImage": "../../../assets/others/start.gif",
+  "ocupation": "Fullstack Developer",
+  "description": [{
+    "school": "a",
+    "title": ""
+  },
+  {
+    "school": "b",
+    "title": ""
+  },
+  {
+    "school": "c",
+    "title": ""
+  },
+  {
+    "school": "",
+    "title": ""
+  }
+  ],
+  "education": [{
+    "school": "EEMPI N°3060",
+    "title": "Bachelor of Science"
+  },
+  {
+    "school": "Fullstack Development",
+    "title": "Argentina Programa"
+  },
+  {
+    "school": "freeCodeCamp",
+    "title": "Responsive Web Design"
+  }
+  ]
+}
