@@ -234,6 +234,7 @@ figcaption {
     flex-direction: column;
     justify-content: center;
     text-align: left;
+    padding-top: 4.5em;
 }
 
 #photo-item {
@@ -264,9 +265,13 @@ figcaption {
 }
 
 .certification-items {
-    font-size: 1.8em;
+    font-size: 1.7em;
     padding: 0.05em 0;
     color: var(--white-off);
+}
+
+.certification-title {
+    font-size: 1.5em;
 }
 
 .certification-items:hover {
@@ -293,7 +298,7 @@ figcaption {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 5.5em;
+    padding-top: 4.5em;
 }
 
 #tech-grid-container {
