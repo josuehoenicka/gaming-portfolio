@@ -15,12 +15,7 @@
         <header>
             <nav>
                 <div id="logo-container">
-                    <select name="language_container" id="language_container">
-                        <option value="" disabled>Choose a language</option>
-                        <option value="en">ENGLISH</option>
-                        <option value="es">SPANISH</option>
-                        <option value="pt">PORTUGUESE</option>
-                      </select>
+                    <a class="logo-title" href="https://www.linkedin.com/in/josuehoenicka/" target="_blank"><h1>Josue Hoenicka</h1></a>
                 </div>
                 <div id="navbar-container">
                     <a href="#about-me" class="navbar-items">About me</a>
@@ -50,8 +45,8 @@
                         </figcaption>
                     </div>
                     <div id="description-container">
-                        <p class="description-items">Co-Founder / COO at Codebash</p>
-                        <p class="description-items">Freelance at Hoenixer</p>
+                        <p class="description-items">Founder & Dev at Hoenixer</p>
+                        <p class="description-items">Co-Founder & Dev at Codebash</p>
                         <p class="description-items">Student at Beppo Levi</p>
                     </div>
                     <div id="certification-container">
@@ -98,7 +93,7 @@
                     </div>
                     <div id="pt" class="lang-items">
                         <img src="./src/assets/lang/fr.webp" class="flag-items">
-                        <p class="lvl-items">BASIC</p>
+                        <p class="lvl-items">BEGINNER</p>
                     </div>
                 </div>
             </section>
@@ -107,10 +102,10 @@
                     <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
                     <div>
                     <div class="mySlides2">
-                        <h4 class="slider-title">CDSantidad</h4>
+                        <h4 class="slider-title">CDS</h4>
                         <p class="slider-description">Website</p>
                         <a href="https://caminodesantidad.github.io" target="_blank" class="fa fa-chrome"></a>
-                        <a class="fa fa-lock"></a>
+                        <a href="https://github.com/josuehoenicka/cdsantidad" target="_blank" class="fa fa-github"></a>
                         <div id="slider-img-container">
                             <img src="./src/assets/projects/building.png" width="200">
                         </div>
@@ -142,6 +137,15 @@
                             <img src="./src/assets/projects/building.png" width="200">
                         </div>
                     </div>
+                    <div class="mySlides2">
+                        <h4 class="slider-title">ArgProg</h4>
+                        <p class="slider-description">CRUD Portfolio</p>
+                        <a class="fa fa-chrome" onclick="buildingProjects()"></a>
+                        <a href="https://github.com/josuehoenicka/crud_portfolio" target="_blank" class="fa fa-github"></a>
+                        <div id="slider-img-container">
+                            <img src="./src/assets/projects/building.png" width="200">
+                        </div>
+                    </div>
                     <p id="deslizar-title">Click on the arrows</p>
                     </div>
                     <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
@@ -155,13 +159,13 @@
                     <button type="submit" id="btn-form" onclick="buildingForm()">SEND</button>
                 </div>
                 <div id="social-container">
-                    <div id="github" class="social-items">
-                        <a href="https://github.com/josuehoenicka" target="_blank" class="fa fa-github"></a>
-                        <a href="https://github.com/josuehoenicka" target="_blank" class="social-title">GITHUB</a>
-                    </div>
                     <div id="linkedin" class="social-items">
                         <a href="https://www.linkedin.com/in/josuehoenicka/" target="_blank" class="fa fa-linkedin"></a>
                         <a href="https://www.linkedin.com/in/josuehoenicka/" target="_blank" class="social-title">LINKEDIN</a>
+                    </div>
+                    <div id="github" class="social-items">
+                        <a href="https://github.com/josuehoenicka" target="_blank" class="fa fa-github"></a>
+                        <a href="https://github.com/josuehoenicka" target="_blank" class="social-title">GITHUB</a>
                     </div>
                     <div id="instagram" class="social-items">
                         <a href="https://www.instagram.com/josuehoenicka/" target="_blank" class="fa fa-instagram"></a>
@@ -171,7 +175,7 @@
             </section>
         </main>
         <footer>
-            <h2 id="footer-title">Josue Hoenicka | Fullstack Developer | 2022</h2>
+            <h2 id="footer-title">Josue Hoenicka | Full Stack Developer | 2022</h2>
         </footer>
     </body>
     <script src="./src/scripts/main.js"></script>

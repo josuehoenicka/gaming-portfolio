@@ -6,6 +6,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Nabla&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dangrek&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;600&display=swap');
 
 /*****************************************************************/
 /*****************************************************************/
@@ -72,6 +73,18 @@ nav {
     justify-content: flex-end;
 }
 
+.logo-title {
+    text-decoration: none; 
+    color: var(--white-off);
+}
+
+.logo-title:hover {
+    color: var(--white-on);
+    transition: 0.3s;
+}
+
+/*
+
 #language_container {
     text-decoration: none;
     color: var(--white-off);
@@ -87,6 +100,8 @@ nav {
     color: var(--white-on);
     border-bottom: 0.1em var(--white-on) solid;
 }
+
+*/
 
 .navbar-items {
     color: var(--white-off)
