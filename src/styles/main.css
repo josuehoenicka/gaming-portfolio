@@ -20,6 +20,10 @@
     --white-off: #4e5985;
 }
 
+body::-webkit-scrollbar {
+    display: none;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -28,10 +32,6 @@
     font-family: 'Alumni Sans Pinstripe';
     text-decoration: none;
     background-color: var(--black-on);
-}
-
-::-webkit-scrollbar {
-    display: none;
 }
 
 /*****************************************************************/
@@ -47,13 +47,14 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    
+    z-index: 1000;
 }
 
 nav {
     display: flex;
     width: 100vw;
     user-select: none;
-    z-index: 1000;
 }
 
 #logo-container {
@@ -104,7 +105,7 @@ nav {
 */
 
 .navbar-items {
-    color: var(--white-off)
+    color: var(--white-off);
 }
 
 .navbar-items, #btn-navbar {
@@ -245,11 +246,17 @@ figcaption {
 }
 
 #certification-container {
+    margin-top: 5em;
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: left;
     padding-top: 4.5em;
+	height: 70vh;
+    line-height: 2.5em;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    margin-right: 1.7em;
 }
 
 #photo-item {
@@ -281,7 +288,7 @@ figcaption {
 
 .certification-items {
     font-size: 1.7em;
-    padding: 0.05em 0;
+    padding: 0.2em 0;
     color: var(--white-off);
 }
 
