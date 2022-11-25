@@ -17,6 +17,10 @@
     --black-on: #03050c;
     --white-on: #dfe8ff;
     --white-off: #4e5985;
+    --green-on: rgb(127, 211, 127);
+    --green-off: rgb(124, 153, 124);
+    --red-on: rgb(223, 32, 32);
+    --red-off: rgb(202, 78, 78);
 }
 
 * {
@@ -46,13 +50,18 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 1000;
 }
 
 nav {
     display: flex;
     width: 100vw;
     user-select: none;
-    z-index: 1000;
+}
+
+.logo-nav {
+  width: 18em;
+  padding: 0 0 0 1.5em;
 }
 
 #logo-container {
@@ -92,7 +101,7 @@ nav {
     color: var(--white-off)
 }
 
-.navbar-items, #btn-navbar {
+.navbar-items {
     font-size: 1.8em;
     margin: 0 1em;
 }
@@ -103,18 +112,28 @@ nav {
     transition: 0.3s;
 }
 
-#btn-navbar {
+.btn-navbar {
+    font-size: 1.9em;
     color: var(--white-on);
-    padding: 0.5em;
+    padding: 0.5em 1.5em;
     border-radius: 1em;
     background-color: var(--white-off);
     color: var(--black-on);
-    margin-right: 1.5em;
+    margin: 0 0.5em;
 }
 
-#btn-navbar:hover {
+.btn-navbar-active {
+  background-color: var(--green-off);
+  padding: 0.5em 1.8em;
+}
+
+.btn-navbar:hover {
     transition: 0.3s;
     background-color: var(--white-on);
+}
+
+.btn-navbar-active:hover {
+  background-color: var(--green-on);
 }
 
 /*****************************************************************/
@@ -135,43 +154,50 @@ nav {
         to bottom,
         var(--black-on),
         var(--black-on),
-        rgba(3, 5, 12, 0.93),
-        rgba(3, 5, 12, 0.9),
-        rgba(3, 5, 12, 0.9),
-        rgba(3, 5, 12, 0.9),
-        rgba(3, 5, 12, 0.93),
+        rgba(3, 5, 12, 0.95),
+        rgba(3, 5, 12, 0.95),
+        rgba(3, 5, 12, 0.95),
+        rgba(3, 5, 12, 0.95),
+        rgba(3, 5, 12, 0.95),
         var(--black-on),
         var(--black-on)
-    ), url(https://gifmaniacos.es/wp-content/uploads/2017/07/gamer-gif-movimiento-gifmaniacos.es-20.gif);
+    ), url(https://p4.wallpaperbetter.com/wallpaper/506/760/60/tube-tunnel-binary-green-wallpaper-thumb.jpg);
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-#welcome {
+.title-container {
   background-color: transparent;
-  color: var(--white-on);
-  font-size: 2em;
+  color: var(--white-off);
+  font-size: 4em;
   padding-top: 4em;
   width: 100vw;
   display: flex;
   justify-content: center;
 }
 
-#start-container {
+.start-container {
     width: 100vw;
     display: flex;
     justify-content: center;
     background-color: transparent;
-    padding-top: 15em;
+    padding: 0.5em 0;
 }
 
-#start-container a img, #start-container a {
+.btn-start-img, .btn-start {
     background-color: transparent;
 }
 
-#btn-start-img {
-    opacity: 0.5;
+.btn-start-img {
+  width: 20em;
+  opacity: 0.8;
+}
+
+.b-space {
+  background-color: transparent;
+  padding-left: 0.2em;
+  color: var(--white-on);
 }
 
 /*****************************************************************/
@@ -181,6 +207,7 @@ nav {
 /*****************************************************************/
 
 #about-me {
+  padding-top: 2em;
     display: flex;
     width: 100vw;
     height: 100vh;
@@ -213,6 +240,8 @@ figcaption {
 }
 
 .fig-name {
+
+  margin-top: 0.5em;
     background-color: transparent;
     font-size: 3em;
     text-align: center;
@@ -220,8 +249,9 @@ figcaption {
 }
 
 .fig-title {
+    margin-top: 0.5em;
     background-color: transparent;
-    font-size: 1.5em;
+    font-size: 1.7em;
     text-align: center;
     color: var(--white-off);
 }
@@ -244,6 +274,12 @@ figcaption {
     flex-direction: column;
     justify-content: center;
     text-align: left;
+    padding-top: 4.5em;
+    height: 70vh;
+    line-height: 2.5em;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    margin-right: 3em;
 }
 
 #photo-item {
@@ -312,8 +348,8 @@ figcaption {
 }
 
 .tech-items {
-    width: 3.5em;
-    height: 3.5em;
+    width: 4em;
+    height: 4em;
     margin: 2.5em 2.5em;
     background-color: transparent;
 }
@@ -361,7 +397,7 @@ figcaption {
 
 .lvl-items {
     color: var(--white-off);
-    font-size: 2.5em;
+    font-size: 3em;
     padding-left: 0.1em;
 }
 
@@ -371,7 +407,7 @@ figcaption {
 }
 
 .flag-items {
-    width: 5em;
+    width: 6em;
     padding: 0.4em;
 }
 
@@ -382,12 +418,13 @@ figcaption {
 /*****************************************************************/
 
 #projects {
-    height: 100vh;
-    user-select: none;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    z-index: -1;
+  padding-top: 2em;
+  height: 100vh;
+  user-select: none;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  z-index: -1;
 }
 
 .slider-title{
@@ -524,14 +561,14 @@ figcaption {
 }
 
 .fa {
-    font-size: 3em;
+    font-size: 3em !important;
     padding: 0.4em;
     text-decoration: none;
     color: var(--white-off);
 }
 
 .fa-lock {
-    font-size: 3.1em;
+    font-size: 3.1em !important;
     font-weight: bold;
 }
 
@@ -540,7 +577,7 @@ figcaption {
 }
 
 .fa-chrome {
-    font-size: 2.51em;
+    font-size: 2.51em !important;
 }
 
 input {
@@ -608,13 +645,19 @@ footer {
 /*****************************************************************/
 /*****************************************************************/
 
-#footer-title {
+.footer-title {
     display: flex;
     width: 100vw;
     padding: 1em;
     justify-content: center;
     align-items: center;
     color: var(--white-off);
-    font-size: 1.8em;
+    font-size: 2.4em;
+}
+
+.link-footer {
+  padding-left: 0.2em;
+  text-decoration: none;
+  color: var(--white-on);
 }
 

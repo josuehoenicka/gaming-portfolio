@@ -1,35 +1,85 @@
 {
 	"nameUser": "Josue Hoenicka",
-  "backImage": "../../../assets/others/start.gif",
-  "ocupation": "Fullstack Developer",
-  "description": [{
-    "school": "a",
-    "title": ""
+  "backImage": "../../../assets/others/start1.gif",
+  "ocupation": "Full Stack Developer / Software Engineer Trainee",
+  "description": {
+    "age": "19",
+    "nationality": "Venezolano",
+    "location": "Argentina, Santa Fe",
+    "likes": "Software, Idiomas, Teología",
+    "music": "Blackbear, Bruno Mars & The Weeknd",
+    "hobbies": "RTS Games, Freestyle Football"
   },
-  {
-    "school": "b",
-    "title": ""
-  },
-  {
-    "school": "c",
-    "title": ""
-  },
-  {
-    "school": "",
-    "title": ""
-  }
-  ],
   "education": [{
     "school": "EEMPI N°3060",
-    "title": "Bachelor of Science"
+    "title": "High School Degree"
   },
   {
-    "school": "Fullstack Development",
-    "title": "Argentina Programa"
+    "school": "Argentina Programa",
+    "title": "#SéProgramar, #YoProgramo"
   },
   {
     "school": "freeCodeCamp",
-    "title": "Responsive Web Design"
+    "title": "Responsive Web Design, Algorithms & Data Structure"
+  }
+  ],
+  "languages": [{
+    "img": "../../../assets/lang/es.svg",
+    "level": "NATIVO"
+  },
+  {
+    "img": "../../../assets/lang/br.svg",
+    "level": "AVANZADO"
+  },
+  {
+    "img": "../../../assets/lang/um.svg",
+    "level": "INTERMEDIO"
+  },
+    {
+    "img": "../../../assets/lang/fr.webp",
+    "level": "PRINCIPIANTE"
+  }
+  ],
+  "techs": [{
+    "img": "",
+    "title": ""
+  },
+  {
+    "img": "",
+    "title": ""
+  },
+  {
+    "img": "",
+    "title": ""
+  },
+  {
+    "img": "",
+    "title": ""
+  }
+  ],
+  "projects": [{
+    "img": "",
+    "title": "",
+    "description": "",
+    "link": ""
+  },
+  {
+    "img": "",
+    "title": "",
+    "description": "",
+    "link": ""
+  },
+  {
+    "img": "",
+    "title": "",
+    "description": "",
+    "link": ""
+  },
+  {
+    "img": "",
+    "title": "",
+    "description": "",
+    "link": ""
   }
   ]
 }
