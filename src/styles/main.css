@@ -320,18 +320,18 @@ figcaption {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 4.5em;
+    padding-top: 4.7em;
 }
 
 #tech-grid-container {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
 }
 
 .tech-items {
-    width: 4em;
-    height: 4em;
-    margin: 2em 3em;
+    width: 3.5em;
+    height: 3.5em;
+    margin: 1.5em 4em;
     background-color: transparent;
 }
 
