@@ -325,13 +325,13 @@ figcaption {
 
 #tech-grid-container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
 }
 
 .tech-items {
     width: 3.5em;
     height: 3.5em;
-    margin: 1.55em 4.55em;
+    margin: 1.33em 3em;
     background-color: transparent;
 }
 
