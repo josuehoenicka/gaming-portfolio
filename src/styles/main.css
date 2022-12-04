@@ -151,15 +151,15 @@ nav {
         to bottom,
         var(--black-on),
         var(--black-on),
-        rgba(3, 5, 12, 0.93),
         rgba(3, 5, 12, 0.9),
         rgba(3, 5, 12, 0.9),
         rgba(3, 5, 12, 0.9),
-        rgba(3, 5, 12, 0.93),
+        rgba(3, 5, 12, 0.9),
+        rgba(3, 5, 12, 0.9),
         var(--black-on),
         var(--black-on)
-    ), url(https://gifmaniacos.es/wp-content/uploads/2017/07/gamer-gif-movimiento-gifmaniacos.es-20.gif);
-    background-position: bottom;
+    ), url(/src/assets/others/p-wallpaper.jpg);
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
