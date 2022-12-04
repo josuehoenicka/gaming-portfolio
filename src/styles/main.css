@@ -216,6 +216,7 @@ figure {
 
 figcaption {
     background-color: transparent;
+    padding-top: 1em;
 }
 
 .fig-name {
@@ -293,7 +294,7 @@ figcaption {
 }
 
 .certification-title {
-    font-size: 1.5em;
+    font-size: 1.22em;
 }
 
 .certification-items:hover {
