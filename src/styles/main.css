@@ -370,11 +370,13 @@ figcaption {
 
 .lang-items > p {
     padding-left: 0.3em;
+    opacity: 0.55;
 }
 
 .lang-items:hover > p {
     color: var(--white-on);
     transition: 0.3s;
+    opacity: 1;
     padding-left: 0.5em;
 }
 
@@ -386,7 +388,7 @@ figcaption {
 
 .lvl-items:hover {
     color: var(--white-on);
-    transition: 0.3s;
+    transition: 0.5s;
 }
 
 .flag-items {
