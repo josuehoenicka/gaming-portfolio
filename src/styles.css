@@ -33,7 +33,7 @@
     background-color: var(--black-on);
 }
 
-::-webkit-scrollbar {
+body::-webkit-scrollbar {
     display: none;
 }
 
@@ -154,14 +154,14 @@ nav {
         to bottom,
         var(--black-on),
         var(--black-on),
-        rgba(3, 5, 12, 0.95),
-        rgba(3, 5, 12, 0.95),
-        rgba(3, 5, 12, 0.95),
-        rgba(3, 5, 12, 0.95),
-        rgba(3, 5, 12, 0.95),
+        rgba(3, 5, 12, 0.93),
+        rgba(3, 5, 12, 0.9),
+        rgba(3, 5, 12, 0.9),
+        rgba(3, 5, 12, 0.9),
+        rgba(3, 5, 12, 0.93),
         var(--black-on),
         var(--black-on)
-    ), url(https://p4.wallpaperbetter.com/wallpaper/506/760/60/tube-tunnel-binary-green-wallpaper-thumb.jpg);
+    ), url(./assets/others/p-wallpaper.jpg);
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
@@ -190,8 +190,8 @@ nav {
 }
 
 .btn-start-img {
-  width: 20em;
-  opacity: 0.8;
+  width: 14.5em;
+  opacity: 0.5;
 }
 
 .b-space {
@@ -274,12 +274,13 @@ figcaption {
     flex-direction: column;
     justify-content: center;
     text-align: left;
-    padding-top: 4.5em;
+    margin-top: 2em;
     height: 70vh;
-    line-height: 2.5em;
+    padding-top: 13em;
+    line-height: 2em;
     overflow-x: hidden;
     overflow-y: scroll;
-    margin-right: 3em;
+    margin-right: 1.5em;
 }
 
 #photo-item {
@@ -310,8 +311,7 @@ figcaption {
 }
 
 .certification-items {
-    font-size: 2.2em;
-    padding: 0.05em 0;
+    font-size: 2em;
     color: var(--white-off);
 }
 
