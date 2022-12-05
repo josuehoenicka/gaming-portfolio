@@ -5,67 +5,131 @@
   "description": {
     "nationality": "Venezolano",
     "location": "Santa Fe, Argentina",
-    "likes": "Software e idiomas",
+    "study": "Software e idiomas",
     "music": "R&B/Soul, jazz y clásica",
     "hobbies": "Fútbol y juegos de lógica/estrategia"
   },
   "education": [{
-    "school": "EEMPI N°3060",
-    "title": "High School Degree"
-  },
-  {
-    "school": "Argentina Programa",
-    "title": "#SéProgramar, #YoProgramo"
-  },
-  {
-    "school": "freeCodeCamp",
-    "title": "Responsive Web Design, Algorithms & Data Structure"
-  },
-  {
-    "school": "freeCodeCamp",
-    "title": "Responsive Web Design, Algorithms & Data Structure"
-  },
-  {
-    "school": "freeCodeCamp",
-    "title": "Responsive Web Design, Algorithms & Data Structure"
-  },
-  {
-    "school": "freeCodeCamp",
-    "title": "Responsive Web Design, Algorithms & Data Structure"
-  }
+      "school": "Universidad de Buenos Aires - CUI",
+      "title": "Inglés (cursando)"
+    },
+    {
+        "school": "Instituto Superior N°25 Beppo Levi",
+      "title": "Desarrollo de Software (cursando)"
+    },
+    {
+      "school": "Argentina Programa",
+      "title": "#YoProgramo (cursando)"
+    },
+    {
+      "school": "Argentina Programa",
+      "title": "#SéProgramar"
+    },
+    {
+      "school": "freeCodeCamp",
+      "title": "Algorithms & Data Structure (cursando)"
+    },
+    {
+      "school": "freeCodeCamp",
+      "title": "Responsive Web Design"
+    },
+    {
+      "school": "EEMPI N°3060",
+      "title": "High School Degree"
+    }
   ],
   "languages": [{
     "img": "../../../assets/lang/es.svg",
-    "level": "NATIVO"
+    "level": "C2 / NATIVO"
   },
   {
     "img": "../../../assets/lang/br.svg",
-    "level": "AVANZADO"
+    "level": "C1 / AVANZADO"
   },
   {
     "img": "../../../assets/lang/um.svg",
-    "level": "INTERMEDIO"
-  },
-    {
-    "img": "../../../assets/lang/fr.webp",
-    "level": "PRINCIPIANTE"
+    "level": "B1 / INTERMEDIO"
   }
   ],
   "techs": [{
-    "img": "",
-    "title": ""
+    "img": "../../../assets/tech/javascript.png",
+    "title": "JavaScript"
   },
   {
-    "img": "",
-    "title": ""
+    "img": "../../../assets/tech/typescript.png",
+    "title": "TypeScript"
   },
   {
-    "img": "",
-    "title": ""
+    "img": "../../../assets/tech/java.png",
+    "title": "Java"
   },
   {
-    "img": "",
-    "title": ""
+    "img": "../../../assets/others/add.png",
+    "title": "Add"
+  },
+  {
+    "img": "../../../assets/others/add.png",
+    "title": "Add"
+  },
+  {
+    "img": "../../../assets/tech/angular.svg",
+    "title": "Angular"
+  },
+  {
+    "img": "../../../assets/tech/spring_boot.png",
+    "title": "Spring Boot"
+  },
+  {
+    "img": "../../../assets/others/add.png",
+    "title": "Add"
+  },
+  {
+    "img": "../../../assets/others/add.png",
+    "title": "Add"
+  },
+  {
+    "img": "../../../assets/tech/bootstrap.png",
+    "title": "Bootstrap5"
+  },
+  {
+    "img": "../../../assets/tech/tomcat.png",
+    "title": "Tomcat"
+  },
+  {
+    "img": "../../../assets/others/add.png",
+    "title": "Add"
+  },
+  {
+    "img": "../../../assets/others/add.png",
+    "title": "Add"
+  },
+  {
+    "img": "../../../assets/others/add.png",
+    "title": "Add"
+  },
+  {
+    "img": "../../../assets/tech/mysql.png",
+    "title": "MySQL"
+  },
+  {
+    "img": "../../../assets/others/add.png",
+    "title": "Add"
+  },
+  {
+    "img": "../../../assets/others/add.png",
+    "title": "Add"
+  },
+  {
+    "img": "../../../assets/tech/html.svg",
+    "title": "HTML5"
+  },
+  {
+    "img": "../../../assets/tech/css.svg",
+    "title": "CSS3"
+  },
+  {
+    "img": "../../../assets/tech/git.png",
+    "title": "Git"
   }
   ],
   "projects": [{

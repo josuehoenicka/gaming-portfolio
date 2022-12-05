@@ -336,28 +336,29 @@ figcaption {
 /*****************************************************************/
 
 #tech-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-top: 5.5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 4.7em;
 }
 
 #tech-grid-container {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
 }
 
 .tech-items {
-    width: 4em;
-    height: 4em;
-    margin: 2.5em 2.5em;
-    background-color: transparent;
+  width: 3.5em;
+  height: 3.5em;
+  margin: 1.33em 3em;
+  background-color: transparent;
+  opacity: 0.5;
 }
 
-.tech-powerful:hover {
-    background-color: transparent;
-    filter: drop-shadow(0 0 1em var(--white-off));
-    transition: 0.1s;
+.tech-items:hover {
+  opacity: 1;
+  transition: 0.3s;
+  cursor: pointer;
 }
 
 .tech-weak {
@@ -397,7 +398,7 @@ figcaption {
 
 .lvl-items {
     color: var(--white-off);
-    font-size: 3em;
+    font-size: 2.8em;
     padding-left: 0.1em;
 }
 
@@ -407,7 +408,7 @@ figcaption {
 }
 
 .flag-items {
-    width: 6em;
+    width: 5.5em;
     padding: 0.4em;
 }
 
