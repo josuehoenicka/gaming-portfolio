@@ -333,17 +333,18 @@ figcaption {
     width: 3.5em;
     height: 3.5em;
     margin: 1.33em 3em;
+    opacity: 0.55;
     background-color: transparent;
 }
 
 .tech-powerful:hover {
     background-color: transparent;
-    filter: drop-shadow(0 0 1em var(--white-off));
-    transition: 0.1s;
+    opacity: 1;
+    transition: 0.3s;
 }
 
 .tech-weak {
-    opacity: 0.1;
+    opacity: 0.02;
 }
 
 /*****************************************************************/
