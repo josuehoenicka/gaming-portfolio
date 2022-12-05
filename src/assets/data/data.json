@@ -49,6 +49,10 @@
   {
     "img": "../../../assets/lang/um.svg",
     "level": "B1 / INTERMEDIO"
+  },
+  {
+    "img": "../../../assets/others/add.png",
+    "level": "ADD LANGUAGE"
   }
   ],
   "techs": [{
