@@ -203,41 +203,7 @@ nav {
 }
 
 
-/*****************************************************************/
-/*****************************************************************/
-/***************************** techs *****************************/
-/*****************************************************************/
-/*****************************************************************/
 
-#tech-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding-top: 4.7em;
-}
-
-#tech-grid-container {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-}
-
-.tech-items {
-  width: 3.5em;
-  height: 3.5em;
-  margin: 1.33em 3em;
-  background-color: transparent;
-  opacity: 0.5;
-}
-
-.tech-items:hover {
-  opacity: 1;
-  transition: 0.3s;
-  cursor: pointer;
-}
-
-.tech-weak {
-    opacity: 0.1;
-}
 
 /*****************************************************************/
 /*****************************************************************/

@@ -31,6 +31,15 @@
     flex-direction: column;
 }
 
+#skills {
+  display: grid;
+  grid-template-columns: 6fr 3fr;
+  width: 100vw;
+  height: 100vh;
+  user-select: none;
+  padding-top: 1em;
+}
+
 .scroll-container {
   display: flex;
   flex-direction: column;
@@ -157,13 +166,7 @@ figcaption {
 
 
 
-#skills {
-    display: grid;
-    grid-template-columns: 6fr 3fr;
-    width: 100vw;
-    height: 100vh;
-    user-select: none;
-}
+
 
 /************************************************** description ***************************************************/
 
@@ -209,3 +212,47 @@ figcaption {
   transition: 0.3s;
   color: var(--white-on);
 }
+
+/******************************************************************************************************************/
+/******************************************************************************************************************/
+/***************************************************** techs ******************************************************/
+/******************************************************************************************************************/
+/******************************************************************************************************************/
+
+#tech-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 4.7em;
+}
+
+#tech-grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding-top: 1em;
+}
+
+.tech-items {
+  width: 4em;
+  height: 4em;
+  margin: 0.66em 5em;
+  background-color: transparent;
+}
+
+.tech-items:hover {
+  cursor: pointer;
+}
+
+.si {
+  opacity: 0.8;
+}
+
+.si:hover {
+  transition: 0.3s;
+  opacity: 1;
+}
+
+.no {
+  opacity: 0.03;
+}
+

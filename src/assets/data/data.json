@@ -61,87 +61,93 @@
   {
     "img": "../../../assets/lang/um.svg",
     "level": "B1 / INTERMEDIO"
-  },
-  {
-    "img": "../../../assets/others/add.png",
-    "level": "ADD LANGUAGE"
   }
   ],
   "techs": [{
     "img": "../../../assets/tech/javascript.png",
-    "title": "JavaScript"
+    "title": "JavaScript",
+    "level": "si"
   },
   {
     "img": "../../../assets/tech/typescript.png",
-    "title": "TypeScript"
+    "title": "TypeScript",
+    "level": "si"
   },
   {
-    "img": "../../../assets/tech/java.png",
-    "title": "Java"
+    "img": "../../../assets/tech/dart.png",
+    "title": "Dart",
+    "level": "no"
   },
   {
-    "img": "../../../assets/others/add.png",
-    "title": "Add"
-  },
-  {
-    "img": "../../../assets/others/add.png",
-    "title": "Add"
+    "img": "../../../assets/tech/reactjs.png",
+    "title": "ReactJS",
+    "level": "no"
   },
   {
     "img": "../../../assets/tech/angular.svg",
-    "title": "Angular"
+    "title": "Angular",
+    "level": "si"
   },
   {
-    "img": "../../../assets/tech/spring_boot.png",
-    "title": "Spring Boot"
+    "img": "../../../assets/tech/flutter.png",
+    "title": "Flutter",
+    "level": "no"
   },
   {
-    "img": "../../../assets/others/add.png",
-    "title": "Add"
+    "img": "../../../assets/tech/nextjs.png",
+    "title": "NextJS",
+    "level": "no"
   },
   {
-    "img": "../../../assets/others/add.png",
-    "title": "Add"
+    "img": "../../../assets/tech/nodejs.png",
+    "title": "NodeJS",
+    "level": "si"
   },
   {
-    "img": "../../../assets/tech/bootstrap.png",
-    "title": "Bootstrap5"
+    "img": "../../../assets/tech/docker.png",
+    "title": "Docker",
+    "level": "no"
   },
   {
-    "img": "../../../assets/tech/tomcat.png",
-    "title": "Tomcat"
+    "img": "../../../assets/tech/nestjs.svg",
+    "title": "NestJS",
+    "level": "no"
+  },
+
+  {
+    "img": "../../../assets/tech/firebase.svg",
+    "title": "Firebase",
+    "level": "no"
   },
   {
-    "img": "../../../assets/others/add.png",
-    "title": "Add"
+    "img": "../../../assets/tech/aws.png",
+    "title": "AWS",
+    "level": "no"
   },
   {
-    "img": "../../../assets/others/add.png",
-    "title": "Add"
+    "img": "../../../assets/tech/mongodb.svg",
+    "title": "MongoDB",
+    "level": "no"
   },
   {
-    "img": "../../../assets/others/add.png",
-    "title": "Add"
+    "img": "../../../assets/tech/postgresql.png",
+    "title": "PostgreSQL",
+    "level": "no"
   },
   {
     "img": "../../../assets/tech/mysql.png",
-    "title": "MySQL"
-  },
-  {
-    "img": "../../../assets/others/add.png",
-    "title": "Add"
-  },
-  {
-    "img": "../../../assets/others/add.png",
-    "title": "Add"
+    "title": "MySQL",
+    "level": "si"
   },
   {
     "img": "../../../assets/tech/html.svg",
-    "title": "HTML5"
+    "title": "HTML5",
+    "level": "si"
   },
   {
     "img": "../../../assets/tech/css.svg",
-    "title": "CSS3"
+    "title": "CSS3",
+    "level": "si"
   },
   {
     "img": "../../../assets/tech/git.png",

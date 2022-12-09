@@ -2,11 +2,10 @@
   <section id="about-me">
       <div id="bio-container">
           <div id="photo-container">
-
-            <div class="edit-description-container">
-              <a class="fa fa-pencil fa-config"></a>
-              <a class="fa fa-trash fa-config"></a>
-            </div>
+              <div class="edit-description-container">
+                <a class="fa fa-pencil fa-config"></a>
+                <a class="fa fa-trash fa-config"></a>
+              </div>
               <figure>
                   <img src="../../../assets/personal/josuehoenicka.png" id="photo-item">
               </figure>
@@ -37,7 +36,7 @@
       <div id="tech-container">
           <div id="tech-grid-container" >
             <div *ngFor="let tech of tech">
-              <img [src]="tech.img" class="tech-items" title="{{tech.title}}">
+              <img [src]="tech.img" class="tech-items {{tech.level}}" title="{{tech.title}}">
             </div>
           </div>
       </div>
