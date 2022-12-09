@@ -17,12 +17,12 @@
     --black-on: #03050c;
     --white-on: #dfe8ff;
     --white-off: #4e5985;
-    --green_on: rgb(101, 216, 101);
-    --green_off: rgb(184, 190, 184);
+    --green_on: rgb(92, 226, 92);
+    --green_off: rgb(161, 207, 161);
     --red_on: rgb(219, 35, 35);
     --red_off: rgb(223, 142, 142);
-    --yellow_on: rgb(245, 245, 58);
-    --yellow_off: rgb(208, 209, 162);
+    --blue_on: rgb(6, 164, 255);
+    --blue_off: rgb(119, 189, 235);
 }
 
 * {

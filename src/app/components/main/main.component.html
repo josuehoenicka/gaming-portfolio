@@ -15,14 +15,18 @@
               <a class="fa fa-pencil fa-config"></a>
               <a class="fa fa-trash fa-config"></a>
               <p class="experience-items">{{experience.title}} en {{experience.company}}</p>
+            </div>
+
+            <a class="fa fa-plus fa-config"></a>
           </div>
-          </div>
-          <div class="scroll-container" >
+          <div class="scroll-container">
             <div *ngFor="let education of certification" class="description-config-container certification-config">
                 <a class="fa fa-pencil fa-config"></a>
-                <a class="fa fa-trash f a-config"></a>
+                <a class="fa fa-trash fa-config"></a>
                 <p class="certification-items">{{education.school}}<br> ↪ {{education.title}}</p>
             </div>
+
+            <a class="fa fa-plus fa-config"></a>
           </div>
       </div>
   </section>
