@@ -130,25 +130,8 @@ figcaption {
     transition: 0.3s;
 }
 
-.education-items {
-  font-size: 2em;
-  color: var(--white-off);
-}
 
-.education-items:hover {
-  transition: 0.3s;
-  color: var(--white-on);
-}
 
-.certification-items {
-    font-size: 2em;
-    color: var(--white-off);
-}
-
-.certification-items:hover {
-    transition: 0.3s;
-    color: var(--white-on);
-}
 
 #skills {
     display: grid;
@@ -179,5 +162,26 @@ figcaption {
 
 /**************************************************** experience ****************************************************/
 
+.experience-items {
+  font-size: 2em;
+  color: var(--white-off);
+}
+
+.experience-items:hover {
+  transition: 0.3s;
+  color: var(--white-on);
+}
+
 /************************************************** certification ***************************************************/
 
+.certification-items {
+  padding-left: 0.5em;
+  padding: 1em 0;
+  font-size: 2em;
+  color: var(--white-off);
+}
+
+.certification-items:hover {
+  transition: 0.3s;
+  color: var(--white-on);
+}
