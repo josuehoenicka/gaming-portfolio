@@ -38,6 +38,7 @@
   text-align: left;
   margin-top: 2em;
   height: 70vh;
+  margin-top: 4em;
   padding-top: 1em;
   line-height: 2em;
   overflow-x: hidden;
@@ -95,27 +96,22 @@
   font-size: 2em;
 }
 
-/*************************************************** working ****************************************************/
-
-figure {
-    padding-top: 2em;
-}
+/************************************************** description **************************************************/
 
 figcaption {
     background-color: transparent;
 }
 
 .fig-name {
-
-  margin-top: 0.5em;
-    background-color: transparent;
-    font-size: 3em;
-    text-align: center;
-    color: var(--white-off);
+  padding: 0.05em 0;
+  background-color: transparent;
+  font-size: 3em;
+  text-align: center;
+  color: var(--white-off);
 }
 
 .fig-title {
-    margin-top: 0.5em;
+    padding: 0.05em 0;
     background-color: transparent;
     font-size: 1.7em;
     text-align: center;
@@ -127,6 +123,9 @@ figcaption {
     transition: 0.3s;
 }
 
+.edit-description-container {
+  padding: 1.5em;
+}
 
 
 #photo-item {

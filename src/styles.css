@@ -443,6 +443,10 @@ nav {
     color: var(--white-off);
 }
 
+.fa-social {
+  font-size: 4em !important;
+}
+
 .fa-lock {
     font-size: 3.1em !important;
     font-weight: bold;
