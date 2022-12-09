@@ -10,17 +10,19 @@
                   <p class="fig-title">{{name.ocupation}}</p>
               </figcaption>
           </div>
-          <div id="description-container">
-              <p class="description-items">Nacionalidad: {{name.description.nationality}}</p>
-              <p class="description-items">Localidad: {{name.description.location}}</p>
-              <p class="description-items">Estudios: {{name.description.study}}</p>
-              <p class="description-items">Música: {{name.description.music}}</p>
-              <p class="description-items">Hobbies: {{name.description.hobbies}}</p>
+          <div class="scroll-container">
+            <div *ngFor="let experience of experience" class="description-config-container certification-config">
+              <a class="fa fa-pencil fa-config"></a>
+              <a class="fa fa-trash fa-config"></a>
+              <p class="education-items">{{experience.title}} en {{experience.company}}</p>
           </div>
-          <div id="certification-container" >
-            <li *ngFor="let education of main">
-              <p class="certification-items">{{education.school}}<br>↪ {{education.title}}</p>
-            </li>
+          </div>
+          <div class="scroll-container" >
+            <div *ngFor="let education of certification" class="description-config-container certification-config">
+                <a class="fa fa-pencil fa-config"></a>
+                <a class="fa fa-trash f a-config"></a>
+                <p class="certification-items">{{education.school}}<br> ↪ {{education.title}}</p>
+            </div>
           </div>
       </div>
   </section>
@@ -47,7 +49,7 @@
               <h4 class="slider-title">NEW</h4>
               <p class="slider-description">Insert Project</p>
               <div id="slider-img-container">
-                <img src="../../../assets/others/insert.png" width="200">
+                <img src="../../../assets/others/add.png" width="200">
               </div>
             </div>
             <div class="mySlides2">

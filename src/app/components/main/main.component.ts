@@ -8,7 +8,8 @@ import { PortfolioService } from 'src/app/services/portfolio.service';
 })
 export class MainComponent implements OnInit {
   name:any;
-  main:any;
+  experience:any;
+  certification:any;
   lang:any;
   tech:any;
   constructor(private check:PortfolioService) { }
@@ -16,7 +17,8 @@ export class MainComponent implements OnInit {
   ngOnInit(): void {
     this.check.test().subscribe(data => {
       this.name=data;
-      this.main=data.education;
+      this.experience=data.experience;
+      this.certification=data.education;
       this.lang=data.languages;
       this.tech=data.techs;
     });

@@ -1,14 +1,26 @@
 {
 	"nameUser": "Josue Hoenicka",
   "backImage": "../../../assets/others/start.gif",
-  "ocupation": "Full Stack Developer / Polyglot",
+  "ocupation": "JavaScript Developer / DevOps Trainee",
   "description": {
     "nationality": "Venezolano",
     "location": "Santa Fe, Argentina",
     "study": "Software e idiomas",
-    "music": "R&B/Soul, jazz y clásica",
-    "hobbies": "Fútbol y juegos de lógica/estrategia"
+    "music": "R&B/Soul",
+    "age": "31/08/03",
+    "hobbies": "Freestyle football"
   },
+  "experience": [{
+    "title": "Front End Developer",
+    "company": "Codebash",
+    "description": ""
+  },
+  {
+    "title": "Full Stack Web Developer",
+    "company": "Hoenixer",
+    "description": ""
+  }
+  ],
   "education": [{
       "school": "Universidad de Buenos Aires - CUI",
       "title": "Inglés (cursando)"
@@ -35,7 +47,7 @@
     },
     {
       "school": "EEMPI N°3060",
-      "title": "High School Degree"
+      "title": "Bachiller en Ciencias"
     }
   ],
   "languages": [{

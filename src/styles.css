@@ -17,10 +17,12 @@
     --black-on: #03050c;
     --white-on: #dfe8ff;
     --white-off: #4e5985;
-    --green-on: rgb(127, 211, 127);
-    --green-off: rgb(124, 153, 124);
-    --red-on: rgb(223, 32, 32);
-    --red-off: rgb(202, 78, 78);
+    --green_on: rgb(101, 216, 101);
+    --green_off: rgb(184, 190, 184);
+    --red_on: rgb(219, 35, 35);
+    --red_off: rgb(223, 142, 142);
+    --yellow_on: rgb(245, 245, 58);
+    --yellow_off: rgb(208, 209, 162);
 }
 
 * {
@@ -123,7 +125,7 @@ nav {
 }
 
 .btn-navbar-active {
-  background-color: var(--green-off);
+  background-color: var(--green_off);
   padding: 0.5em 1.8em;
 }
 
@@ -133,7 +135,7 @@ nav {
 }
 
 .btn-navbar-active:hover {
-  background-color: var(--green-on);
+  background-color: var(--green_on);
 }
 
 /*****************************************************************/
@@ -200,134 +202,6 @@ nav {
   color: var(--white-on);
 }
 
-/*****************************************************************/
-/*****************************************************************/
-/*************************** about me ****************************/
-/*****************************************************************/
-/*****************************************************************/
-
-#about-me {
-  padding-top: 2em;
-    display: flex;
-    width: 100vw;
-    height: 100vh;
-    justify-content: center;
-    align-items: center;
-    user-select: none;
-}
-
-#bio-container {
-    display: grid;
-    grid-template-columns: repeat(3, 2fr);
-    width: 100vw;
-    padding-top: 1em;
-}
-
-#photo-container {
-    margin-top: 1em;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-figure {
-    padding-top: 2em;
-}
-
-figcaption {
-    background-color: transparent;
-}
-
-.fig-name {
-
-  margin-top: 0.5em;
-    background-color: transparent;
-    font-size: 3em;
-    text-align: center;
-    color: var(--white-off);
-}
-
-.fig-title {
-    margin-top: 0.5em;
-    background-color: transparent;
-    font-size: 1.7em;
-    text-align: center;
-    color: var(--white-off);
-}
-
-.fig-name:hover, .fig-title:hover {
-    color: var(--white-on);
-    transition: 0.3s;
-    letter-spacing: 0.02em;
-}
-
-#description-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: left;
-}
-
-#certification-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: left;
-    margin-top: 2em;
-    height: 70vh;
-    padding-top: 13em;
-    line-height: 2em;
-    overflow-x: hidden;
-    overflow-y: scroll;
-    margin-right: 1.5em;
-}
-
-#photo-item {
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 17em;
-    height: 22em;
-    border-radius: 1em;
-    opacity: 0.5;
-}
-
-#photo-item:hover {
-    box-shadow: #4e598570 5px 5px, #4e598554 10px 10px, #4e598538 15px 15px, #4e59850e 20px 20px;
-    opacity: 1;
-    transition: 0.8s;
-}
-
-.description-items {
-    font-size: 2em;
-    color: var(--white-off);
-    text-align: justify;
-}
-
-.description-items:hover {
-    color: var(--white-on);
-    transition: 0.3s;
-    letter-spacing: 0.02em;
-}
-
-.certification-items {
-    font-size: 2em;
-    color: var(--white-off);
-}
-
-.certification-items:hover {
-    transition: 0.3s;
-    letter-spacing: 0.02em;
-    color: var(--white-on);
-}
-
-#skills {
-    display: grid;
-    grid-template-columns: 6fr 3fr;
-    width: 100vw;
-    height: 100vh;
-    user-select: none;
-}
 
 /*****************************************************************/
 /*****************************************************************/
@@ -564,7 +438,6 @@ figcaption {
 }
 
 .fa {
-    font-size: 3em !important;
     padding: 0.4em;
     text-decoration: none;
     color: var(--white-off);
