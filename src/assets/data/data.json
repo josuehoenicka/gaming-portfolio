@@ -94,12 +94,12 @@
     "level": "no"
   },
   {
-    "img": "../../../assets/tech/nextjs.png",
-    "title": "NextJS",
-    "level": "no"
+    "img": "../../../assets/tech/nodejs.png",
+    "title": "NodeJS",
+    "level": "si"
   },
   {
-    "img": "../../../assets/tech/nodejs.png",
+    "img": "../../../assets/tech/spring_boot.png",
     "title": "NodeJS",
     "level": "si"
   },
