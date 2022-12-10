@@ -104,8 +104,8 @@
     "level": "si"
   },
   {
-    "img": "../../../assets/tech/docker.png",
-    "title": "Docker",
+    "img": "../../../assets/tech/terraform.png",
+    "title": "Terraform",
     "level": "no"
   },
   {
@@ -135,9 +135,9 @@
     "level": "si"
   },
   {
-    "img": "../../../assets/tech/mysql.png",
-    "title": "MySQL",
-    "level": "si"
+    "img": "../../../assets/tech/docker.png",
+    "title": "Docker",
+    "level": "no"
   },
   {
     "img": "../../../assets/tech/html.svg",
