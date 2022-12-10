@@ -75,7 +75,7 @@
   },
   {
     "img": "../../../assets/tech/go.png",
-    "title": "AWS",
+    "title": "Go",
     "level": "no"
   },
   {
@@ -100,7 +100,7 @@
   },
   {
     "img": "../../../assets/tech/spring_boot.png",
-    "title": "NodeJS",
+    "title": "Spring Boot",
     "level": "si"
   },
   {
@@ -120,8 +120,8 @@
     "level": "no"
   },
   {
-    "img": "../../../assets/tech/aws.png",
-    "title": "AWS",
+    "img": "../../../assets/tech/docker.png",
+    "title": "Docker",
     "level": "no"
   },
   {
@@ -135,8 +135,8 @@
     "level": "si"
   },
   {
-    "img": "../../../assets/tech/docker.png",
-    "title": "Docker",
+    "img": "../../../assets/tech/aws.png",
+    "title": "AWS",
     "level": "no"
   },
   {
