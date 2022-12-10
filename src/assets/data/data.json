@@ -74,8 +74,8 @@
     "level": "si"
   },
   {
-    "img": "../../../assets/tech/dart.png",
-    "title": "Dart",
+    "img": "../../../assets/tech/go.png",
+    "title": "AWS",
     "level": "no"
   },
   {
@@ -89,8 +89,8 @@
     "level": "si"
   },
   {
-    "img": "../../../assets/tech/flutter.png",
-    "title": "Flutter",
+    "img": "../../../assets/tech/kubernetes.png",
+    "title": "Kubernetes",
     "level": "no"
   },
   {
@@ -115,8 +115,8 @@
   },
 
   {
-    "img": "../../../assets/tech/firebase.svg",
-    "title": "Firebase",
+    "img": "../../../assets/tech/redux.png",
+    "title": "Redux",
     "level": "no"
   },
   {
@@ -130,9 +130,9 @@
     "level": "no"
   },
   {
-    "img": "../../../assets/tech/postgresql.png",
-    "title": "PostgreSQL",
-    "level": "no"
+    "img": "../../../assets/tech/mysql.png",
+    "title": "MySQL",
+    "level": "si"
   },
   {
     "img": "../../../assets/tech/mysql.png",
