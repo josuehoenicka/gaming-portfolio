@@ -155,28 +155,32 @@
   }
   ],
   "projects": [{
-    "img": "",
-    "title": "",
-    "description": "",
-    "link": ""
+    "title": "Techanges",
+    "description": "Social Media",
+    "techs": "En construcción...",
+    "link-github": "",
+    "link-google": ""
   },
   {
-    "img": "",
-    "title": "",
-    "description": "",
-    "link": ""
+    "title": "Codebash",
+    "description": "Web3 Ecommerce Store",
+    "techs": "Angular + Flask + MongoDB",
+    "link_github": "",
+    "link_google": ""
   },
   {
-    "img": "",
-    "title": "",
-    "description": "",
-    "link": ""
+    "title": "Portfolio 2.0",
+    "description": "CRUD Porfolio (Front End)",
+    "techs": "Angular + Spring Boot + MySQL",
+    "link_github": "",
+    "link_google": ""
   },
   {
-    "img": "",
-    "title": "",
-    "description": "",
-    "link": ""
+    "title": "Joniking",
+    "description": "Video Game Website",
+    "techs": "HTML5 + CSS3 + JavaScript",
+    "link_github": "",
+    "link_google": ""
   }
   ]
 }

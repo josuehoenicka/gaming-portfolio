@@ -12,6 +12,7 @@ export class MainComponent implements OnInit {
   certification:any;
   lang:any;
   tech:any;
+  project:any;
   constructor(private check:PortfolioService) { }
 
   ngOnInit(): void {
@@ -21,6 +22,7 @@ export class MainComponent implements OnInit {
       this.certification=data.education;
       this.lang=data.languages;
       this.tech=data.techs;
+      this.project=data.projects;
     });
   }
 
