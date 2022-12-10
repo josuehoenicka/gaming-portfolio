@@ -7,7 +7,7 @@
                 <a class="fa fa-trash fa-config"></a>
               </div>
               <figure>
-                  <img src="../../../assets/personal/josuehoenicka.png" id="photo-item">
+                  <img src="../../../assets/personal/josuehoenicka.png" class="photo-item">
               </figure>
               <figcaption>
                   <p class="fig-name">{{name.nameUser}}</p>
@@ -41,13 +41,12 @@
           </div>
       </div>
       <div id="lang-container">
-        <div>
-
-          <a class="fa fa-pencil fa-config-skills"></a>
-        </div>
           <div *ngFor="let languages of lang" class="lang-items">
               <img [src]="languages.img" class="flag-items">
               <p class="lvl-items">{{languages.level}}</p>
+          </div>
+          <div>
+            <a class="fa fa-pencil fa-config-skills"><p class="fa-with-text">Editar toda la sección de habilidades</p></a>
           </div>
       </div>
   </section>
