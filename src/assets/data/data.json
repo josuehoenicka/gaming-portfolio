@@ -2,15 +2,7 @@
   "photo": "../../../assets/personal/josuehoenicka.png",
 	"nameUser": "Josue Hoenicka",
   "backImage": "../../../assets/others/start.gif",
-  "ocupation": "JavaScript Developer / DevOps Trainee",
-  "description": {
-    "nationality": "Venezolano",
-    "location": "Santa Fe, Argentina",
-    "study": "Software e idiomas",
-    "music": "R&B/Soul",
-    "age": "31/08/03",
-    "hobbies": "Freestyle football"
-  },
+  "ocupation": "Full Stack Developer / DevOps / Polyglot",
   "experience": [{
     "title": "Front End Developer",
     "company": "Codebash",
