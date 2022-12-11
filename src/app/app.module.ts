@@ -6,6 +6,12 @@ import { HeaderComponent } from './components/header/header.component';
 import { HeroComponent } from './components/hero/hero.component';
 import { MainComponent } from './components/main/main.component';
 import { HttpClientModule } from "@angular/common/http";
+import { ConfigProfileComponent } from './components/config-profile/config-profile.component';
+import { ConfigSkillsComponent } from './components/config-skills/config-skills.component';
+import { ConfigProjectsComponent } from './components/config-projects/config-projects.component';
+import { ConfigSocialComponent } from './components/config-social/config-social.component';
+import { LoginComponent } from './components/login/login.component';
+import { RegisterComponent } from './components/register/register.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +19,13 @@ import { HttpClientModule } from "@angular/common/http";
     HeaderComponent,
     HeroComponent,
     MainComponent,
-    FooterComponent
+    FooterComponent,
+    ConfigProfileComponent,
+    ConfigSkillsComponent,
+    ConfigProjectsComponent,
+    ConfigSocialComponent,
+    LoginComponent,
+    RegisterComponent
   ],
   imports: [
     BrowserModule,
