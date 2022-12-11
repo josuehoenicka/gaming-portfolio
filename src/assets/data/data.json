@@ -110,8 +110,8 @@
     "level": "no"
   },
   {
-    "img": "../../../assets/tech/nestjs.svg",
-    "title": "NestJS",
+    "img": "../../../assets/tech/jest.png",
+    "title": "JestJS",
     "level": "no"
   },
 
@@ -136,9 +136,8 @@
     "level": "si"
   },
   {
-    "img": "../../../assets/tech/aws.png",
-    "title": "AWS",
-    "level": "no"
+    "img": "../../../assets/tech/git.png",
+    "title": "Git"
   },
   {
     "img": "../../../assets/tech/html.svg",
@@ -151,8 +150,8 @@
     "level": "si"
   },
   {
-    "img": "../../../assets/tech/git.png",
-    "title": "Git"
+    "img": "../../../assets/tech/bootstrap.png",
+    "title": "Bootstrap5"
   }
   ],
   "projects": [{
