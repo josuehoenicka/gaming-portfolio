@@ -1,108 +1,10 @@
 /*****************************************************************/
 /*****************************************************************/
-/**************************** header *****************************/
-/*****************************************************************/
-/*****************************************************************/
-
-header {
-  position: fixed;
-  width: 100vw;
-  height: 15vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 1000;
-}
-
-nav {
-  display: flex;
-  width: 100vw;
-  user-select: none;
-}
-
-.logo-nav {
-width: 18em;
-padding: 0 0 0 1.5em;
-}
-
-#logo-container {
-  font-size: 2em;
-  font-weight: bold;
-  display: flex;
-  width: 100vw;
-  justify-content: flex-start;
-  margin: 0 0 0 1em;
-  color: var(--white-on);
-}
-
-#navbar-container {
-  display: flex;
-  width: 100vw;
-  align-items: center;
-  justify-content: flex-end;
-}
-
-#language_container {
-  text-decoration: none;
-  color: var(--white-off);
-  font-size: 1em;
-  padding: 0.1em;
-  border: none;
-  outline: none;
-  border-bottom: 0.1em var(--white-off) solid;
-  cursor: pointer;
-}
-
-#language_container:focus {
-  color: var(--white-on);
-  border-bottom: 0.1em var(--white-on) solid;
-}
-
-.navbar-items {
-  color: var(--white-off)
-}
-
-.navbar-items {
-  font-size: 1.8em;
-  margin: 0 1em;
-}
-
-
-.navbar-items:hover {
-  color: var(--white-on);
-  transition: 0.3s;
-}
-
-.btn-navbar {
-  font-size: 1.9em;
-  color: var(--white-on);
-  padding: 0.5em 1.5em;
-  border-radius: 1em;
-  background-color: var(--white-off);
-  color: var(--black-on);
-  margin: 0 0.5em;
-}
-
-.btn-navbar-active {
-background-color: var(--green_off);
-padding: 0.5em 1.8em;
-}
-
-.btn-navbar:hover {
-  transition: 0.3s;
-  background-color: var(--white-on);
-}
-
-.btn-navbar-active:hover {
-background-color: var(--green_on);
-}
-
-/*****************************************************************/
-/*****************************************************************/
 /***************************** hero ******************************/
 /*****************************************************************/
 /*****************************************************************/
 
+/*
 .hero-container {
   display: flex;
   flex-direction: column;
@@ -127,15 +29,18 @@ background-color: var(--green_on);
   background-repeat: no-repeat;
   background-size: cover;
 }
+*/
 
 .title-container {
 background-color: transparent;
 color: var(--white-off);
 font-size: 4em;
-padding-top: 4em;
+padding-top: 3em;
 width: 100vw;
 display: flex;
+align-items: center;
 justify-content: center;
+flex-direction: column;
 }
 
 .start-container {
