@@ -6,40 +6,6 @@
 
 /*************************************************** general ****************************************************/
 
-#about-me {
-  padding-top: 2em;
-    display: flex;
-    width: 100vw;
-    height: 100vh;
-    justify-content: center;
-    align-items: center;
-    user-select: none;
-}
-
-#bio-container {
-    display: grid;
-    grid-template-columns: 2fr 3fr 3fr;
-    width: 100vw;
-    padding-top: 1em;
-}
-
-#photo-container {
-    margin-top: 1em;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-#skills {
-  display: grid;
-  grid-template-columns: 6fr 3fr;
-  width: 100vw;
-  height: 100vh;
-  user-select: none;
-  padding-top: 1em;
-}
-
 .scroll-container {
   display: flex;
   flex-direction: column;
@@ -63,6 +29,16 @@
 .scroll-container::-webkit-scrollbar-thumb {
   background-color: var(--white-on);
   border-radius: 1em;
+}
+
+.fa {
+  padding: 0.4em;
+  text-decoration: none;
+  color: var(--white-off);
+}
+
+.fa-social {
+font-size: 3em !important;
 }
 
 .fa-pencil {
@@ -125,7 +101,46 @@
   padding: 1em 0.5em;
 }
 
+.fa-chrome {
+  font-size: 2.7em;
+}
+
 /************************************************** description **************************************************/
+
+
+#about-me {
+  padding-top: 2em;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+}
+
+#bio-container {
+    display: grid;
+    grid-template-columns: 2fr 3fr 3fr;
+    width: 100vw;
+    padding-top: 1em;
+}
+
+#photo-container {
+    margin-top: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#skills {
+  display: grid;
+  grid-template-columns: 6fr 3fr;
+  width: 100vw;
+  height: 100vh;
+  user-select: none;
+  padding-top: 1em;
+}
 
 figcaption {
     background-color: transparent;
@@ -420,4 +435,77 @@ figcaption {
 .slider-icons {
     font-size: 2em;
     cursor: pointer;
+}
+
+/******************************************************************************************************************/
+/******************************************************************************************************************/
+/************************************************* social media ***************************************************/
+/******************************************************************************************************************/
+/******************************************************************************************************************/
+
+#contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  user-select: none;
+}
+
+#social-container {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 4.5em;
+}
+
+#form-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.social-title {
+  color: var(--white-off);
+}
+
+.social-title:hover {
+  color: var(--white-on);
+  transition: 0.5s;
+}
+
+.social-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-items > a {
+  padding-left: 0.3em;
+}
+
+.social-items:hover > a {
+  color: var(--white-on);
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.social-items:hover > .fa {
+  color: var(--white-on);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.social-title {
+  font-size: 3em;
+}
+
+.fa-config-social {
+  display: flex;
+  font-size: 2em;
+  padding-top: 1em;
 }
