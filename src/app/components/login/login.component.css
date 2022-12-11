@@ -1,0 +1,104 @@
+/******************************************************************************************************************/
+/******************************************************************************************************************/
+/****************************************************** login *****************************************************/
+/******************************************************************************************************************/
+/******************************************************************************************************************/
+
+.login-container {
+    width: 100vw;
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.form-with-news-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form input {
+    color: var(--white-on);
+    width: 45vw;
+    height: 10vh;
+    font-size: 2.5em;
+    padding-left: 0.1em;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 0.01em var(--white-off) solid;
+}
+
+form input:focus {
+    border-bottom: 0.01em var(--white-on) solid;
+    transition: 0.3s;
+}
+
+.input-login {
+    margin: 0.3em 0;
+}
+
+#btn-login-container_fromLogin {
+    display: flex;
+    justify-content: center;
+    width: 45vw;
+    padding-top: 2.5em;
+}
+
+#btn-login_fromLogin {
+    font-size: 2.5em;
+    background-color: transparent;
+    text-decoration: none;
+    color: var(--black-on);
+    background-color: var(--white-off);
+    border-radius: 1em;
+    border: 0.1em var(--white-off) solid;
+    font-weight: bold;
+    width: 40vw;
+}
+
+#btn-login_fromLogin:hover {
+    color: var(--black-on);
+    background-color: var(--white-on);
+    border: 0.1em var(--white-on) solid;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#btn-register_fromLogin {
+    font-size: 2.5em;
+    background-color: transparent;
+    text-decoration: none;
+    color: var(--black-on);
+    background-color: var(--green_off);
+    border-radius: 1em;
+    border: 0.1em var(--green_off) solid;
+    font-weight: bold;
+    width: 40vw;
+    text-align: center;
+}
+
+#btn-register_fromLogin:hover {
+    color: var(--black-on);
+    background-color: var(--green_on);
+    border: 0.1em var(--green_on) solid;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.news-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#news {
+    width: 30em;
+}

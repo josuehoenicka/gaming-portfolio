@@ -1,1 +1,18 @@
-<p style="color: red;">login works!</p>
+<div class="login-container">
+    <div class="form-with-news-container">
+        <form>
+            <input type="text" name="email_login" placeholder="Email address" id="email_login" required autocomplete="off" class="input-login">
+            <input type="password" name="password_login" placeholder="Password" id="password_login" required class="input-login">
+            <div id="btn-login-container_fromLogin">
+                <input type="submit" value="Login" id="btn-login_fromLogin">
+            </div>
+            <div id="btn-login-container_fromLogin">
+                <a routerLink="/register" id="btn-register_fromLogin">Register</a>
+            </div>
+        </form>
+        <div class="news-container">
+            <img src="../../../assets/others/argprog.png" alt="" id="news">
+        </div>
+    </div>
+</div>
+<app-footer></app-footer>
