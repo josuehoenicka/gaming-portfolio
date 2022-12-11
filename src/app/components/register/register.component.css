@@ -1,0 +1,84 @@
+/******************************************************************************************************************/
+/******************************************************************************************************************/
+/****************************************************** login *****************************************************/
+/******************************************************************************************************************/
+/******************************************************************************************************************/
+
+section {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 80vh;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input {
+    width: 50vw;
+    height: 2em;
+    font-size: 2em;
+}
+
+.input_register {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    padding: 0.2em 0.5em;
+    color: var(--white-on);
+}
+
+.input_register:focus {
+    border-left: 0.2em solid var(--white-off);
+    transition: 0.1s;
+}
+
+button {
+    margin-top: 1em;
+    background-color: var(--white-off);
+    width: 25vw;
+    font-size: 2.5em;
+    border-radius: 1em;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: var(--white-on);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+#others-container_register {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 1em;
+}
+
+#others-title_register {
+    font-size: 1.3em;
+    color: var(--white-off);
+}
+
+#social-container_register {
+    padding-top: 1em;
+}
+
+.fa {
+    font-size: 2.5em;
+    text-decoration: none;
+    color: var(--white-off);
+    padding: 0 1em;
+}
+
+.fa:hover {
+    font-size: 2.6em;
+    text-decoration: none;
+    color: var(--white-on);
+    transition: 0.1s;
+}
