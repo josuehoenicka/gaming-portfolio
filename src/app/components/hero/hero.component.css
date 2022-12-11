@@ -61,8 +61,13 @@ flex-direction: column;
 
 .btn-start-img {
 width: 14.5em;
-opacity: 0.5;
+opacity: 0.3;
 }
+
+.btn-start-img:hover {
+  transition: 0.5s;
+  opacity: 1;
+  }
 
 .a-space {
 background-color: transparent;
@@ -72,7 +77,5 @@ color: var(--white-off);
 
 .a-space:hover {
   color: var(--white-on);
-  letter-spacing: 0.03em;
-  cursor: pointer;
   transition: 0.3s;
 }
