@@ -1,1 +1,16 @@
-<p>projects-user works!</p>
+<section id="projects">
+    <div class="slideshow-container">
+        <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
+        <div>
+          <div class="mySlides2" *ngFor="let proj of project">
+            <h4 class="slider-title">{{proj.title}}</h4>
+            <p class="slider-description">{{proj.description}}</p>
+            <p class="slider-techs">{{proj.techs}}</p>
+            <a href="" target="_blank" class="fa fa-chrome fa-on-projects">{{proj.link_google}}</a>
+            <a href="" target="_blank" class="fa fa-github fa-on-projects">{{proj.link_github}}</a>
+          </div>
+          <a class="fa fa-pencil fa-config-projects" routerLink="/configure/projects"><p class="fa-with-text">Editar proyectos</p></a>
+        </div>
+        <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
+    </div>
+</section>
