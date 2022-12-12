@@ -69,9 +69,9 @@
     "level": "si"
   },
   {
-    "img": "../../../assets/tech/java.png",
-    "title": "Java",
-    "level": "si"
+    "img": "../../../assets/tech/dart.png",
+    "title": "Dart",
+    "level": "no"
   },
   {
     "img": "../../../assets/tech/reactjs.png",
@@ -84,9 +84,9 @@
     "level": "si"
   },
   {
-    "img": "../../../assets/tech/spring_boot.png",
-    "title": "Spring Boot",
-    "level": "si"
+    "img": "../../../assets/tech/flutter.png",
+    "title": "Flutter",
+    "level": "no"
   },
   {
     "img": "../../../assets/tech/nodejs.png",
@@ -99,9 +99,9 @@
     "level": "no"
   },
   {
-    "img": "../../../assets/tech/jest.png",
-    "title": "JestJS",
-    "level": "no"
+    "img": "../../../assets/tech/spring_boot.png",
+    "title": "Spring Boot",
+    "level": "si"
   },
   {
     "img": "../../../assets/tech/redux.png",
@@ -114,8 +114,8 @@
     "level": "no"
   },
   {
-    "img": "../../../assets/tech/webpack.png",
-    "title": "Webpack",
+    "img": "../../../assets/tech/aws.png",
+    "title": "AWS",
     "level": "no"
   },
   {
@@ -144,8 +144,9 @@
     "level": "si"
   },
   {
-    "img": "../../../assets/tech/bootstrap.png",
-    "title": "Bootstrap5"
+    "img": "../../../assets/tech/git.png",
+    "title": "Git",
+    "level": "si"
   }
   ],
   "projects": [{
