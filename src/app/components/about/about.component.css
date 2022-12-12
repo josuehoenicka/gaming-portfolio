@@ -1,0 +1,244 @@
+/*************************************************** general ****************************************************/
+
+.scroll-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: left;
+    margin-top: 2em;
+    height: 70vh;
+    margin-top: 3em;
+    padding-top: 1em;
+    line-height: 2em;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    margin-right: 1.5em;
+  }
+
+  .scroll-container::-webkit-scrollbar {
+    background-color: var(--white-off);
+    border-radius: 1em;
+  }
+
+  .scroll-container::-webkit-scrollbar-thumb {
+    background-color: var(--white-on);
+    border-radius: 1em;
+  }
+
+  .fa {
+    padding: 0.4em;
+    text-decoration: none;
+    color: var(--white-off);
+  }
+
+  .fa-social {
+  font-size: 3em !important;
+  }
+
+  .fa-pencil {
+    color: var(--blue_off);
+  }
+
+  .fa-pencil:hover {
+    color: var(--blue_on);
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+  .fa-trash {
+    font-size: 2em;
+    color: var(--red_off);
+  }
+
+  .fa-trash:hover {
+    color: var(--red_on);
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+  .fa-plus {
+    display: flex;
+    justify-content: center;
+    font-size: 2em;
+    padding-top: 1em;
+    color: var(--green_off);
+  }
+
+  .fa-plus:hover {
+    color: var(--green_on);
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+  .fa-config {
+    font-size: 2em;
+  }
+
+  .fa-config-skills {
+    display: flex;
+    font-size: 2em;
+    padding-top: 2em;
+  }
+
+  .fa-config-projects {
+    display: flex;
+    font-size: 2em;
+  }
+
+  .fa-with-text {
+    padding: 0 1em;
+    font-family: 'Alumni Sans Pinstripe';
+  }
+
+  .fa-on-projects {
+    font-size: 3em;
+    padding: 1em 0.5em;
+  }
+
+  .fa-chrome {
+    font-size: 2.7em;
+  }
+
+  /************************************************** description **************************************************/
+
+
+  #about-me {
+    padding-top: 2em;
+      display: flex;
+      width: 100vw;
+      height: 100vh;
+      justify-content: center;
+      align-items: center;
+      user-select: none;
+  }
+
+  #bio-container {
+      display: grid;
+      grid-template-columns: 2fr 3fr 3fr;
+      width: 100vw;
+      padding-top: 1em;
+  }
+
+  #photo-container {
+      margin-top: 1em;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+  }
+
+  #skills {
+    display: grid;
+    grid-template-columns: 6fr 3fr;
+    width: 100vw;
+    height: 100vh;
+    user-select: none;
+    padding-top: 1em;
+  }
+
+  figcaption {
+      background-color: transparent;
+  }
+
+  .fig-name {
+    padding: 0.05em 0;
+    background-color: transparent;
+    font-size: 3em;
+    text-align: center;
+    color: var(--white-off);
+  }
+
+  .fig-title {
+      padding: 0.05em 0;
+      background-color: transparent;
+      font-size: 1.7em;
+      text-align: center;
+      color: var(--white-off);
+  }
+
+  .fig-name:hover, .fig-title:hover {
+      color: var(--white-on);
+      transition: 0.3s;
+  }
+
+  .edit-description-container {
+    padding: 0.5em;
+  }
+
+  .photo-item {
+      background-repeat: no-repeat;
+      background-size: cover;
+      object-fit: cover;
+      object-position: center;
+      width: 18em;
+      height: 18em;
+      border-radius: 100%;
+      opacity: 0.5;
+      padding: 0.5em 0;
+  }
+
+  .photo-item:hover {
+      opacity: 1;
+      transition: 0.8s;
+  }
+
+  .description-items {
+      font-size: 2em;
+      color: var(--white-off);
+      text-align: justify;
+  }
+
+  .description-items:hover {
+      color: var(--white-on);
+      transition: 0.3s;
+  }
+
+
+
+
+
+
+  /************************************************** description ***************************************************/
+
+  #description-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+  }
+
+  .description-config-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  .description-items {
+    padding-left: 0.5em;
+  }
+
+  /**************************************************** experience ****************************************************/
+
+  .experience-items {
+    padding: 1em 0.25em;
+    font-size: 2em;
+    color: var(--white-off);
+  }
+
+  .experience-items:hover {
+    transition: 0.3s;
+    color: var(--white-on);
+  }
+
+  /************************************************** certification ***************************************************/
+
+  .certification-items {
+    padding: 1em 0.25em;
+    font-size: 2em;
+    color: var(--white-off);
+  }
+
+  .certification-items:hover {
+    transition: 0.3s;
+    color: var(--white-on);
+  }

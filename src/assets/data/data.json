@@ -67,13 +67,13 @@
     "level": "si"
   },
   {
-    "img": "../../../assets/tech/go.png",
+    "img": "../../../assets/tech/java.png",
     "title": "Go",
-    "level": "no"
+    "level": "si"
   },
   {
     "img": "../../../assets/tech/reactjs.png",
-    "title": "ReactJS",
+    "title": "React",
     "level": "no"
   },
   {
@@ -82,8 +82,13 @@
     "level": "si"
   },
   {
-    "img": "../../../assets/tech/kubernetes.png",
-    "title": "Kubernetes",
+    "img": "../../../assets/tech/spring_boot.png",
+    "title": "Spring Boot",
+    "level": "si"
+  },
+  {
+    "img": "../../../assets/tech/nextjs.png",
+    "title": "NextJS",
     "level": "no"
   },
   {
@@ -92,29 +97,24 @@
     "level": "si"
   },
   {
-    "img": "../../../assets/tech/spring_boot.png",
-    "title": "Spring Boot",
-    "level": "si"
-  },
-  {
-    "img": "../../../assets/tech/terraform.png",
-    "title": "Terraform",
+    "img": "../../../assets/tech/express.png",
+    "title": "ExpressJS",
     "level": "no"
   },
-  {
-    "img": "../../../assets/tech/jest.png",
-    "title": "JestJS",
-    "level": "no"
-  },
-
   {
     "img": "../../../assets/tech/redux.png",
     "title": "Redux",
     "level": "no"
   },
   {
-    "img": "../../../assets/tech/docker.png",
-    "title": "Docker",
+    "img": "../../../assets/tech/graphql.png",
+    "title": "Graphql",
+    "level": "no"
+  },
+
+  {
+    "img": "../../../assets/tech/jest.png",
+    "title": "JestJS",
     "level": "no"
   },
   {
@@ -123,13 +123,14 @@
     "level": "no"
   },
   {
+    "img": "../../../assets/tech/postgresql.png",
+    "title": "PostgreSQL",
+    "level": "no"
+  },
+  {
     "img": "../../../assets/tech/mysql.png",
     "title": "MySQL",
     "level": "si"
-  },
-  {
-    "img": "../../../assets/tech/git.png",
-    "title": "Git"
   },
   {
     "img": "../../../assets/tech/html.svg",
