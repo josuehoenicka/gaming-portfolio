@@ -85,7 +85,7 @@ header {
   }
 
   .btn-navbar-active {
-  background-color: var(--green_off);
+  background-color: var(--red_off);
   padding: 0.5em 1.8em;
   }
 
@@ -95,5 +95,5 @@ header {
   }
 
   .btn-navbar-active:hover {
-  background-color: var(--green_on);
+  background-color: var(--red_on);
   }
