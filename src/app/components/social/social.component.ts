@@ -15,7 +15,7 @@ export class SocialComponent implements OnInit {
   ngOnInit(): void {
     this.check.test().subscribe(data => {
       this.name=data;
-      this.social=data.projects;
+      this.social=data.social;
     });
   }
 
