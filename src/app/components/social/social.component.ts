@@ -9,13 +9,11 @@ import { PortfolioService } from 'src/app/services/portfolio.service';
 
 export class SocialComponent implements OnInit {
   name:any;
-  social:any;
   constructor(private check:PortfolioService) { }
 
   ngOnInit(): void {
     this.check.test().subscribe(data => {
       this.name=data;
-      this.social=data.social;
     });
   }
 

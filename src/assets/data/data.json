@@ -3,6 +3,9 @@
 	"nameUser": "Josue Hoenicka",
   "backImage": "../../../assets/others/start.gif",
   "ocupation": "Full Stack JavaScript Developer",
+  "github": "https://github.com/josuehoenicka",
+  "linkedin": "https://www.linkedin.com/in/josuehoenicka/",
+  "instagram": "https://www.instagram.com/josuehoenicka/",
   "experience": [{
     "title": "Front End Developer",
     "company": "Codebash",
@@ -174,17 +177,6 @@
     "techs": "HTML5 + CSS3 + JavaScript",
     "link_github": "",
     "link_google": ""
-  }
-  ],
-  "social": [
-  {
-    "title": "Techanges"
-  },
-  {
-    "title": "Techanges"
-  },
-  {
-    "title": "Techanges"
   }
   ]
 }
