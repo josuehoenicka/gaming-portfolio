@@ -19,6 +19,12 @@ import { AboutComponent } from './components/about/about.component';
 import { SkillsComponent } from './components/skills/skills.component';
 import { ProjectsComponent } from './components/projects/projects.component';
 import { SocialComponent } from './components/social/social.component';
+import { HomeUserComponent } from './components/home-user/home-user.component';
+import { HeaderUserComponent } from './components/header-user/header-user.component';
+import { AboutUserComponent } from './components/about-user/about-user.component';
+import { SkillsUserComponent } from './components/skills-user/skills-user.component';
+import { ProjectsUserComponent } from './components/projects-user/projects-user.component';
+import { SocialUserComponent } from './components/social-user/social-user.component';
 
 @NgModule({
   declarations: [
@@ -37,7 +43,13 @@ import { SocialComponent } from './components/social/social.component';
     AboutComponent,
     SkillsComponent,
     ProjectsComponent,
-    SocialComponent
+    SocialComponent,
+    HomeUserComponent,
+    HeaderUserComponent,
+    AboutUserComponent,
+    SkillsUserComponent,
+    ProjectsUserComponent,
+    SocialUserComponent
   ],
   imports: [
     BrowserModule,
