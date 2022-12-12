@@ -25,6 +25,7 @@ import { AboutUserComponent } from './components/about-user/about-user.component
 import { SkillsUserComponent } from './components/skills-user/skills-user.component';
 import { ProjectsUserComponent } from './components/projects-user/projects-user.component';
 import { SocialUserComponent } from './components/social-user/social-user.component';
+import { MainUserComponent } from './components/main-user/main-user.component';
 
 @NgModule({
   declarations: [
@@ -49,7 +50,8 @@ import { SocialUserComponent } from './components/social-user/social-user.compon
     AboutUserComponent,
     SkillsUserComponent,
     ProjectsUserComponent,
-    SocialUserComponent
+    SocialUserComponent,
+    MainUserComponent
   ],
   imports: [
     BrowserModule,

@@ -1,7 +1,6 @@
 {
   "photo": "../../../assets/personal/josuehoenicka.png",
 	"nameUser": "Josue Hoenicka",
-  "backImage": "../../../assets/others/start.gif",
   "ocupation": "Full Stack JavaScript Developer",
   "github": "https://github.com/josuehoenicka",
   "linkedin": "https://www.linkedin.com/in/josuehoenicka/",
@@ -71,7 +70,7 @@
   },
   {
     "img": "../../../assets/tech/java.png",
-    "title": "Go",
+    "title": "Java",
     "level": "si"
   },
   {
@@ -90,18 +89,18 @@
     "level": "si"
   },
   {
-    "img": "../../../assets/tech/nextjs.png",
-    "title": "NextJS",
-    "level": "no"
-  },
-  {
     "img": "../../../assets/tech/nodejs.png",
     "title": "NodeJS",
     "level": "si"
   },
   {
-    "img": "../../../assets/tech/express.png",
-    "title": "ExpressJS",
+    "img": "../../../assets/tech/nestjs.svg",
+    "title": "NestJS",
+    "level": "no"
+  },
+  {
+    "img": "../../../assets/tech/jest.png",
+    "title": "JestJS",
     "level": "no"
   },
   {
@@ -114,10 +113,9 @@
     "title": "Graphql",
     "level": "no"
   },
-
   {
-    "img": "../../../assets/tech/jest.png",
-    "title": "JestJS",
+    "img": "../../../assets/tech/webpack.png",
+    "title": "Webpack",
     "level": "no"
   },
   {
