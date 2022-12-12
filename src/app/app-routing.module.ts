@@ -41,7 +41,11 @@ const routes: Routes = [
   {
     path: 'configure/social',
     component: ConfigSocialComponent
-  }
+  },
+  {
+    path: '**',
+    component: LoginComponent
+  },
 ];
 
 @NgModule({
