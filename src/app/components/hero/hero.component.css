@@ -41,6 +41,7 @@ color: var(--white-off);
 font-size: 4em;
 padding-top: 3em;
 width: 100vw;
+height: 50vh;
 display: flex;
 align-items: center;
 justify-content: center;
