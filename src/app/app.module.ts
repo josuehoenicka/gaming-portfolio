@@ -15,6 +15,10 @@ import { LoginComponent } from './components/login/login.component';
 import { RegisterComponent } from './components/register/register.component';
 import { AppRoutingModule } from './app-routing.module';
 import { HomeComponent } from './components/home/home.component';
+import { AboutComponent } from './components/about/about.component';
+import { SkillsComponent } from './components/skills/skills.component';
+import { ProjectsComponent } from './components/projects/projects.component';
+import { SocialComponent } from './components/social/social.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +33,11 @@ import { HomeComponent } from './components/home/home.component';
     ConfigSocialComponent,
     LoginComponent,
     RegisterComponent,
-    HomeComponent
+    HomeComponent,
+    AboutComponent,
+    SkillsComponent,
+    ProjectsComponent,
+    SocialComponent
   ],
   imports: [
     BrowserModule,
