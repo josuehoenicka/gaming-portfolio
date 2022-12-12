@@ -3,8 +3,8 @@
       <div id="bio-container">
           <div id="photo-container">
               <div class="edit-description-container">
-                <a class="fa fa-pencil fa-config"></a>
-                <a class="fa fa-trash fa-config"></a>
+                <a class="fa fa-pencil fa-config" routerLink="/login"></a>
+                <a class="fa fa-trash fa-config" routerLink="/login"></a>
               </div>
               <figure>
                 <img [src]="name.photo" class="photo-item">
@@ -16,19 +16,19 @@
           </div>
           <div class="scroll-container">
             <div *ngFor="let experience of experience" class="description-config-container certification-config">
-              <a class="fa fa-pencil fa-config"></a>
-              <a class="fa fa-trash fa-config"></a>
+              <a class="fa fa-pencil fa-config" routerLink="/login"></a>
+              <a class="fa fa-trash fa-config" routerLink="/login"></a>
               <p class="experience-items">{{experience.title}} en {{experience.company}}</p>
             </div>
             <a class="fa fa-plus fa-config"></a>
           </div>
           <div class="scroll-container">
             <div *ngFor="let education of certification" class="description-config-container certification-config">
-                <a class="fa fa-pencil fa-config"></a>
-                <a class="fa fa-trash fa-config"></a>
+                <a class="fa fa-pencil fa-config" routerLink="/login"></a>
+                <a class="fa fa-trash fa-config" routerLink="/login"></a>
                 <p class="certification-items">{{education.school}}<br> ↪ {{education.title}}</p>
             </div>
-            <a class="fa fa-plus fa-config"></a>
+            <a class="fa fa-plus fa-config" routerLink="/login"></a>
           </div>
       </div>
   </section>
@@ -46,7 +46,7 @@
               <p class="lvl-items">{{languages.level}}</p>
           </div>
           <div>
-            <a class="fa fa-pencil fa-config-skills"><p class="fa-with-text">Editar habilidades</p></a>
+            <a class="fa fa-pencil fa-config-skills" routerLink="/login"><p class="fa-with-text">Editar habilidades</p></a>
           </div>
       </div>
   </section>
@@ -61,7 +61,7 @@
               <a href="" target="_blank" class="fa fa-chrome fa-on-projects">{{proj.link_google}}</a>
               <a href="" target="_blank" class="fa fa-github fa-on-projects">{{proj.link_github}}</a>
             </div>
-            <a class="fa fa-pencil fa-config-projects"><p class="fa-with-text">Editar proyectos</p></a>
+            <a class="fa fa-pencil fa-config-projects" routerLink="/login"><p class="fa-with-text">Editar proyectos</p></a>
           </div>
           <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
       </div>
@@ -84,7 +84,7 @@
             <a href="https://www.instagram.com/josuehoenicka/" target="_blank" class="fa fa-social fa-instagram"></a>
             <a href="https://www.instagram.com/josuehoenicka/" target="_blank" class="social-title">INSTAGRAM</a>
         </div>
-        <a class="fa fa-pencil fa-config-social"><p class="fa-with-text">Editar redes sociales</p></a>
+        <a class="fa fa-pencil fa-config-social" routerLink="/login"><p class="fa-with-text">Editar redes sociales</p></a>
       </div>
   </section>
 </main>
