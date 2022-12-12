@@ -1,4 +1,4 @@
-/*************************************************** general ****************************************************/
+/**************************************************** scroll ******************************************************/
 
 .scroll-container {
   display: flex;
@@ -23,80 +23,6 @@
 .scroll-container::-webkit-scrollbar-thumb {
   background-color: var(--white-on);
   border-radius: 1em;
-}
-
-.fa {
-  padding: 0.4em;
-  text-decoration: none;
-  color: var(--white-off);
-}
-
-.fa-social {
-font-size: 3em !important;
-}
-
-.fa-pencil {
-  color: var(--blue_off);
-}
-
-.fa-pencil:hover {
-  color: var(--blue_on);
-  cursor: pointer;
-  transition: 0.3s;
-}
-
-.fa-trash {
-  font-size: 2em;
-  color: var(--red_off);
-}
-
-.fa-trash:hover {
-  color: var(--red_on);
-  cursor: pointer;
-  transition: 0.3s;
-}
-
-.fa-plus {
-  display: flex;
-  justify-content: center;
-  font-size: 2em;
-  padding-top: 1em;
-  color: var(--green_off);
-}
-
-.fa-plus:hover {
-  color: var(--green_on);
-  cursor: pointer;
-  transition: 0.3s;
-}
-
-.fa-config {
-  font-size: 2em;
-}
-
-.fa-config-skills {
-  display: flex;
-  font-size: 2em;
-  padding-top: 2em;
-}
-
-.fa-config-projects {
-  display: flex;
-  font-size: 2em;
-}
-
-.fa-with-text {
-  padding: 0 1em;
-  font-family: 'Alumni Sans Pinstripe';
-}
-
-.fa-on-projects {
-  font-size: 3em;
-  padding: 1em 0.5em;
-}
-
-.fa-chrome {
-  font-size: 2.7em;
 }
 
 /************************************************** description **************************************************/
@@ -125,15 +51,6 @@ font-size: 3em !important;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-}
-
-#skills {
-  display: grid;
-  grid-template-columns: 6fr 3fr;
-  width: 100vw;
-  height: 100vh;
-  user-select: none;
-  padding-top: 1em;
 }
 
 figcaption {
