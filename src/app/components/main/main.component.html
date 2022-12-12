@@ -1,23 +1,6 @@
 <main>
   <app-about></app-about>
-  <section id="skills">
-      <div id="tech-container">
-          <div id="tech-grid-container" >
-            <div *ngFor="let tech of tech">
-              <img [src]="tech.img" class="tech-items {{tech.level}}" title="{{tech.title}}">
-            </div>
-          </div>
-      </div>
-      <div id="lang-container">
-          <div *ngFor="let languages of lang" class="lang-items">
-              <img [src]="languages.img" class="flag-items">
-              <p class="lvl-items">{{languages.level}}</p>
-          </div>
-          <div>
-            <a class="fa fa-pencil fa-config-skills" routerLink="/login"><p class="fa-with-text">Editar habilidades</p></a>
-          </div>
-      </div>
-  </section>
+  <app-skills></app-skills>
   <section id="projects">
       <div class="slideshow-container">
           <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
