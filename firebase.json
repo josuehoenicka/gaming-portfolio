@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "./docs",
+    "public": "./dist/josuehoenicka-portfolio2",
     "ignore": [
       "firebase.json",
       "**/.*",
