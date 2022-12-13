@@ -8,33 +8,6 @@
   user-select: none;
 }
 
-/*
-.hero-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-end;
-  width: 100vw;
-  height: 100vh;
-  user-select: none;
-  background: linear-gradient(
-      to bottom,
-      var(--black-on),
-      var(--black-on),
-      rgba(3, 5, 12, 0.93),
-      rgba(3, 5, 12, 0.9),
-      rgba(3, 5, 12, 0.9),
-      rgba(3, 5, 12, 0.9),
-      rgba(3, 5, 12, 0.93),
-      var(--black-on),
-      var(--black-on)
-  ), url(./assets/others/p-wallpaper.jpg);
-  background-position: bottom;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-*/
-
 .title-container {
 background-color: transparent;
 color: var(--white-off);
