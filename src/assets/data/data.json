@@ -52,15 +52,15 @@
   ],
   "languages": [{
     "img": "../../../assets/lang/es.svg",
-    "level": "C2 / AVANZADO"
+    "level": "C2 - AVANZADO/NATIVO"
   },
   {
     "img": "../../../assets/lang/br.svg",
-    "level": "C1 / AVANZADO"
+    "level": "C1 - AVANZADO"
   },
   {
     "img": "../../../assets/lang/um.svg",
-    "level": "B1 / INTERMEDIO"
+    "level": "B1 - INTERMEDIO"
   }
   ],
   "techs": [{
