@@ -7,15 +7,18 @@
   "instagram": "https://www.instagram.com/josuehoenicka/",
   "experience": [{
     "title": "Front End Developer",
-    "company": "Codebash"
+    "company": "Codebash",
+    "description": "Junto con las tecnologías HTML5, CSS3, JavaScript, Flask y MongoDB trabajo con mi equipo en el desarrollo de una plataforma ecommerce, actualmente trabajo en el lado del cliente y estoy desarrollando la migración del proyecto para la incorporación de Angular"
   },
   {
-    "title": "Freelance Web Developer",
-    "company": "Hoenixer"
+    "title": "Web Developer",
+    "company": "C.D.S",
+    "description": "Utilizando las tecnologías HTML5, BootStrap5 y JavaScript desarrolle un sitio de web cristiano para una iglesia en San Lorenzo, Argentina. Cumpliendo con sus expectativas y aumentando su audiencia por vías redes sociales"
   },
   {
     "title": "Full Stack JavaScript Developer",
-    "company": "-"
+    "company": "-",
+    "description": "Más de 1 año de experiencia desarrollando sitios webs / plataformas / aplicaciones con JavaScript y otras tecnologías"
   }
   ],
   "education": [{
