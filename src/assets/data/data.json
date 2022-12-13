@@ -151,33 +151,55 @@
     "level": "si"
   }
   ],
-  "projects": [{
-    "title": "Techanges",
-    "description": "Social Media",
-    "techs": "En construcción...",
-    "link-github": "",
-    "link-google": ""
-  },
-  {
-    "title": "Codebash",
-    "description": "Web3 Ecommerce Store",
-    "techs": "Angular + Flask + MongoDB",
-    "link_github": "",
-    "link_google": ""
-  },
-  {
-    "title": "Portfolio 2.0",
-    "description": "CRUD Portfolio",
-    "techs": "Angular + Spring Boot + MySQL",
-    "link_github": "",
-    "link_google": ""
-  },
-  {
-    "title": "Joniking",
-    "description": "Video Game Website",
-    "techs": "HTML5 + CSS3 + JavaScript",
-    "link_github": "",
-    "link_google": ""
-  }
+  "projects": [
+    {
+      "title": "Portfolio 2.0",
+      "description": "CRUD Portfolio",
+      "techs": "Angular / Spring Boot / MySQL",
+      "link_github": "",
+      "link_google": ""
+    },
+    {
+      "title": "Codebash",
+      "description": "Ecommerce Plataform",
+      "techs": "Angular / Flask / MongoDB",
+      "link_github": "",
+      "link_google": ""
+    },
+    {
+      "title": "ToDoApp",
+      "description": "CRUD Application",
+      "techs": "Angular / Spring Boot / PostgreSQL",
+      "link_github": "",
+      "link_google": ""
+    },
+    {
+      "title": "Pokedex",
+      "description": "API Website",
+      "techs": "HTML / CSS / ReactJS",
+      "link_github": "",
+      "link_google": ""
+    },
+    {
+      "title": "Joniking",
+      "description": "Video Game Website",
+      "techs": "HTML5 / CSS3 / JavaScript",
+      "link_github": "",
+      "link_google": ""
+    },
+    {
+      "title": "ProofOfWork",
+      "description": "Blockchain Simulator",
+      "techs": "JavaScript",
+      "link_github": "",
+      "link_google": ""
+    },
+    {
+      "title": "C.D.S",
+      "description": "Christian Website",
+      "techs": "BootStrap5 / JavaScript",
+      "link_github": "",
+      "link_google": ""
+    }
   ]
 }
