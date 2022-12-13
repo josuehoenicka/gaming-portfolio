@@ -74,13 +74,13 @@
     "level": "si"
   },
   {
-    "img": "../../../assets/tech/aws.png",
-    "title": "AWS",
+    "img": "../../../assets/tech/react.png",
+    "title": "React Native",
     "level": "no"
   },
   {
     "img": "../../../assets/tech/reactjs.png",
-    "title": "React",
+    "title": "ReactJS",
     "level": "no"
   },
   {
@@ -89,8 +89,8 @@
     "level": "si"
   },
   {
-    "img": "../../../assets/tech/react.png",
-    "title": "React Native",
+    "img": "../../../assets/tech/nextjs.png",
+    "title": "NextJS",
     "level": "no"
   },
   {
@@ -104,8 +104,8 @@
     "level": "no"
   },
   {
-    "img": "../../../assets/tech/nextjs.png",
-    "title": "NextJS",
+    "img": "../../../assets/tech/jestjs.png",
+    "title": "JestJS",
     "level": "no"
   },
   {
@@ -119,8 +119,8 @@
     "level": "no"
   },
   {
-    "img": "../../../assets/tech/tensorflow.png",
-    "title": "TensorflowJS",
+    "img": "../../../assets/tech/aws.png",
+    "title": "AWS",
     "level": "no"
   },
   {
