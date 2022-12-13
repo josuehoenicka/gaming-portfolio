@@ -27,6 +27,7 @@ import { ProjectsUserComponent } from './components/projects-user/projects-user.
 import { SocialUserComponent } from './components/social-user/social-user.component';
 import { MainUserComponent } from './components/main-user/main-user.component';
 import { HeroUserComponent } from './components/hero-user/hero-user.component';
+import { BuildingComponent } from './components/building/building.component';
 
 @NgModule({
   declarations: [
@@ -53,7 +54,8 @@ import { HeroUserComponent } from './components/hero-user/hero-user.component';
     ProjectsUserComponent,
     SocialUserComponent,
     MainUserComponent,
-    HeroUserComponent
+    HeroUserComponent,
+    BuildingComponent
   ],
   imports: [
     BrowserModule,

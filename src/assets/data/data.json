@@ -157,7 +157,7 @@
   "projects": [
     {
       "title": "Portfolio 2.0",
-      "description": "CRUD Portfolio",
+      "description": "Dinamic Portfolio",
       "techs": "Angular / Spring Boot / MySQL",
       "link_github": "",
       "link_google": ""
@@ -166,43 +166,43 @@
       "title": "Codebash",
       "description": "Ecommerce Plataform",
       "techs": "Angular / Flask / MongoDB",
-      "link_github": "",
-      "link_google": ""
+      "link_github": "http://localhost:4200/#/home/projects/building",
+      "link_google": "http://localhost:4200/#/home/projects/building"
     },
     {
       "title": "ToDoApp",
       "description": "CRUD Application",
       "techs": "Angular / Spring Boot / PostgreSQL",
-      "link_github": "",
-      "link_google": ""
+      "link_github": "https://github.com/josuehoenicka/todoapp",
+      "link_google": "http://localhost:4200/#/home/projects/building"
     },
     {
       "title": "Pokedex",
       "description": "API Website",
       "techs": "HTML / CSS / ReactJS",
-      "link_github": "",
-      "link_google": ""
+      "link_github": "http://localhost:4200/#/home/projects/building",
+      "link_google": "http://localhost:4200/#/home/projects/building"
     },
     {
       "title": "Joniking",
       "description": "Video Game Website",
       "techs": "HTML5 / CSS3 / JavaScript",
-      "link_github": "",
-      "link_google": ""
+      "link_github": "https://github.com/josuehoenicka/joniking",
+      "link_google": "http://localhost:4200/#/home/projects/building"
     },
     {
       "title": "ProofOfWork",
       "description": "Blockchain Simulator",
       "techs": "JavaScript",
-      "link_github": "",
-      "link_google": ""
+      "link_github": "http://localhost:4200/#/home/projects/building",
+      "link_google": "http://localhost:4200/#/home/projects/building"
     },
     {
       "title": "C.D.S",
       "description": "Christian Website",
       "techs": "BootStrap5 / JavaScript",
-      "link_github": "",
-      "link_google": ""
+      "link_github": "https://github.com/josuehoenicka/cds",
+      "link_google": "https://caminodesantidad.github.io/"
     }
   ]
 }

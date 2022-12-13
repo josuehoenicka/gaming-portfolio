@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { AboutUserComponent } from './components/about-user/about-user.component';
 import { AboutComponent } from './components/about/about.component';
+import { BuildingComponent } from './components/building/building.component';
 import { ConfigProfileComponent } from './components/config-profile/config-profile.component';
 import { ConfigProjectsComponent } from './components/config-projects/config-projects.component';
 import { ConfigSkillsComponent } from './components/config-skills/config-skills.component';
@@ -83,9 +84,13 @@ const routes: Routes = [
     component: ConfigSocialComponent
   },
   {
-    path: '**',
-    component: LoginComponent
+    path: 'building',
+    component: BuildingComponent
   },
+  {
+    path: '**',
+    component: BuildingComponent
+  }
 ];
 
 @NgModule({
