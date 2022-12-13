@@ -69,8 +69,8 @@
     "level": "si"
   },
   {
-    "img": "../../../assets/tech/dart.png",
-    "title": "Dart",
+    "img": "../../../assets/tech/aws.png",
+    "title": "AWS",
     "level": "no"
   },
   {
@@ -84,8 +84,8 @@
     "level": "si"
   },
   {
-    "img": "../../../assets/tech/flutter.png",
-    "title": "Flutter",
+    "img": "../../../assets/tech/react.png",
+    "title": "React Native",
     "level": "no"
   },
   {
@@ -99,9 +99,9 @@
     "level": "no"
   },
   {
-    "img": "../../../assets/tech/spring_boot.png",
-    "title": "Spring Boot",
-    "level": "si"
+    "img": "../../../assets/tech/nextjs.png",
+    "title": "NextJS",
+    "level": "no"
   },
   {
     "img": "../../../assets/tech/redux.png",
@@ -114,8 +114,8 @@
     "level": "no"
   },
   {
-    "img": "../../../assets/tech/aws.png",
-    "title": "AWS",
+    "img": "../../../assets/tech/tensorflow.png",
+    "title": "TensorflowJS",
     "level": "no"
   },
   {

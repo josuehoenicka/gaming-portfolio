@@ -26,6 +26,7 @@ import { SkillsUserComponent } from './components/skills-user/skills-user.compon
 import { ProjectsUserComponent } from './components/projects-user/projects-user.component';
 import { SocialUserComponent } from './components/social-user/social-user.component';
 import { MainUserComponent } from './components/main-user/main-user.component';
+import { HeroUserComponent } from './components/hero-user/hero-user.component';
 
 @NgModule({
   declarations: [
@@ -51,7 +52,8 @@ import { MainUserComponent } from './components/main-user/main-user.component';
     SkillsUserComponent,
     ProjectsUserComponent,
     SocialUserComponent,
-    MainUserComponent
+    MainUserComponent,
+    HeroUserComponent
   ],
   imports: [
     BrowserModule,

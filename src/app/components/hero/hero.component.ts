@@ -6,6 +6,7 @@ import { PortfolioService } from 'src/app/services/portfolio.service';
   templateUrl: './hero.component.html',
   styleUrls: ['./hero.component.css']
 })
+
 export class HeroComponent implements OnInit {
   portfolio:any;
   constructor(private check:PortfolioService) { }
