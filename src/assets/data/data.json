@@ -157,7 +157,7 @@
   "projects": [
     {
       "title": "Portfolio 2.0",
-      "description": "Dinamic Portfolio",
+      "description": "SPA/CRUD Porfolio",
       "techs": "Angular / Spring Boot / MySQL",
       "link_github": "",
       "link_google": ""
@@ -171,7 +171,7 @@
     },
     {
       "title": "ToDoApp",
-      "description": "CRUD Application",
+      "description": "SPA/CRUD Application",
       "techs": "Angular / Spring Boot / PostgreSQL",
       "link_github": "https://github.com/josuehoenicka/todoapp",
       "link_google": "http://localhost:4200/#/home/projects/building"
