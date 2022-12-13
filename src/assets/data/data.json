@@ -6,13 +6,18 @@
   "linkedin": "https://www.linkedin.com/in/josuehoenicka/",
   "instagram": "https://www.instagram.com/josuehoenicka/",
   "experience": [{
-    "title": "Full Stack Developer",
+    "title": "Front End Developer",
     "company": "Codebash",
     "description": ""
   },
   {
     "title": "Freelance Web Developer",
-    "company": "CDS",
+    "company": "Hoenixer",
+    "description": ""
+  },
+  {
+    "title": "Full Stack JavaScript Developer",
+    "company": "-",
     "description": ""
   }
   ],
