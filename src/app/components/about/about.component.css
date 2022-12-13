@@ -30,12 +30,14 @@
 
 #about-me {
   padding-top: 2em;
-    display: flex;
-    width: 100vw;
-    height: 100vh;
-    justify-content: center;
-    align-items: center;
-    user-select: none;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+  scroll-snap-align: start;
+  min-height: 60vh;
 }
 
 #bio-container {
