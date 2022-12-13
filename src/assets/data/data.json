@@ -7,18 +7,15 @@
   "instagram": "https://www.instagram.com/josuehoenicka/",
   "experience": [{
     "title": "Front End Developer",
-    "company": "Codebash",
-    "description": ""
+    "company": "Codebash"
   },
   {
     "title": "Freelance Web Developer",
-    "company": "Hoenixer",
-    "description": ""
+    "company": "Hoenixer"
   },
   {
     "title": "Full Stack JavaScript Developer",
-    "company": "-",
-    "description": ""
+    "company": "-"
   }
   ],
   "education": [{
