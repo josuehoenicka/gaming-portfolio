@@ -8,11 +8,11 @@
     user-select: none;
     background: linear-gradient(
         to bottom,
-        rgba(3, 5, 12, 0.85),
-        rgba(3, 5, 12, 0.85),
-        rgba(3, 5, 12, 0.85),
-        rgba(3, 5, 12, 0.85),
-        rgba(3, 5, 12, 0.85)
+        rgba(3, 5, 12, 0.9),
+        rgba(3, 5, 12, 0.9),
+        rgba(3, 5, 12, 0.9),
+        rgba(3, 5, 12, 0.9),
+        rgba(3, 5, 12, 0.9)
     ), url(../../../assets/others/error404.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -21,7 +21,7 @@
 
 .title-container {
 background-color: transparent;
-color: var(--white-on);
+color: var(--white-off);
 font-size: 2.5em;
 padding: 5em 3em 0em 3em;
 width: 100vw;
@@ -53,10 +53,4 @@ opacity: 0.3;
 transition: 0.5s;
 opacity: 1;
 cursor: pointer;
-}
-
-.a-space {
-background-color: transparent;
-padding-left: 0.2em;
-color: var(--white-on);
 }
