@@ -46,32 +46,32 @@ body::-webkit-scrollbar {
 }
 
 .fa-social {
-    font-size: 3em !important;
+    font-size: 3em !important; /*Bug desconocido*/
 }
 
 .fa-pencil {
-    color: var(--blue_off);
+    color: var(--blue_off) !important; /*El important es para no dañar el efecto de las redes sociales, al quitar el important los 'fa' de edicion y eliminar serán blancos */
 }
 
 .fa-pencil:hover {
-    color: var(--blue_on);
+    color: var(--blue_on) !important; /*El important es para no dañar el efecto de las redes sociales, al quitar el important los 'fa' de edicion y eliminar serán blancos */
     cursor: pointer;
     transition: 0.3s;
 }
 
 .fa-trash {
     font-size: 2em;
-    color: var(--red_off);
+    color: var(--red_off) !important; /*El important es para no dañar el efecto de las redes sociales, al quitar el important los 'fa' de edicion y eliminar serán blancos*/
 }
 
 .fa-trash:hover {
-    color: var(--red_on);
+    color: var(--red_on) !important; /*El important es para no dañar el efecto de las redes sociales, al quitar el important los 'fa' de edicion y eliminar serán blancos */
     cursor: pointer;
     transition: 0.3s;
 }
 
 .fa-chrome {
-    font-size: 2.6em !important;
+    font-size: 2.6em !important; /*El important es porque el 'fa' de google es más grande que los demás por defecto*/
 }
 
 .fa-chrome:hover, .fa-github:hover {
