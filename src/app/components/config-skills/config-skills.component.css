@@ -49,9 +49,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 7.3em;
-    z-index: 10000;
-    background-color: transparent;
+    padding-top: 9em;
 }
 
 .prev, .next {
