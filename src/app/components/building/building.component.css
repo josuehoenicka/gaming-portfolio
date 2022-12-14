@@ -52,6 +52,7 @@ opacity: 0.3;
 .btn-try-img:hover {
 transition: 0.5s;
 opacity: 1;
+cursor: pointer;
 }
 
 .a-space {
