@@ -1,5 +1,5 @@
 #projects {
-    padding-top: 2em;
+    padding-top: 8em;
     height: 100vh;
     user-select: none;
     display: flex;
@@ -16,7 +16,7 @@
 }
 
 .slide-bottom-container {
-    padding-top: 1em;
+    padding: 1em;
 }
 
 .title-slide-text {
@@ -95,3 +95,84 @@
     font-size: 2em;
     cursor: pointer;
 }
+
+/****************************************************/
+
+fieldset {
+    margin: 0.5em 0;
+    border-color: var(--white-off);
+}
+
+legend {
+    color: var(--white-off);
+    padding: 0 1em;
+    font-size: 1.4em;
+}
+
+.slide-img-tech {
+    padding-bottom: 0.5em;
+    width: 7em;
+}
+
+.slider-container-structure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 2em;
+}
+
+.input-project-file {
+    font-size: 1em;
+    padding: 0.5em 0;
+    color: var(--white-off);
+}
+
+.input-text-slider {
+    width: 50vw;
+    font-size: 2em;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    padding: 0.2em 0.5em;
+    color: var(--white-on);
+}
+
+.configproject-btn {
+    color: var(--black-on);
+    padding: 0.5em 2em;
+    text-decoration: none;
+    border-radius: 2em;
+    font-size: 1.8em;
+    margin: 0 0.5em;
+    text-align: center;
+}
+
+.configproject-btn:hover {
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.cancel-configprojects-btn {
+    background-color: var(--white-off);
+}
+
+.cancel-configprojects-btn:hover {
+    background-color: var(--white-on);
+}
+
+.save-configprojects-btn {
+    background-color: var(--green_off);
+}
+
+.save-configprojects-btn:hover {
+    background-color: var(--green_on);
+}
+
+.delete-configprojects-btn {
+    background-color: var(--red_off);
+}
+
+.delete-configprojects-btn:hover {
+    background-color: var(--red_on);
+}
+

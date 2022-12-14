@@ -9,13 +9,13 @@ import { PortfolioService } from 'src/app/services/portfolio.service';
 
 export class ConfigSkillsComponent implements OnInit {
   name:any;
-  project:any;
+  tech:any;
   constructor(private check:PortfolioService) { }
 
   ngOnInit(): void {
     this.check.test().subscribe(data => {
       this.name=data;
-      this.project=data.projects;
+      this.tech=data.techs;
     });
   }
 
