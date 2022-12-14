@@ -50,8 +50,6 @@
     justify-content: center;
     align-items: center;
     padding-top: 7.3em;
-    z-index: 10000;
-    background-color: transparent;
 }
 
 .prev, .next {
@@ -129,7 +127,7 @@ legend {
 
 .input-text-slider {
     width: 50vw;
-    font-size: 2em;
+    font-size: 1.88em;
     border: none;
     outline: none;
     background-color: transparent;
@@ -139,7 +137,7 @@ legend {
 
 .input-link-slider {
     width: 50vw;
-    font-size: 2em;
+    font-size: 1.88em;
     border: none;
     outline: none;
     border-bottom: 0.01em var(--white-off) solid;
@@ -147,7 +145,6 @@ legend {
     padding: 0.25em 0.5em;
     color: var(--white-on);
 }
-
 
 .configproject-btn {
     color: var(--black-on);
