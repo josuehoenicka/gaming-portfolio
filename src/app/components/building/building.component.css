@@ -1,12 +1,29 @@
 .hero-container {
-user-select: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100vw;
+    height: 100vh;
+    user-select: none;
+    background: linear-gradient(
+        to bottom,
+        rgba(3, 5, 12, 0.85),
+        rgba(3, 5, 12, 0.85),
+        rgba(3, 5, 12, 0.85),
+        rgba(3, 5, 12, 0.85),
+        rgba(3, 5, 12, 0.85)
+    ), url(../../../assets/others/error404.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .title-container {
 background-color: transparent;
-color: var(--white-off);
-font-size: 4em;
-padding-top: 3em;
+color: var(--white-on);
+font-size: 2.5em;
+padding: 5em 3em 0em 3em;
 width: 100vw;
 height: 50vh;
 display: flex;
@@ -23,16 +40,16 @@ background-color: transparent;
 padding: 0.5em 0;
 }
 
-.btn-start-img, .btn-start {
+.btn-try-img, .btn-try {
 background-color: transparent;
 }
 
-.btn-start-img {
-width: 14.5em;
+.btn-try-img {
+width: 25em;
 opacity: 0.3;
 }
 
-.btn-start-img:hover {
+.btn-try-img:hover {
 transition: 0.5s;
 opacity: 1;
 }
