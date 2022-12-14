@@ -3,9 +3,26 @@
     height: 100vh;
     user-select: none;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     text-align: center;
     z-index: -1;
+}
+
+.slide-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.slide-bottom-container {
+    padding-top: 1em;
+}
+
+.title-slide-text {
+    color: var(--white-off);
+    font-size: 1.5em;
+    padding: 0.5em;
 }
 
 .slider-title{
@@ -14,16 +31,14 @@
 }
 
 .slider-description {
-
-padding: 0.5em 0;
     font-size: 1.8em;
     color: var(--white-off);
 }
 
 .slider-techs {
-padding: 0.5em 0;
-font-size: 1.5em;
-color: var(--white-off);
+    padding: 0.5em 0;
+    font-size: 1.5em;
+    color: var(--white-off);
 }
 
 .mySlides2 {
@@ -31,22 +46,22 @@ color: var(--white-off);
 }
 
 .slideshow-container {
-width: 100vw;
-display: flex;
-justify-content: center;
-align-items: center;
-padding-top: 2em;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2em;
 }
 
 .prev, .next {
-cursor: pointer;
-padding: 2.5em;
-color: var(--white-off);
-font-size: 3em;
-font-weight: bold;
-transition: 0.6s ease;
-border-radius: 0 0.1em 0.1em 0;
-user-select: none;
+    cursor: pointer;
+    padding: 2.5em;
+    color: var(--white-off);
+    font-size: 3em;
+    font-weight: bold;
+    transition: 0.6s ease;
+    border-radius: 0 0.1em 0.1em 0;
+    user-select: none;
 }
 
 .prev {
@@ -56,9 +71,9 @@ user-select: none;
 }
 
 .next {
-display: flex;
-justify-content: flex-end;
-align-items: center;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 .prev:hover, .next:hover {
@@ -75,13 +90,6 @@ align-items: center;
     font-size: 2em;
     color: var(--white-off);
 }
-
-.fa-chrome:hover, .fa-github:hover {
-    color: var(--white-on);
-    cursor: pointer;
-    transition: 0.3s;
-}
-
 
 .slider-icons {
     font-size: 2em;

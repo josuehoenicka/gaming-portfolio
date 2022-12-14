@@ -70,6 +70,16 @@ body::-webkit-scrollbar {
     transition: 0.3s;
 }
 
+.fa-chrome {
+    font-size: 2.6em !important;
+}
+
+.fa-chrome:hover, .fa-github:hover {
+    color: var(--white-on);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
 .fa-plus {
     display: flex;
     justify-content: center;
@@ -96,19 +106,18 @@ body::-webkit-scrollbar {
 
 .fa-config-projects {
     display: flex;
-    font-size: 2em;
+    justify-content: center;
+    font-size: 1.6em;
 }
 
 .fa-with-text {
+    font-size: 1.2em;
     padding: 0 1em;
     font-family: 'Alumni Sans Pinstripe';
 }
 
 .fa-on-projects {
     font-size: 3em;
-    padding: 1em 0.5em;
+    padding: 0.25em 0.5em;
 }
 
-.fa-chrome {
-    font-size: 2.7em;
-}
