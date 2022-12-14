@@ -7,7 +7,6 @@ import { BuildingComponent } from './components/building/building.component';
 import { ConfigProfileComponent } from './components/config-profile/config-profile.component';
 import { ConfigProjectsComponent } from './components/config-projects/config-projects.component';
 import { ConfigSkillsComponent } from './components/config-skills/config-skills.component';
-import { ConfigSocialComponent } from './components/config-social/config-social.component';
 import { HomeUserComponent } from './components/home-user/home-user.component';
 import { HomeComponent } from './components/home/home.component';
 import { LoginComponent } from './components/login/login.component';
@@ -79,10 +78,6 @@ const routes: Routes = [
   {
     path: 'configure/skills',
     component: ConfigSkillsComponent
-  },
-  {
-    path: 'configure/social',
-    component: ConfigSocialComponent
   },
   {
     path: 'building',
