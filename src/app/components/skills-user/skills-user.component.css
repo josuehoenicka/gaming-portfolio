@@ -33,16 +33,16 @@
     cursor: pointer;
 }
 
-.si {
+.si, .SI, .Si, .sI {
     opacity: 0.8;
 }
 
-.si:hover {
+.si:hover, .SI:hover, .Si:hover, .sI:hover, .sí:hover, .SÍ:hover, .Sí:hover, .sÍ:hover{
     transition: 0.3s;
     opacity: 1;
 }
 
-.no {
+.no, .NO, .No, .nO {
     opacity: 0.08;
 }
 
