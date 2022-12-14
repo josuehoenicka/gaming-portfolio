@@ -6,7 +6,7 @@
 
 .login-container {
     width: 100vw;
-    height: 75vh;
+    height: 80vh;
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -45,14 +45,14 @@ form input:focus {
     margin: 0.3em 0;
 }
 
-#btn-login-container_fromLogin {
+#btn-container {
     display: flex;
     justify-content: center;
     width: 45vw;
-    padding-top: 2.5em;
+    padding: 0.5em 0;
 }
 
-#btn-login_fromLogin {
+#btn-login-login {
     font-size: 2.5em;
     background-color: transparent;
     text-decoration: none;
@@ -64,7 +64,7 @@ form input:focus {
     width: 40vw;
 }
 
-#btn-login_fromLogin:hover {
+#btn-login-login:hover {
     color: var(--black-on);
     background-color: var(--white-on);
     border: 0.1em var(--white-on) solid;
@@ -72,7 +72,27 @@ form input:focus {
     transition: 0.5s;
 }
 
-#btn-register_fromLogin {
+#btn-return-login {
+    font-size: 2.5em;
+    background-color: transparent;
+    text-decoration: none;
+    color: var(--black-on);
+    background-color: var(--red_off);
+    border-radius: 1em;
+    border: 0.1em var(--red_off) solid;
+    font-weight: bold;
+    width: 40vw;
+}
+
+#btn-return-login:hover {
+    color: var(--black-on);
+    background-color: var(--red_on);
+    border: 0.1em var(--red_on) solid;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#btn-register-login {
     font-size: 2.5em;
     background-color: transparent;
     text-decoration: none;
@@ -85,7 +105,7 @@ form input:focus {
     text-align: center;
 }
 
-#btn-register_fromLogin:hover {
+#btn-register-login:hover {
     color: var(--black-on);
     background-color: var(--green_on);
     border: 0.1em var(--green_on) solid;
