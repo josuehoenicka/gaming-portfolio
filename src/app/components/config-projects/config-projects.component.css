@@ -8,12 +8,6 @@
     z-index: -1;
 }
 
-.slide-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
 .slide-bottom-container {
     padding: 1em;
 }
@@ -22,22 +16,6 @@
     color: var(--white-off);
     font-size: 1.5em;
     padding: 0.5em;
-}
-
-.slider-title{
-    font-size: 3.8em;
-    color: var(--white-on);
-}
-
-.slider-description {
-    font-size: 1.8em;
-    color: var(--white-off);
-}
-
-.slider-techs {
-    padding: 0.5em 0;
-    font-size: 1.5em;
-    color: var(--white-off);
 }
 
 .mySlides2 {
@@ -81,22 +59,6 @@
     color: var(--white-on);
 }
 
-.slider-img {
-    width: 10em;
-}
-
-#deslizar-title {
-    font-size: 2em;
-    color: var(--white-off);
-}
-
-.slider-icons {
-    font-size: 2em;
-    cursor: pointer;
-}
-
-/****************************************************/
-
 fieldset {
     border-color: var(--white-off);
 }
@@ -125,7 +87,7 @@ legend {
     color: var(--white-off);
 }
 
-.input-text-slider {
+.input-text-slider, .input-link-slider {
     width: 50vw;
     font-size: 1.88em;
     border: none;
@@ -136,14 +98,7 @@ legend {
 }
 
 .input-link-slider {
-    width: 50vw;
-    font-size: 1.88em;
-    border: none;
-    outline: none;
     border-bottom: 0.01em var(--white-off) solid;
-    background-color: transparent;
-    padding: 0.25em 0.5em;
-    color: var(--white-on);
 }
 
 .configproject-btn {

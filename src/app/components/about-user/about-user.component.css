@@ -1,5 +1,3 @@
-/**************************************************** scroll ******************************************************/
-
 .scroll-container {
     display: flex;
     flex-direction: column;
@@ -7,12 +5,11 @@
     text-align: left;
     margin-top: 2em;
     height: 70vh;
-    margin-top: 3em;
+    margin: 3em 0 0 1.5em;
     padding-top: 1em;
     line-height: 2em;
     overflow-x: hidden;
     overflow-y: scroll;
-    margin-right: 1.5em;
 }
 
 .scroll-container::-webkit-scrollbar {
@@ -25,11 +22,8 @@
     border-radius: 1em;
 }
 
-/************************************************** description **************************************************/
-
-
 #about-me {
-padding-top: 2em;
+    padding-top: 2em;
     display: flex;
     width: 100vw;
     height: 100vh;
@@ -114,8 +108,6 @@ padding: 0.5em;
     transition: 0.3s;
 }
 
-/************************************************** description ***************************************************/
-
 #description-container {
     display: flex;
     flex-direction: column;
@@ -132,8 +124,6 @@ padding: 0.5em;
 .description-items {
     padding-left: 0.5em;
 }
-
-/**************************************************** experience ****************************************************/
 
 .experience-container {
     margin: 1.5em 0;
@@ -161,8 +151,6 @@ padding: 0.5em;
     transition: 0.3s;
     color: var(--white-on);
 }
-
-/************************************************** certification ***************************************************/
 
 .certification-items {
     padding: 1em 0.25em;
