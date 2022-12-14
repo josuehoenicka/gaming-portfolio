@@ -28,6 +28,7 @@ import { SocialUserComponent } from './components/social-user/social-user.compon
 import { MainUserComponent } from './components/main-user/main-user.component';
 import { HeroUserComponent } from './components/hero-user/hero-user.component';
 import { BuildingComponent } from './components/building/building.component';
+import { ArgprogComponent } from './components/argprog/argprog.component';
 
 @NgModule({
   declarations: [
@@ -55,7 +56,8 @@ import { BuildingComponent } from './components/building/building.component';
     SocialUserComponent,
     MainUserComponent,
     HeroUserComponent,
-    BuildingComponent
+    BuildingComponent,
+    ArgprogComponent
   ],
   imports: [
     BrowserModule,
