@@ -66,92 +66,92 @@
   "techs": [{
     "img": "../../../assets/tech/javascript.png",
     "title": "JavaScript",
-    "level": "si"
+    "level": "Sí"
   },
   {
     "img": "../../../assets/tech/typescript.png",
     "title": "TypeScript",
-    "level": "si"
+    "level": "Sí"
   },
   {
     "img": "../../../assets/tech/react.png",
     "title": "React Native",
-    "level": "no"
+    "level": "No"
   },
   {
     "img": "../../../assets/tech/reactjs.png",
     "title": "ReactJS",
-    "level": "no"
+    "level": "No"
   },
   {
     "img": "../../../assets/tech/angular.svg",
     "title": "Angular",
-    "level": "si"
+    "level": "Sí"
   },
   {
     "img": "../../../assets/tech/nextjs.png",
     "title": "NextJS",
-    "level": "no"
+    "level": "No"
   },
   {
     "img": "../../../assets/tech/nodejs.png",
     "title": "NodeJS",
-    "level": "si"
+    "level": "Sí"
   },
   {
     "img": "../../../assets/tech/nestjs.svg",
     "title": "NestJS",
-    "level": "no"
+    "level": "No"
   },
   {
     "img": "../../../assets/tech/jestjs.png",
     "title": "JestJS",
-    "level": "no"
+    "level": "No"
   },
   {
     "img": "../../../assets/tech/redux.png",
     "title": "Redux",
-    "level": "no"
+    "level": "No"
   },
   {
     "img": "../../../assets/tech/graphql.png",
     "title": "Graphql",
-    "level": "no"
+    "level": "No"
   },
   {
     "img": "../../../assets/tech/aws.png",
     "title": "AWS",
-    "level": "no"
+    "level": "No"
   },
   {
     "img": "../../../assets/tech/mongodb.svg",
     "title": "MongoDB",
-    "level": "no"
+    "level": "No"
   },
   {
     "img": "../../../assets/tech/postgresql.png",
     "title": "PostgreSQL",
-    "level": "no"
+    "level": "No"
   },
   {
     "img": "../../../assets/tech/mysql.png",
     "title": "MySQL",
-    "level": "si"
+    "level": "Sí"
   },
   {
     "img": "../../../assets/tech/html.svg",
     "title": "HTML5",
-    "level": "si"
+    "level": "Sí"
   },
   {
     "img": "../../../assets/tech/css.svg",
     "title": "CSS3",
-    "level": "si"
+    "level": "Sí"
   },
   {
     "img": "../../../assets/tech/git.png",
     "title": "Git",
-    "level": "si"
+    "level": "Sí"
   }
   ],
   "projects": [
