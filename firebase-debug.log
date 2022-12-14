@@ -33,3 +33,22 @@
 [debug] [2022-12-14T21:58:48.138Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/josuehoenicka-portfolio2/versions {"status":"CREATED","labels":{"deployment-tool":"cli-firebase"}}
 [debug] [2022-12-14T21:58:49.835Z] <<< [apiv2][status] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/josuehoenicka-portfolio2/versions 200
 [debug] [2022-12-14T21:58:49.835Z] <<< [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/josuehoenicka-portfolio2/versions {"name":"projects/805446438021/sites/josuehoenicka-portfolio2/versions/15a68019c695c6fc","status":"CREATED","config":{},"labels":{"deployment-tool":"cli-firebase"}}
+[debug] [2022-12-14T23:26:34.407Z] ----------------------------------------------------------------------
+[debug] [2022-12-14T23:26:34.419Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\HI\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2022-12-14T23:26:34.424Z] CLI Version:   11.18.0
+[debug] [2022-12-14T23:26:34.424Z] Platform:      win32
+[debug] [2022-12-14T23:26:34.424Z] Node Version:  v16.17.0
+[debug] [2022-12-14T23:26:34.525Z] Time:          Wed Dec 14 2022 20:26:34 GMT-0300 (hora estándar de Argentina)
+[debug] [2022-12-14T23:26:34.525Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-12-14T23:26:34.733Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-12-14T23:26:34.734Z] > authorizing via signed-in user (josuee.vzla@gmail.com)
+[debug] [2022-12-14T23:26:34.734Z] [iam] checking project josuehoenicka-portfolio2 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2022-12-14T23:26:34.737Z] > refreshing access token with scopes: []
+[debug] [2022-12-14T23:26:34.740Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2022-12-14T23:26:34.740Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2022-12-14T23:26:35.217Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2022-12-14T23:26:35.217Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2022-12-14T23:26:35.279Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/josuehoenicka-portfolio2:testIamPermissions [none]
+[debug] [2022-12-14T23:26:35.279Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/josuehoenicka-portfolio2:testIamPermissions x-goog-quota-user=projects/josuehoenicka-portfolio2
+[debug] [2022-12-14T23:26:35.279Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/josuehoenicka-portfolio2:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
