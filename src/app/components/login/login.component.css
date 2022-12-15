@@ -121,4 +121,13 @@ form input:focus {
 
 #news {
     width: 30em;
+    opacity: 0.5;
 }
+
+#news:hover {
+    width: 30em;
+    opacity: 1;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
