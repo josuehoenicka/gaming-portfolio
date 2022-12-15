@@ -10,6 +10,7 @@ import { ConfigSkillsComponent } from './components/config-skills/config-skills.
 import { HomeUserComponent } from './components/home-user/home-user.component';
 import { HomeComponent } from './components/home/home.component';
 import { LoginComponent } from './components/login/login.component';
+import { NoprojectsComponent } from './components/noprojects/noprojects.component';
 import { ProjectsUserComponent } from './components/projects-user/projects-user.component';
 import { ProjectsComponent } from './components/projects/projects.component';
 import { RegisterComponent } from './components/register/register.component';
@@ -82,6 +83,10 @@ const routes: Routes = [
   {
     path: 'building',
     component: BuildingComponent
+  },
+  {
+    path: 'projects/working',
+    component: NoprojectsComponent
   },
   {
     path: 'argprog',

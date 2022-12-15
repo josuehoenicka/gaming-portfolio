@@ -156,46 +156,39 @@
   ],
   "projects": [
     {
-      "title": "Portfolio 2.0",
-      "description": "SPA/CRUD Porfolio",
-      "techs": "Angular / Spring Boot / MySQL",
-      "link_github": "",
-      "link_google": ""
-    },
-    {
       "title": "Codebash",
       "description": "Ecommerce Plataform",
       "techs": "Angular / Flask / MongoDB",
-      "link_github": "http://localhost:4200/#/home/projects/building",
-      "link_google": "http://localhost:4200/#/home/projects/building"
+      "link_github": "#/projects/working",
+      "link_google": "#/projects/working"
+    },
+    {
+      "title": "Portfolio 2.0",
+      "description": "SPA & CRUD Porfolio",
+      "techs": "Angular / Spring Boot / MySQL",
+      "link_github": "https://github.com/josuehoenicka/portfolio2",
+      "link_google": "#/"
+    },
+    {
+      "title": "Portfolio 1.0",
+      "description": "Static Portolio",
+      "techs": "Angular",
+      "link_github": "https://github.com/josuehoenicka/portfolio1",
+      "link_google": "#/projects/working"
     },
     {
       "title": "ToDoApp",
       "description": "SPA/CRUD Application",
       "techs": "Angular / Spring Boot / PostgreSQL",
       "link_github": "https://github.com/josuehoenicka/todoapp",
-      "link_google": "http://localhost:4200/#/home/projects/building"
-    },
-    {
-      "title": "Pokedex",
-      "description": "API Website",
-      "techs": "HTML / CSS / ReactJS",
-      "link_github": "http://localhost:4200/#/home/projects/building",
-      "link_google": "http://localhost:4200/#/home/projects/building"
+      "link_google": "#/projects/working"
     },
     {
       "title": "Joniking",
       "description": "Video Game Website",
       "techs": "HTML5 / CSS3 / JavaScript",
       "link_github": "https://github.com/josuehoenicka/joniking",
-      "link_google": "http://localhost:4200/#/home/projects/building"
-    },
-    {
-      "title": "ProofOfWork",
-      "description": "Blockchain Simulator",
-      "techs": "JavaScript",
-      "link_github": "http://localhost:4200/#/home/projects/building",
-      "link_google": "http://localhost:4200/#/home/projects/building"
+      "link_google": "#/projects/working"
     },
     {
       "title": "C.D.S",

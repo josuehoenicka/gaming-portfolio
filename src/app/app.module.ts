@@ -28,6 +28,7 @@ import { MainUserComponent } from './components/main-user/main-user.component';
 import { HeroUserComponent } from './components/hero-user/hero-user.component';
 import { BuildingComponent } from './components/building/building.component';
 import { ArgprogComponent } from './components/argprog/argprog.component';
+import { NoprojectsComponent } from './components/noprojects/noprojects.component';
 
 @NgModule({
   declarations: [
@@ -55,7 +56,8 @@ import { ArgprogComponent } from './components/argprog/argprog.component';
     MainUserComponent,
     HeroUserComponent,
     BuildingComponent,
-    ArgprogComponent
+    ArgprogComponent,
+    NoprojectsComponent
   ],
   imports: [
     BrowserModule,
