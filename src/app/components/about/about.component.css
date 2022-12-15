@@ -54,10 +54,6 @@ figcaption {
     background-color: transparent;
 }
 
-.fa-config {
-  display: flex;
-}
-
 .fig-name {
   padding: 0.05em 0;
   background-color: transparent;
@@ -79,9 +75,6 @@ figcaption {
     transition: 0.3s;
 }
 
-.edit-description-container {
-  padding: 0.5em;
-}
 
 .photo-item {
     background-repeat: no-repeat;
