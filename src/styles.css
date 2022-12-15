@@ -15,11 +15,11 @@
 
 :root {
     --black-on: #03050c;
-    --white-on: #dfe8ff;
-    --white-off: #4e5985;
+    --white-on: #eef1f8;
+    --white-off: #9a9da7;
     --green_on: rgb(92, 226, 92);
     --green_off: rgb(161, 207, 161);
-    --red_on: rgb(219, 35, 35);
+    --red_on: rgb(248, 93, 93);
     --red_off: rgb(223, 142, 142);
     --blue_on: rgb(6, 164, 255);
     --blue_off: rgb(119, 189, 235);
