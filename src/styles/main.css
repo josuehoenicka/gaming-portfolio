@@ -79,7 +79,7 @@ header {
 .btn-resume {
     margin: 0.5em 1.2em;
     font-size: 3em;
-    border-radius: 0 1em;
+    border-radius: 0.8em 0;
     width: 5.5em;
     height: 1.5em;
     outline: none;
@@ -93,7 +93,7 @@ header {
 
 .btn-resume:hover {
     border-radius: 1em 0;
-    transition: 0.1s;
+    transition: 0.3s;
     opacity: 1;
 }
 
