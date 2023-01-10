@@ -24,6 +24,7 @@
     font-family: 'Crash Bandicoot';
     text-decoration: none;
     background-color: var(--gray);
+    user-select: none;
 }
 
 body {
