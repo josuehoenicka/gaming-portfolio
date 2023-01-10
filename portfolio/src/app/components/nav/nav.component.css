@@ -1,0 +1,21 @@
+nav {
+  display: flex;
+  height: 80vh;
+  align-items: flex-end;
+}
+
+.nav-link {
+  color: var(--white);
+  font-size: 4em;
+  padding: 0.1em 1em;
+  opacity: 0.2;
+}
+
+.nav-link:hover {
+  background: -webkit-linear-gradient(yellow,red);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  opacity: 1;
+  color: var(--orange);
+  letter-spacing: 0.05em;
+}
