@@ -1,0 +1,42 @@
+.btn-hero-container {
+  background-color: transparent;
+}
+
+.hero-container {
+  width: 100vw;
+  height: 90vh;
+  background-image: url("../../../assets/backgrounds/crash-bandicoot-wallpaper.gif");
+  background-repeat: no-repeat;
+  background-position: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.btn-box {
+  width: 20em;
+  position: absolute;
+  left: 10%;
+  top: 10%;
+  animation-name: opacityImg;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.btn-start {
+  width: 20em;
+  position: absolute;
+  left: 10%;
+  top: 60%;
+  background-color: transparent;
+  animation-name: opacityImg;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.btn-start:hover, .btn-box:hover {
+  opacity: 0.5 !important;
+}
+
+

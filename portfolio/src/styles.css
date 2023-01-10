@@ -1,1 +1,62 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Nabla&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dangrek&display=swap');
+
+@font-face {
+  font-family: Crash Bandicoot;
+  src: url(./assets/fonts/crashbandicoot.ttf);
+}
+
+:root {
+    --white: #dddddd;
+    --gray: #393939;
+    --blue: #1d1d93;
+    --orange: #d97c0f;
+    --yellow: #d6ae53;
+    --red:  #89270b;
+    --pink: #db9583;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Crash Bandicoot';
+    text-decoration: none;
+    background-color: var(--gray);
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+@keyframes nameAnimation {
+
+  0%{
+    opacity: 0.05;
+  }
+  50%{
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 0.05;
+  }
+}
+
+@keyframes opacityImg {
+
+  0%{
+    opacity: 0.05;
+  }
+  50%{
+    opacity: 0.3;
+  }
+  100% {
+    opacity: 0.05;
+  }
+}

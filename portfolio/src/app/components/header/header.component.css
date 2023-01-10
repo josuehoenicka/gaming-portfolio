@@ -1,0 +1,32 @@
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 10vh;
+}
+
+.nav-center {
+  display: flex;
+  align-items: center;
+  user-select: none;
+}
+
+.nav-name {
+    font-size: 2.2em;
+    color: var(--white);
+    animation-name: nameAnimation;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.nav-aku {
+    z-index: 100;
+    width: 3em;
+    animation-name: nameAnimation;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    background-color: transparent;
+}

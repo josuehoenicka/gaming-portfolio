@@ -1,0 +1,25 @@
+aside {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 90vh;
+  justify-content: center;
+  align-items: flex-end;
+  background-color: transparent;
+}
+
+.nav-link {
+  color: var(--white);
+  font-size: 4em;
+  padding: 0.1em 1em;
+  opacity: 0.2;
+}
+
+.nav-link:hover {
+  background: -webkit-linear-gradient(yellow,red);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  opacity: 1;
+  color: var(--orange);
+  letter-spacing: 0.05em;
+}
