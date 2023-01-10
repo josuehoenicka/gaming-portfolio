@@ -2,3 +2,61 @@ section {
   display: grid;
   grid-template-columns: 4fr 1fr;
 }
+
+.skills-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.skills-grid-container-primary {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-bottom: 1.5em;
+}
+
+.skills-title {
+  font-size: 3em;
+  opacity: 0.7;
+  letter-spacing: 0.1em;
+  color: var(--white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 2em;
+}
+
+.skills-grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.skills-tech {
+  font-size: 4em;
+  opacity: 0.7;
+  letter-spacing: 0.1em;
+  background: -webkit-linear-gradient(yellow,red);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 3.1em;
+}
+
+.skills-level-container {
+  display: flex;
+}
+
+.skills-level {
+  width: 4em;
+}
+
+.active {
+  margin-left: 3em;
+}
+
+.minusOne {
+  opacity: 0.1;
+}

@@ -1,7 +1,31 @@
 <app-header></app-header>
 <section>
-  <div>
-
+  <div class="slider-container">
+    <div class="slideshow-container">
+      <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
+      <div class="slide-container">
+        <div class="mySlides2">
+          <h4 class="slider-title">CRUD Portfolio</h4>
+          <p class="slider-description">ArgProg's Project Final</p>
+          <p class="slider-techs">Angular / Spring Boot / MySQL</p>
+          <a href="">
+          <img class="slider-img" src="../../../../assets/projects/codebash.jpg" alt="">
+          </a>
+        </div>
+        <div class="mySlides2">
+          <h4 class="slider-title">Codebash</h4>
+          <p class="slider-description">Ecommerce Plataform</p>
+          <p class="slider-techs">Angular / Flask / MongoDB</p>
+          <a href="">
+          <img class="slider-img" src="../../../../assets/projects/codebash.jpg" alt="">
+          </a>
+        </div>
+        <div class="slide-bottom-container">
+          <p class="title-slide-text">Haz clic en las flechas para desplazar</p>
+        </div>
+      </div>
+      <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
+  </div>
   </div>
   <app-nav></app-nav>
 </section>
