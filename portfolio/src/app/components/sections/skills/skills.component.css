@@ -8,23 +8,7 @@ section {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-}
-
-.skills-grid-container-primary {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  margin-bottom: 1.5em;
-}
-
-.skills-title {
-  font-size: 3em;
-  opacity: 0.7;
-  letter-spacing: 0.1em;
-  color: var(--white);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0 2em;
+  margin-top: 1.5em;
 }
 
 .skills-grid-container {
@@ -33,7 +17,7 @@ section {
 }
 
 .skills-tech {
-  font-size: 4em;
+  font-size: 3.5em;
   opacity: 0.7;
   letter-spacing: 0.1em;
   background: -webkit-linear-gradient(yellow,red);
@@ -50,7 +34,7 @@ section {
 }
 
 .skills-level {
-  width: 4em;
+  width: 3.5em;
 }
 
 .active {
