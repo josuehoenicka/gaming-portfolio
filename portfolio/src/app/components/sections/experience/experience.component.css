@@ -34,7 +34,7 @@ section {
 
 .slider-title{
   opacity: 0.8;
-  font-size: 4.5em;
+  font-size: 2.8em;
   background: -webkit-linear-gradient(yellow,red);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -117,4 +117,33 @@ color: var(--white);
 .slider-icons {
   font-size: 2em;
   cursor: pointer;
+}
+
+.slider-img-valid {
+  margin: 2.5em 0;
+  width: 10em;
+  opacity: 0.5;
+}
+
+.slider-img-invalid {
+  width: 15em;
+  opacity: 0.5;
+}
+
+.slider-img-container {
+  display: flex;
+  justify-content: center;
+}
+
+.fa {
+  color: var(--white);
+  margin: 0.5em 0.5em 0 0;
+}
+
+.fa-invalid {
+  opacity: 0.2;
+}
+
+.fa-valid {
+  opacity: 0.8;
 }
