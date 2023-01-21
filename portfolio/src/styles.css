@@ -61,3 +61,27 @@ body::-webkit-scrollbar {
     opacity: 0.05;
   }
 }
+
+@media (max-width: 57em){
+  app-root {
+    display: none;
+  }
+  body {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      width: 100vw;
+      height: 100vh;
+      background-image: linear-gradient(
+          0deg,
+          rgba(0,0,0,0.8),
+          rgba(0,0,0,0.8)
+      ) , url(./assets/backgrounds/error.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position-x: center;
+      background-position-y: center;
+  }
+}

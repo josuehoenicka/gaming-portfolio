@@ -17,7 +17,7 @@ section {
 }
 
 .skills-tech {
-  font-size: 4em;
+  font-size: 3em;
   opacity: 0.7;
   letter-spacing: 0.1em;
   background: -webkit-linear-gradient(yellow,red);
@@ -34,7 +34,7 @@ section {
 }
 
 .skills-level {
-  width: 4em;
+  width: 3em;
 }
 
 .active {
