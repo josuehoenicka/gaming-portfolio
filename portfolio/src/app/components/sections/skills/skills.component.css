@@ -17,30 +17,53 @@ section {
 }
 
 .skills-tech {
-  font-size: 3em;
+  font-size: 2.7em;
   opacity: 0.7;
   letter-spacing: 0.1em;
-  background: -webkit-linear-gradient(yellow,red);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: var(--white);
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 0 3.1em;
 }
 
+.skills-titles {
+  font-size: 2.5em;
+  opacity: 0.7;
+  letter-spacing: 0.15em;
+  background: -webkit-linear-gradient(red, yellow);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0.25em;
+}
+
+.title-active {
+  letter-spacing: 0.1em;
+}
+
 .skills-level-container {
   display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.skills-level-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .skills-level {
-  width: 3em;
+  width: 2.7em;
 }
 
 .active {
   margin-left: 3em;
 }
 
-.minusOne {
+.disabled {
   opacity: 0.1;
 }
