@@ -9,43 +9,43 @@ export class ExperienceComponent {
   projects = [
     {
       name: 'Bandicootfolio',
-      description: 'This project',
-      deploy: '', github: '',
-      link_deploy: '', link_repo: '',
-      img: '../../../../assets/items/building.png'
-    },
-    {
-      name: 'Wanderlist',
-      description: 'CRUD Countries List',
-      deploy: 'fa-lock', github: 'fa-lock',
-      link_deploy: '', link_repo: '',
-      img: '../../../../assets/items/building.png'
-    },
-    {
-      name: 'Springular',
-      description: 'CRUD/JWT Portfolio',
-      deploy: 'fa-lock', github: 'fa-lock',
-      link_deploy: '', link_repo: '',
+      description: 'Portfolio (This project)',
+      deploy: 'fa-cloud', github: 'fa-github',
+      link_deploy: 'https://bandicootfolio.web.app/', link_repo: 'https://github.com/josuehoenicka/bandicootfolio',
       img: '../../../../assets/items/building.png'
     },
     {
       name: 'Hoenixstore',
       description: 'Ecommerce Store',
-      deploy: 'fa-lock', github: 'fa-lock',
-      link_deploy: '', link_repo: '',
+      deploy: 'fa-cloud', github: 'fa-github',
+      link_deploy: 'https://hoenixstore.web.app/', link_repo: 'https://github.com/josuehoenicka/hoenixstore',
+      img: '../../../../assets/items/building.png'
+    },
+    {
+      name: 'Wanderlist',
+      description: 'Travel Application',
+      deploy: 'fa-ban', github: 'fa-github',
+      link_deploy: '', link_repo: 'https://github.com/josuehoenicka/wanderlist',
+      img: '../../../../assets/items/building.png'
+    },
+    {
+      name: 'Springular',
+      description: 'Portfolio with JPA/JWT',
+      deploy: 'fa-ban', github: 'fa-github',
+      link_deploy: '', link_repo: 'https://github.com/josuehoenicka/springular',
       img: '../../../../assets/items/building.png'
     },
     {
       name: 'Jonikingames',
       description: 'Video Game Website',
-      deploy: 'fa-lock', github: 'fa-lock',
-      link_deploy: '', link_repo: '',
+      deploy: 'fa-ban', github: 'fa-github',
+      link_deploy: '', link_repo: 'https://github.com/josuehoenicka/jonikingames',
       img: '../../../../assets/items/building.png'
     },
     {
       name: 'Codebash',
-      description: 'Ecommerce Store',
-      deploy: 'fa-lock', github: 'fa-lock',
+      description: 'Ecommerce Plataform',
+      deploy: 'fa-ban', github: 'fa-lock',
       link_deploy: '', link_repo: '',
       img: '../../../../assets/items/building.png'
     }

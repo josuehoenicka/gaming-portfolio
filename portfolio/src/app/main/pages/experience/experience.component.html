@@ -3,18 +3,16 @@
   <div class="slider-container">
     <div class="slideshow-container">
       <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
-      <div *ngFor="let p of projects" class="slide-container">
-        <div class="mySlides2">
+      <div  class="slide-container">
+        <div class="projects-container mySlides2" *ngFor="let p of projects">
           <h4 class="slider-title">{{p.name}}</h4>
           <p class="slider-description">{{p.description}}</p>
           <p class="slider-techs">
-            <a class="fa {{p.deploy}}" href="{{p.link_deploy}}"></a>
-            <a class="fa {{p.github}}" href="{{p.link_repo}}"></a>
+            <a class="fa {{p.deploy}}" href="{{p.link_deploy}}" target="_blank"></a>
+            <a class="fa {{p.github}}" href="{{p.link_repo}}" target="_blank"></a>
           </p>
-          <div class="slide-bottom-container">
-            <p class="title-slide-text">Haz clic en las flechas para desplazar</p>
-          </div>
         </div>
+        <p class="title-slide-text">Haz clic en las flechas para desplazar</p>
       </div>
       <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
     </div>

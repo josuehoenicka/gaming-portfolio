@@ -17,6 +17,10 @@ section {
   align-items: center;
 }
 
+.projects-container {
+  width: 100%;
+}
+
 .slide-bottom-container {
   padding-top: 1em;
 }
@@ -36,23 +40,24 @@ section {
 
 .slider-title{
   opacity: 0.8;
-  font-size: 4em;
+  font-size: 5em;
+  letter-spacing: 0.05em;
   background: -webkit-linear-gradient(yellow,red);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .slider-description {
-padding: 0.2em 0;
-font-size: 2.5em;
-opacity: 0.8;
-color: var(--white);
+  font-size: 3em;
+  margin: 0.5em 0;
+  opacity: 0.8;
+  color: var(--white);
 }
 
 .slider-techs {
-  font-size: 2em;
+  margin-bottom: 1em;
+  font-size: 3em;
   color: var(--white);
-  opacity: 0.6;
   text-align: justify;
 }
 
@@ -142,6 +147,6 @@ color: var(--white);
   margin: 0.5em 0.5em 0 0;
 }
 
-.fa-lock {
+.fa-lock, .fa-ban {
   opacity: 0.5;
 }
