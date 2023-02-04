@@ -1,98 +1,17 @@
 <app-header></app-header>
 <section>
   <div class="skills-container">
-    <div class="skills-grid-container">
-      <p class="skills-titles">Tecnologías</p>
-      <div class="skills-level-title">
-        <p class="skills-titles title-active">Experiencia (AÑOS)</p>
-      </div>
-      <p class="skills-tech">HTML</p>
+    <div class="s">
+      <p class="skills-titles">Experiencia (AÑOS)</p>
+    </div>
+    <div *ngFor="let t of techs" class="techs-container">
+      <p class="skills-tech">{{t.name}}</p>
       <div class="skills-level-container">
-        <img class="skills-level" src="./../../../../assets/items/mango.png" alt="">
-        <img class="skills-level" src="./../../../../assets/items/mango.png" alt="">
-        <img class="skills-level disabled" src="./../../../../assets/items/mango.png" alt="">
-        <img class="skills-level disabled" src="./../../../../assets/items/mango.png" alt="">
-        <img class="skills-level disabled" src="./../../../../assets/items/mango.png" alt="">
-      </div>
-      <p class="skills-tech">CSS/SCSS</p>
-      <div class="skills-level-container">
-        <img class="skills-level" src="./../../../../assets/items/mango.png" alt="">
-        <img class="skills-level" src="./../../../../assets/items/mango.png" alt="">
-        <img class="skills-level disabled" src="./../../../../assets/items/mango.png" alt="">
-        <img class="skills-level disabled" src="./../../../../assets/items/mango.png" alt="">
-        <img class="skills-level disabled" src="./../../../../assets/items/mango.png" alt="">
-      </div>
-      <p class="skills-tech">TypeScript</p>
-      <div class="skills-level-container">
-        <img class="skills-level" src="./../../../../assets/items/mango.png" alt="">
-        <img class="skills-level disabled" src="./../../../../assets/items/mango.png" alt="">
-        <img class="skills-level disabled" src="./../../../../assets/items/mango.png" alt="">
-        <img class="skills-level disabled" src="./../../../../assets/items/mango.png" alt="">
-        <img class="skills-level disabled" src="./../../../../assets/items/mango.png" alt="">
-      </div>
-      <p class="skills-tech">JavaScript</p>
-      <div class="skills-level-container">
-        <img class="skills-level" src="./../../../../assets/items/mango.png" alt="">
-        <img class="skills-level" src="./../../../../assets/items/mango.png" alt="">
-        <img class="skills-level disabled" src="./../../../../assets/items/mango.png" alt="">
-        <img class="skills-level disabled" src="./../../../../assets/items/mango.png" alt="">
-        <img class="skills-level disabled" src="./../../../../assets/items/mango.png" alt="">
-      </div>
-      <p class="skills-tech">Java</p>
-      <div class="skills-level-container">
-        <img class="skills-level disabled" src="./../../../../assets/items/mango.png" alt="">
-        <img class="skills-level disabled" src="./../../../../assets/items/mango.png" alt="">
-        <img class="skills-level disabled" src="./../../../../assets/items/mango.png" alt="">
-        <img class="skills-level disabled" src="./../../../../assets/items/mango.png" alt="">
-        <img class="skills-level disabled" src="./../../../../assets/items/mango.png" alt="">
-      </div>
-      <p class="skills-tech">Angular</p>
-      <div class="skills-level-container">
-        <img class="skills-level" src="./../../../../assets/items/mango.png" alt="">
-        <img class="skills-level disabled" src="./../../../../assets/items/mango.png" alt="">
-        <img class="skills-level disabled" src="./../../../../assets/items/mango.png" alt="">
-        <img class="skills-level disabled" src="./../../../../assets/items/mango.png" alt="">
-        <img class="skills-level disabled" src="./../../../../assets/items/mango.png" alt="">
-      </div>
-      <p class="skills-tech">Node.js</p>
-      <div class="skills-level-container disabled">
-        <img class="skills-level" src="./../../../../assets/items/mango.png" alt="">
-        <img class="skills-level" src="./../../../../assets/items/mango.png" alt="">
-        <img class="skills-level" src="./../../../../assets/items/mango.png" alt="">
-        <img class="skills-level" src="./../../../../assets/items/mango.png" alt="">
-        <img class="skills-level" src="./../../../../assets/items/mango.png" alt="">
-      </div>
-      <p class="skills-tech">SpringBoot</p>
-      <div class="skills-level-container disabled">
-        <img class="skills-level" src="./../../../../assets/items/mango.png" alt="">
-        <img class="skills-level" src="./../../../../assets/items/mango.png" alt="">
-        <img class="skills-level" src="./../../../../assets/items/mango.png" alt="">
-        <img class="skills-level" src="./../../../../assets/items/mango.png" alt="">
-        <img class="skills-level" src="./../../../../assets/items/mango.png" alt="">
-      </div>
-      <p class="skills-tech ">MongoDB</p>
-      <div class="skills-level-container disabled">
-        <img class="skills-level" src="./../../../../assets/items/mango.png" alt="">
-        <img class="skills-level" src="./../../../../assets/items/mango.png" alt="">
-        <img class="skills-level" src="./../../../../assets/items/mango.png" alt="">
-        <img class="skills-level" src="./../../../../assets/items/mango.png" alt="">
-        <img class="skills-level" src="./../../../../assets/items/mango.png" alt="">
-      </div>
-      <p class="skills-tech">MySQL</p>
-      <div class="skills-level-container disabled">
-        <img class="skills-level" src="./../../../../assets/items/mango.png" alt="">
-        <img class="skills-level" src="./../../../../assets/items/mango.png" alt="">
-        <img class="skills-level" src="./../../../../assets/items/mango.png" alt="">
-        <img class="skills-level" src="./../../../../assets/items/mango.png" alt="">
-        <img class="skills-level" src="./../../../../assets/items/mango.png" alt="">
-      </div>
-      <p class="skills-tech">Git</p>
-      <div class="skills-level-container">
-        <img class="skills-level" src="./../../../../assets/items/mango.png" alt="">
-        <img class="skills-level" src="./../../../../assets/items/mango.png" alt="">
-        <img class="skills-level disabled" src="./../../../../assets/items/mango.png" alt="">
-        <img class="skills-level disabled" src="./../../../../assets/items/mango.png" alt="">
-        <img class="skills-level disabled" src="./../../../../assets/items/mango.png" alt="">
+        <img class="skills-level {{t.time.one}}" src="./../../../../assets/items/mango.png" alt="">
+        <img class="skills-level {{t.time.two}}" src="./../../../../assets/items/mango.png" alt="">
+        <img class="skills-level {{t.time.three}}" src="./../../../../assets/items/mango.png" alt="">
+        <img class="skills-level {{t.time.four}}" src="./../../../../assets/items/mango.png" alt="">
+        <img class="skills-level {{t.time.five}}" src="./../../../../assets/items/mango.png" alt="">
       </div>
     </div>
   </div>

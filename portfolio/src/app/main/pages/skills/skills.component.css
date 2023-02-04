@@ -3,6 +3,24 @@ section {
   grid-template-columns: 4fr 1fr;
 }
 
+.s {
+  display: flex;
+  justify-content: flex-end;
+  width: 60vw;
+  margin: 0.5em 0;
+}
+
+.title-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.techs-container {
+  display: flex;
+  width: 60vw;
+  justify-content: space-between;
+}
+
 .skills-container {
   display: flex;
   justify-content: center;
@@ -12,7 +30,7 @@ section {
 
 .skills-grid-container {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .skills-tech {
@@ -27,32 +45,12 @@ section {
 }
 
 .skills-titles {
-  font-size: 3em;
+  font-size: 2em;
   opacity: 0.7;
   letter-spacing: 0.15em;
   background: -webkit-linear-gradient(red, yellow);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 0.25em;
-}
-
-.title-active {
-  letter-spacing: 0.1em;
-}
-
-.skills-level-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.skills-level-title {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
 }
 
 .skills-level {
