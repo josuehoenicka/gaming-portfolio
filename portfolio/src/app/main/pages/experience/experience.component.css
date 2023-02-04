@@ -5,6 +5,7 @@ section {
 
 .slider-container {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -13,6 +14,7 @@ section {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
 .slide-bottom-container {
@@ -140,10 +142,6 @@ color: var(--white);
   margin: 0.5em 0.5em 0 0;
 }
 
-.fa-invalid {
-  opacity: 0.2;
-}
-
-.fa-valid {
-  opacity: 0.8;
+.fa-lock {
+  opacity: 0.5;
 }
