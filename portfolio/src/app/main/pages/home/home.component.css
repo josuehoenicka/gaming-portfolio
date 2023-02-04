@@ -5,7 +5,7 @@
 .hero-container {
   width: 100vw;
   height: 90vh;
-  background-image: url("../../../assets/backgrounds/crash-bandicoot-wallpaper.gif");
+  background-image: url("../../../../assets/backgrounds/crash-bandicoot-wallpaper.gif");
   background-repeat: no-repeat;
   background-position: center;
   display: grid;
