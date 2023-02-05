@@ -3,16 +3,16 @@
     <button (click)="toggleMenu()" [class.active]="activeMenu">
       <img src="../../../../assets/items/nav.svg" alt="menu">
     </button>
-    <p class="nav-name">Josue Hoenicka</p>
+    <p class="nav-name">Bandicootfolio</p>
   </div>
   <div class="side-menu" [class.active]="activeMenu">
     <button (click)="toggleMenu()">X</button>
     <ul>
       <li><a routerLink="/about">ABOUT</a></li>
-      <li><a routerLink="">SKILLS</a></li>
-      <li><a routerLink="">EXPERIENCE</a></li>
-      <li><a routerLink="">CONTACT</a></li>
-      <li><a href="">RESUME</a></li>
+      <li><a routerLink="/skills">SKILLS</a></li>
+      <li><a routerLink="/experience">EXPERIENCE</a></li>
+      <li><a routerLink="/contact">CONTACT</a></li>
+      <li><a href="../../../../assets/personal/cv.pdf">RESUME</a></li>
     </ul>
   </div>
 </div>

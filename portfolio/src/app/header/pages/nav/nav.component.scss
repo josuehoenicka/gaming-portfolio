@@ -13,10 +13,6 @@
       border: 0;
       background: transparent;
       img {
-        animation-name: nameAnimation;
-        animation-duration: 1s;
-        animation-iteration-count: infinite;
-        animation-timing-function: linear;
         width: 4em;
       }
     }
@@ -63,20 +59,5 @@
 .nav-name {
   font-size: 2.5em;
   color: var(--white);
-  animation-name: nameAnimation;
-  animation-duration: 1s;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
+  opacity: 0.77;
 }
-
-.nav-aku {
-  z-index: 100;
-  width: 5em;
-  animation-name: nameAnimation;
-  animation-duration: 1s;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
-  background-color: transparent;
-  opacity: 1 !important;
-}
-
