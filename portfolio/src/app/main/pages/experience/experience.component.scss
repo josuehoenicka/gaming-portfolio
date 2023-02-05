@@ -3,6 +3,10 @@ section {
   grid-template-columns: 4fr 1fr;
 }
 
+app-nav {
+  display: none;
+}
+
 .slider-container {
   display: flex;
   flex-direction: column;
