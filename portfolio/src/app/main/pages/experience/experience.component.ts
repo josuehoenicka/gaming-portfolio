@@ -9,14 +9,14 @@ export class ExperienceComponent {
   projects = [
     {
       name: 'Bandicootfolio',
-      description: 'Portfolio (This project)',
+      description: 'Portfolio',
       deploy: 'fa-cloud', github: 'fa-github',
       link_deploy: 'https://bandicootfolio.web.app/', link_repo: 'https://github.com/josuehoenicka/bandicootfolio',
       img: '../../../../assets/items/building.png'
     },
     {
       name: 'Hoenixstore',
-      description: 'Ecommerce Store',
+      description: 'Ecommerce Plataform',
       deploy: 'fa-cloud', github: 'fa-github',
       link_deploy: 'https://hoenixstore.web.app/', link_repo: 'https://github.com/josuehoenicka/hoenixstore',
       img: '../../../../assets/items/building.png'
@@ -30,7 +30,7 @@ export class ExperienceComponent {
     },
     {
       name: 'Springular',
-      description: 'Portfolio with JPA/JWT',
+      description: 'Portfolio',
       deploy: 'fa-ban', github: 'fa-github',
       link_deploy: '', link_repo: 'https://github.com/josuehoenicka/springular',
       img: '../../../../assets/items/building.png'
