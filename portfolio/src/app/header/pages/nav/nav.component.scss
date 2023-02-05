@@ -30,7 +30,6 @@
   left: 0;
   bottom: 0;
   right: 0;
-  background: #000000;
   display: flex;
   flex-direction: column;
   justify-content: flex-start !important;
@@ -42,14 +41,21 @@
   }
   button {
     display: flex;
+    width: 100%;
     justify-content: flex-end;
-    width: 4em;
+    font-size: 4.5em;
     color: red;
   }
   ul {
+    list-style: none;
     li {
-      font-size: 2.2em;
-      margin: 2.8em 0;
+      font-size: 4em;
+      margin: 0.77em 0;
+      color: var(--white);
+      a {
+        text-decoration: none;
+          color: var(--white);
+      }
     }
   }
 }
