@@ -34,7 +34,7 @@ export class AboutComponent {
       answer: 'Fluent'
     },
     {
-      description: 'Live:',
+      description: 'English:',
       answer: 'Advanced'
     }
   ]
