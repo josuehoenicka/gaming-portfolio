@@ -68,3 +68,12 @@ app-nav {
 .disabled {
   opacity: 0.1;
 }
+
+/* Tablet */
+@media (min-width: 40em) and (max-width: 64.9em){
+}
+
+/* Mobile */
+@media (min-width: 15em) and (max-width: 39.9em){
+}
+
