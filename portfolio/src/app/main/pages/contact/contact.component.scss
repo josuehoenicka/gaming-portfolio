@@ -3,6 +3,10 @@ section {
   grid-template-columns: 4fr 1fr;
 }
 
+app-nav {
+  display: none;
+}
+
 .contact-container {
   display: flex;
   justify-content: space-evenly;
@@ -33,3 +37,55 @@ section {
   padding-left: 0.2em;
   font-size: 5.5em;
 }
+
+
+/* Tablet */
+@media (min-width: 40em) and (max-width: 64.9em){
+  app-exit, app-header {
+    display: none;
+  }
+  app-nav {
+    display: block;
+  }
+  .crash-social {
+    display: none;
+  }
+  .contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+  }
+  .fa {
+    opacity: 0.77;
+    margin: 0 0.5em;
+    font-size: 6em;
+  }
+}
+
+/* Mobile */
+@media (min-width: 15em) and (max-width: 39.9em){
+  app-exit, app-header {
+    display: none;
+  }
+  app-nav {
+    display: block;
+  }
+  .crash-social {
+    display: none;
+  }
+  .contact-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+  }
+  .fa {
+    opacity: 0.77;
+    margin: 0.5em 0;
+  }
+}
+

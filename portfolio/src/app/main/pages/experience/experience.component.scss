@@ -157,6 +157,12 @@ app-nav, .mobile-projects {
 
 /* Tablet */
 @media (min-width: 40em) and (max-width: 64.9em){
+  app-exit, app-header {
+    display: none;
+  }
+  app-nav {
+    display: block;
+  }
   section {
     display: flex;
     flex-direction: column;
@@ -168,7 +174,7 @@ app-nav, .mobile-projects {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 70vh;
+    height: 100vh;
   }
 }
 
