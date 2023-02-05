@@ -152,7 +152,7 @@ app-nav, .mobile-projects {
 }
 
 .fa-lock, .fa-ban {
-  opacity: 0.5;
+  opacity: 0.2;
 }
 
 /* Tablet */
@@ -207,7 +207,9 @@ app-nav, .mobile-projects {
     font-size: 3em;
   }
   .slider-techs {
-    margin-bottom: 2.5em;
+  }
+  .fa {
+    margin: 0.5em 0.6em;
   }
 }
 
