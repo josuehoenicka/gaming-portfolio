@@ -19,3 +19,10 @@ nav {
   color: var(--orange);
   letter-spacing: 0.05em;
 }
+
+/* Tablet */
+@media (min-width: 40em) and (max-width: 64.9em){
+  nav {
+    height: 5vh;
+  }
+}
