@@ -3,35 +3,19 @@
   <div class="about-content">
     <div class="about-bio">
       <img class="about-photo" src="../../../../assets/personal/photo.jpg" alt="">
-      <h1 class="about-name bio-item">Josue Hoenicka</h1>
-      <h3 class="about-description bio-item">Angular Front End Developer</h3>
+      <h1 class="about-name bio-item">{{profile.name}}</h1>
+      <h3 class="about-description bio-item">{{profile.description}}</h3>
     </div>
     <div class="about-bio2">
       <p class="letter-orange letters-title">General</p>
-      <div class="letters-container">
-        <p class="letter-orange letters-items">Age:</p>
-        <p class="letter-white letters-items">21</p>
-      </div>
-      <div class="letters-container">
-        <p class="letter-orange letters-items">Born:</p>
-        <p class="letter-white letters-items">Caracas, Venezuela</p>
-      </div>
-      <div class="letters-container">
-        <p class="letter-orange letters-items">Live:</p>
-        <p class="letter-white letters-items">Rosario, Argentina</p>
+      <div class="letters-container" *ngFor="let g of general">
+        <p class="letter-orange letters-items">{{g.description}}</p>
+        <p class="letter-white letters-items">{{g.answer}}</p>
       </div>
       <p class="letter-orange letters-title">Languages</p>
-      <div class="letters-container">
-        <p class="letter-orange letters-items">Spanish:</p>
-        <p class="letter-white letters-items">Native</p>
-      </div>
-      <div class="letters-container">
-        <p class="letter-orange letters-items">Portuguese:</p>
-        <p class="letter-white letters-items">Native</p>
-      </div>
-      <div class="letters-container">
-        <p class="letter-orange letters-items">English:</p>
-        <p class="letter-white letters-items">Intermediate</p>
+      <div class="letters-container" *ngFor="let l of languages">
+        <p class="letter-orange letters-items">{{l.description}}</p>
+        <p class="letter-white letters-items">{{l.answer}}</p>
       </div>
     </div>
   </div>
