@@ -3,6 +3,10 @@ section {
   grid-template-columns: 4fr 1fr;
 }
 
+app-nav {
+  display: none;
+}
+
 .s {
   display: flex;
   justify-content: flex-end;
