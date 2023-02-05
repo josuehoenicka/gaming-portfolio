@@ -66,6 +66,57 @@ app-nav {
 
 /* Tablet */
 @media (min-width: 40em) and (max-width: 64.9em){
+  app-exit, app-header {
+    display: none;
+  }
+  app-nav {
+    display: block;
+  }
+  .skills-level-container {
+    display: none;
+  }
+  .experience-title {
+    display: none;
+  }
+  .skills-container {
+    height: 110vh;
+  }
+  .techs-container {
+    width: 100vw;
+    justify-content: center;
+  }
+  .skills-tech {
+    background: -webkit-linear-gradient(red, yellow);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 3.5em;
+  }
+}
+
+/* Tablet 2 */
+@media (min-width: 65em) and (max-width: 81.5em){
+  app-nav {
+    display: none;
+  }
+  .skills-level-container {
+    display: none;
+  }
+  .experience-title {
+    display: none;
+  }
+  .skills-container {
+    height: 110vh;
+  }
+  .techs-container {
+    width: 100vw;
+    justify-content: center;
+  }
+  .skills-tech {
+    background: -webkit-linear-gradient(red, yellow);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 4.5em;
+  }
 }
 
 /* Mobile */

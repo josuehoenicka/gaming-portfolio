@@ -6,7 +6,7 @@
       <p class="skills-titles">Experiencia (AÑOS)</p>
     </div>
     <div *ngFor="let t of techs" class="techs-container">
-      <p class="skills-tech">{{t.name}}</p>
+      <p class="skills-tech {{t.nomobile}}">{{t.name}}</p>
       <div class="skills-level-container">
         <img class="skills-level {{t.time.one}}" src="./../../../../assets/items/mango.png" alt="">
         <img class="skills-level {{t.time.two}}" src="./../../../../assets/items/mango.png" alt="">
