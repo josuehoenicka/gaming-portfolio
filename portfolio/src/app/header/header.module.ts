@@ -14,7 +14,8 @@ import { NavComponent } from './pages/nav/nav.component';
     CommonModule
   ],
   exports: [
-    HeaderComponent
+    HeaderComponent,
+    NavComponent
   ]
 })
 export class HeaderModule { }

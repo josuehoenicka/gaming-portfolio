@@ -1,3 +1,7 @@
+app-nav {
+  display: none;
+}
+
 .btn-hero-container {
   background-color: transparent;
 }
@@ -16,7 +20,7 @@
   width: 20em;
   position: absolute;
   left: 10%;
-  top: 25%;
+  top: 10%;
   animation-name: opacityImg;
   animation-duration: 3s;
   animation-iteration-count: infinite;
@@ -27,7 +31,7 @@
   width: 20em;
   position: absolute;
   left: 10%;
-  top: 60%;
+  top: 58%;
   background-color: transparent;
   animation-name: opacityImg;
   animation-duration: 3s;
@@ -60,13 +64,29 @@
 
 /* Mobile */
 @media (min-width: 15em) and (max-width: 39.9em){
-  .hero-container {
-    width: 100vw;
-    height: 90vh;
-    background-image: none;
-  }
-  .btn-box, .btn-start {
+  app-menu {
     display: none;
+  }
+  app-nav {
+    display: block;
+  }
+  app-header {
+    display: none;
+  }
+  .hero-container {
+    background-image: none;
+    grid-template-columns: 1fr;
+  }
+  .btn-hero-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+  }
+  .btn-start, .btn-box {
+    position: static;
+    width: 17em;
   }
 }
 
