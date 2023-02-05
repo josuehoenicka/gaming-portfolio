@@ -32,11 +32,6 @@ app-nav {
   flex-direction: column;
 }
 
-.skills-grid-container {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-}
-
 .skills-tech {
   font-size: 3em;
   opacity: 0.7;
@@ -75,5 +70,30 @@ app-nav {
 
 /* Mobile */
 @media (min-width: 15em) and (max-width: 39.9em){
+  app-exit, app-header {
+    display: none;
+  }
+  app-nav {
+    display: block;
+  }
+  .skills-level-container {
+    display: none;
+  }
+  .experience-title {
+    display: none;
+  }
+  .skills-container {
+    height: 110vh;
+  }
+  .techs-container {
+    width: 100vw;
+    justify-content: center;
+  }
+  .skills-tech {
+    background: -webkit-linear-gradient(red, yellow);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 3.5em;
+  }
 }
 
