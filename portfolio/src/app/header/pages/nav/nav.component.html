@@ -1,0 +1,22 @@
+<div class="show-mobile">
+  <div>
+    <button (click)="toggleMenu()" [class.active]="activeMenu">
+      <img src="../../../assets/svg/icon_menu.svg" alt="menu">
+    </button>
+    <a href="">
+      <img src="../../../assets/svg/hoenixstore.png" alt="logo" class="logo">
+    </a>
+    <a href="">
+      <img src="../../../assets/svg/icon_shopping_cart.svg" alt="logo">
+    </a>
+  </div>
+  <div class="side-menu" [class.active]="activeMenu">
+    <button (click)="toggleMenu()">X</button>
+    <ul>
+      <li><a href="">PRODUCTS</a></li>
+      <li><a href="">MY CART</a></li>
+      <li><a href="">RESET CART</a></li>
+      <li><a href="">MORE</a></li>
+    </ul>
+  </div>
+</div>
