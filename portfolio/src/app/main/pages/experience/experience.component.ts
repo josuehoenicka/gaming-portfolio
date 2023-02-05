@@ -41,13 +41,6 @@ export class ExperienceComponent {
       deploy: 'fa-ban', github: 'fa-github',
       link_deploy: '', link_repo: 'https://github.com/josuehoenicka/jonikingames',
       img: '../../../../assets/items/building.png'
-    },
-    {
-      name: 'Codebash',
-      description: 'Ecommerce Plataform',
-      deploy: 'fa-ban', github: 'fa-lock',
-      link_deploy: '', link_repo: '',
-      img: '../../../../assets/items/building.png'
     }
   ]
 }
