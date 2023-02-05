@@ -62,7 +62,8 @@ body::-webkit-scrollbar {
   }
 }
 
-@media (max-width: 57em){
+/* Width unknown */
+@media (max-width: 14.9em){
   app-root {
     display: none;
   }
@@ -85,3 +86,5 @@ body::-webkit-scrollbar {
       background-position-y: center;
   }
 }
+
+

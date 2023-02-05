@@ -16,7 +16,7 @@
   width: 20em;
   position: absolute;
   left: 10%;
-  top: 10%;
+  top: 25%;
   animation-name: opacityImg;
   animation-duration: 3s;
   animation-iteration-count: infinite;
@@ -39,4 +39,34 @@
   opacity: 0.5 !important;
 }
 
+/* Tablet */
+@media (min-width: 40em) and (max-width: 64.9em){
+  .hero-container {
+    width: 100vw;
+    height: 90vh;
+    background-image: none;
+  }
+  .btn-box {
+    width: 15em;
+    left: 8%;
+    top: 30%;
+  }
+  .btn-start {
+    width: 15em;
+    left: 8%;
+    top: 60%;
+  }
+}
+
+/* Mobile */
+@media (min-width: 15em) and (max-width: 39.9em){
+  .hero-container {
+    width: 100vw;
+    height: 90vh;
+    background-image: none;
+  }
+  .btn-box, .btn-start {
+    display: none;
+  }
+}
 
