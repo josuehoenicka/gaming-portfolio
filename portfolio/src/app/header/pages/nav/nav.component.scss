@@ -12,6 +12,13 @@
     button {
       border: 0;
       background: transparent;
+      img {
+        animation-name: nameAnimation;
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+        width: 4em;
+      }
     }
   }
 }
@@ -36,9 +43,8 @@
   button {
     display: flex;
     justify-content: flex-end;
-    width: 100%;
+    width: 4em;
     color: red;
-    font-size: 3.5em;
   }
   ul {
     li {
@@ -48,5 +54,23 @@
   }
 }
 
+.nav-name {
+  font-size: 2.5em;
+  color: var(--white);
+  animation-name: nameAnimation;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
 
+.nav-aku {
+  z-index: 100;
+  width: 5em;
+  animation-name: nameAnimation;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  background-color: transparent;
+  opacity: 1 !important;
+}
 
