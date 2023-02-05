@@ -3,7 +3,7 @@ section {
   grid-template-columns: 4fr 1fr;
 }
 
-app-nav {
+app-nav, .mobile-projects {
   display: none;
 }
 
@@ -154,3 +154,35 @@ app-nav {
 .fa-lock, .fa-ban {
   opacity: 0.5;
 }
+
+/* Tablet */
+@media (min-width: 40em) and (max-width: 64.9em){
+}
+
+/* Mobile */
+@media (min-width: 15em) and (max-width: 39.9em){
+  app-exit, app-header,.slideshow-container {
+    display: none;
+  }
+  app-nav {
+    display: block;
+  }
+  .mobile-projects {
+    display: block;
+    width: 100vw;
+    margin-top: 10em;
+  }
+  .projects-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .slider-title {
+    font-size: 3em;
+  }
+  .slider-techs {
+    margin-bottom: 2.5em;
+  }
+}
+

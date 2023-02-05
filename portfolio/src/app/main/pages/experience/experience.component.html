@@ -1,6 +1,15 @@
 <app-header></app-header>
 <app-nav></app-nav>
 <section>
+  <div class="mobile-projects">
+    <div class="projects-container" *ngFor="let p of projects">
+      <h4 class="slider-title">{{p.name}}</h4>
+      <p class="slider-techs">
+        <a class="fa {{p.deploy}}" href="{{p.link_deploy}}" target="_blank"></a>
+        <a class="fa {{p.github}}" href="{{p.link_repo}}" target="_blank"></a>
+      </p>
+    </div>
+  </div>
   <div class="slider-container">
     <div class="slideshow-container">
       <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
