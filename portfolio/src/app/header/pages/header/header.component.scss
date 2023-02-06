@@ -10,6 +10,9 @@ header {
   display: flex;
   align-items: center;
   user-select: none;
+  :hover{
+    cursor: pointer;
+  }
 }
 
 .nav-name {
