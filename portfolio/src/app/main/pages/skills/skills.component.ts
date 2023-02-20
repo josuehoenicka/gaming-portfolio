@@ -9,17 +9,17 @@ export class SkillsComponent {
 
   techs = [
     {
-      name: 'HTML',
+      name: 'HTML5',
       time: { one: 'actived', two: 'actived', three: 'disabled', four: 'disabled', five: 'disabled' },
       nomobile: ''
     },
     {
-      name: 'CSS/SCSS',
+      name: 'CSS3',
       time: { one: 'actived', two: 'actived', three: 'disabled', four: 'disabled', five: 'disabled' },
       nomobile: ''
     },
     {
-      name: 'TypeScript',
+      name: 'SCSS/SASS',
       time: { one: 'actived', two: 'disabled', three: 'disabled', four: 'disabled', five: 'disabled' },
       nomobile: ''
     },
@@ -29,8 +29,8 @@ export class SkillsComponent {
       nomobile: ''
     },
     {
-      name: 'Java',
-      time: { one: 'disabled', two: 'disabled', three: 'disabled', four: 'disabled', five: 'disabled' },
+      name: 'TypeScript',
+      time: { one: 'actived', two: 'disabled', three: 'disabled', four: 'disabled', five: 'disabled' },
       nomobile: ''
     },
     {
@@ -39,28 +39,28 @@ export class SkillsComponent {
       nomobile: ''
     },
     {
-      name: 'Node.js',
+      name: 'React',
       time: { one: 'disabled', two: 'disabled', three: 'disabled', four: 'disabled', five: 'disabled' },
       nomobile: ''
     },
     {
-      name: 'SpringBoot',
+      name: 'RxJs',
       time: { one: 'disabled', two: 'disabled', three: 'disabled', four: 'disabled', five: 'disabled' },
       nomobile: ''
     },
     {
-      name: 'MongoDB',
+      name: 'NgRx',
       time: { one: 'disabled', two: 'disabled', three: 'disabled', four: 'disabled', five: 'disabled' },
       nomobile: ''
     },
     {
-      name: 'MySQL',
-      time: { one: 'actived', two: 'disabled', three: 'disabled', four: 'disabled', five: 'disabled' },
+      name: 'GraphQL',
+      time: { one: 'disabled', two: 'disabled', three: 'disabled', four: 'disabled', five: 'disabled' },
       nomobile: ''
     },
     {
-      name: 'Git',
-      time: { one: 'actived', two: 'actived', three: 'disabled', four: 'disabled', five: 'disabled' },
+      name: 'Redux',
+      time: { one: 'disabled', two: 'disabled', three: 'disabled', four: 'disabled', five: 'disabled' },
       nomobile: ''
     }
   ]
