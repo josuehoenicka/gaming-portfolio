@@ -13,7 +13,7 @@ export class AboutComponent {
   general = [
     {
       description: 'Age:',
-      answer: '21'
+      answer: '20'
     },
     {
       description: 'Born:',
@@ -35,7 +35,7 @@ export class AboutComponent {
     },
     {
       description: 'English:',
-      answer: 'Advanced'
+      answer: 'Professional'
     }
   ]
 }

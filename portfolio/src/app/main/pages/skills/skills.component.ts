@@ -49,17 +49,17 @@ export class SkillsComponent {
       nomobile: ''
     },
     {
-      name: 'NgRx',
-      time: { one: 'disabled', two: 'disabled', three: 'disabled', four: 'disabled', five: 'disabled' },
-      nomobile: ''
-    },
-    {
       name: 'Redux',
       time: { one: 'disabled', two: 'disabled', three: 'disabled', four: 'disabled', five: 'disabled' },
       nomobile: ''
     },
     {
       name: 'GraphQL',
+      time: { one: 'disabled', two: 'disabled', three: 'disabled', four: 'disabled', five: 'disabled' },
+      nomobile: ''
+    },
+    {
+      name: 'Webpack',
       time: { one: 'disabled', two: 'disabled', three: 'disabled', four: 'disabled', five: 'disabled' },
       nomobile: ''
     }
