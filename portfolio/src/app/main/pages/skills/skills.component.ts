@@ -19,8 +19,23 @@ export class SkillsComponent {
       nomobile: ''
     },
     {
-      name: 'SCSS/SASS',
+      name: 'SCSS',
       time: { one: 'actived', two: 'disabled', three: 'disabled', four: 'disabled', five: 'disabled' },
+      nomobile: ''
+    },
+    {
+      name: 'SASS',
+      time: { one: 'actived', two: 'disabled', three: 'disabled', four: 'disabled', five: 'disabled' },
+      nomobile: ''
+    },
+    {
+      name: 'Bootstrap5',
+      time: { one: 'actived', two: 'actived', three: 'disabled', four: 'disabled', five: 'disabled' },
+      nomobile: ''
+    },
+    {
+      name: 'TailwindCSS',
+      time: { one: 'disabled', two: 'disabled', three: 'disabled', four: 'disabled', five: 'disabled' },
       nomobile: ''
     },
     {
@@ -45,21 +60,6 @@ export class SkillsComponent {
     },
     {
       name: 'RxJs',
-      time: { one: 'disabled', two: 'disabled', three: 'disabled', four: 'disabled', five: 'disabled' },
-      nomobile: ''
-    },
-    {
-      name: 'Redux',
-      time: { one: 'disabled', two: 'disabled', three: 'disabled', four: 'disabled', five: 'disabled' },
-      nomobile: ''
-    },
-    {
-      name: 'GraphQL',
-      time: { one: 'disabled', two: 'disabled', three: 'disabled', four: 'disabled', five: 'disabled' },
-      nomobile: ''
-    },
-    {
-      name: 'Webpack',
       time: { one: 'disabled', two: 'disabled', three: 'disabled', four: 'disabled', five: 'disabled' },
       nomobile: ''
     }
