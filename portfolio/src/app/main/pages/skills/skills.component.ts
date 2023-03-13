@@ -9,58 +9,23 @@ export class SkillsComponent {
 
   techs = [
     {
-      name: 'HTML5',
+      name: '.JS',
       time: { one: 'actived', two: 'actived', three: 'disabled', four: 'disabled', five: 'disabled' },
       nomobile: ''
     },
     {
-      name: 'CSS3',
+      name: '.TS',
       time: { one: 'actived', two: 'actived', three: 'disabled', four: 'disabled', five: 'disabled' },
       nomobile: ''
     },
     {
-      name: 'SCSS',
+      name: '.PY',
       time: { one: 'actived', two: 'disabled', three: 'disabled', four: 'disabled', five: 'disabled' },
       nomobile: ''
     },
     {
-      name: 'SASS',
+      name: '.RB',
       time: { one: 'actived', two: 'disabled', three: 'disabled', four: 'disabled', five: 'disabled' },
-      nomobile: ''
-    },
-    {
-      name: 'Bootstrap5',
-      time: { one: 'actived', two: 'actived', three: 'disabled', four: 'disabled', five: 'disabled' },
-      nomobile: ''
-    },
-    {
-      name: 'TailwindCSS',
-      time: { one: 'disabled', two: 'disabled', three: 'disabled', four: 'disabled', five: 'disabled' },
-      nomobile: ''
-    },
-    {
-      name: 'JavaScript',
-      time: { one: 'actived', two: 'actived', three: 'disabled', four: 'disabled', five: 'disabled' },
-      nomobile: ''
-    },
-    {
-      name: 'TypeScript',
-      time: { one: 'actived', two: 'disabled', three: 'disabled', four: 'disabled', five: 'disabled' },
-      nomobile: ''
-    },
-    {
-      name: 'Angular',
-      time: { one: 'actived', two: 'disabled', three: 'disabled', four: 'disabled', five: 'disabled' },
-      nomobile: ''
-    },
-    {
-      name: 'React',
-      time: { one: 'disabled', two: 'disabled', three: 'disabled', four: 'disabled', five: 'disabled' },
-      nomobile: ''
-    },
-    {
-      name: 'RxJs',
-      time: { one: 'disabled', two: 'disabled', three: 'disabled', four: 'disabled', five: 'disabled' },
       nomobile: ''
     }
   ]

@@ -10,8 +10,8 @@ app-nav {
 .experience-title {
   display: flex;
   justify-content: flex-end;
-  width: 60vw;
-  margin: 0.5em 0;
+  width: 70vw;
+  margin-bottom: 2em;
 }
 
 .title-container {
@@ -21,7 +21,7 @@ app-nav {
 
 .techs-container {
   display: flex;
-  width: 60vw;
+  width: 70vw;
   justify-content: space-between;
 }
 
@@ -33,18 +33,18 @@ app-nav {
 }
 
 .skills-tech {
-  font-size: 3em;
+  font-size: 4em;
   opacity: 0.7;
   letter-spacing: 0.1em;
   color: var(--white);
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0 3.1em;
+  padding: 0.35em 0;
 }
 
 .skills-titles {
-  font-size: 2em;
+  font-size: 2.1em;
   opacity: 0.7;
   letter-spacing: 0.15em;
   background: -webkit-linear-gradient(red, yellow);
@@ -53,7 +53,7 @@ app-nav {
 }
 
 .skills-level {
-  width: 3em;
+  width: 4em;
 }
 
 .active {
