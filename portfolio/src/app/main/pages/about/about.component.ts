@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 export class AboutComponent {
   profile = {
     name: 'Josue Hoenicka',
-    description: 'Front End Developer',
+    description: 'Full Stack Web Developer',
   }
   general = [
     {
@@ -35,7 +35,11 @@ export class AboutComponent {
     },
     {
       description: 'English:',
-      answer: 'Professional'
+      answer: 'Advanced'
+    },
+    {
+      description: 'Chinese:',
+      answer: 'Beginner'
     }
   ]
 }
