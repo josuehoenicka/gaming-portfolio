@@ -19,11 +19,6 @@ export class SkillsComponent {
       nomobile: ''
     },
     {
-      name: '.PY',
-      time: { one: 'actived', two: 'disabled', three: 'disabled', four: 'disabled', five: 'disabled' },
-      nomobile: ''
-    },
-    {
       name: '.RB',
       time: { one: 'actived', two: 'disabled', three: 'disabled', four: 'disabled', five: 'disabled' },
       nomobile: ''
